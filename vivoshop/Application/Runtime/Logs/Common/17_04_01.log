@@ -1,0 +1,930 @@
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:53+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:11:54+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:11:54+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:11:54+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:11:54+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:54+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:11:54+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:12:03+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:12:03+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:12:03+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:12:03+08:00 ] ::1 /gz25/vivoshop/index.php/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:12:03+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:13:59+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:13:59+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:13:59+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:13:59+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:13:59+08:00 ] ::1 /gz25/vivoshop/index.php/__PULIC__lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:__PULIC__lib
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007059s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002115s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:14:00+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005190s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012447s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028567s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:26:43+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000559s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:27:54+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:27:54+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:27:54+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:27:54+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:27:54+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:27:55+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003080s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003926s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/__Public__/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:11+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:12+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:12+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:12+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012546s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Static
+
+[ 2017-04-01T16:29:37+08:00 ] ::1 /gz25/vivoshop/index.php/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-04-01T16:30:30+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:37:46+08:00 ] ::1 /gz25/vivoshop/index.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-04-01T16:38:41+08:00 ] ::1 /gz25/vivoshop/index.php/U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+ERR: 无法加载模块:U
+
+[ 2017-04-01T16:56:16+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T17:49:53+08:00 ] ::1 /gz25/vivoshop/index.php/picture-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Picture-list
+
+[ 2017-04-01T17:50:01+08:00 ] ::1 /gz25/vivoshop/index.php/picture-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+ERR: 无法加载模块:Picture-list
+
+[ 2017-04-01T17:55:39+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T17:55:44+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T17:55:49+08:00 ] ::1 /gz25/vivoshop/index.php/picture-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Picture-list
+
+[ 2017-04-01T18:24:09+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T18:38:49+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:33:01+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:33:06+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:37:29+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:37:30+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:37:31+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:37:32+08:00 ] ::1 /gz25/vivoshop/index.php/article-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Article-list
+
+[ 2017-04-01T21:41:57+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:46:30+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:46:31+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:46:32+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:46:32+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:46:33+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:46:51+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:48:35+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:48:37+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:48:48+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:48:50+08:00 ] ::1 /gz25/vivoshop/index.php/product-category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+ERR: 无法加载模块:Product-category
+
+[ 2017-04-01T21:48:51+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:21+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:22+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:22+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:22+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:23+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:23+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:23+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:23+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:24+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:24+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:24+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:24+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:25+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:25+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:25+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:26+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:26+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:26+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:51:30+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T21:52:17+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:00+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:01+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:01+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:01+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:05+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:05+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:15:05+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:04+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:05+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:06+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:06+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:06+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:07+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:07+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:07+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:07+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:08+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:08+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:08+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:08+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:08+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Product-brand
+
+[ 2017-04-01T22:17:09+08:00 ] ::1 /gz25/vivoshop/index.php/product-brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Product-brand
+
