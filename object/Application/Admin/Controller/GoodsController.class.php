@@ -5,12 +5,11 @@
 
     class GoodsController extends Controller
     {
-        //打开Type/add页面
         public function add()
         {
             //获取Model类
             $GoodsModel = D('Goods');
-            $id  = I('post');
+            // $id  = I('post');
             // dump($_POST['id']);
 
             //获取所有分类
@@ -22,33 +21,53 @@
             $this->display();
         }
 
-        //将商品写进数据库
         public function insert()
         {
-            //获取Model类
-            $GoodsModel = D('Goods')->insert();
-
-            //获取所以post
+            echo '11';
             $a  = I('post.');
+            dump($a);
 
-            if($GoodsModel) {
-                $this->success('添加成功',U('Admin/Goods/index'),3);
-            } else {
-                $this->error('添加失败',U('Admin/Goods/index'),3);
-            }
 
-        }
+        //     //实例化模型
+        //     $goods=M('goods');
 
-        //分类的列表页
-        public function index()
-        {
-            //获取Model类
-            $goods = D('Goods')->index();
+        //     if(IS_AJAX)
+        //     {
+        //         $title=$_POST['title'];
 
-            //分配变量
-            $this->assign('goods',$goods);
-            $this->display();
-        }
+        //         $result=$goods->where("title='$title'")->select();
+
+        //         if($result){
+        //             $this->ajaxReturn(0);
+        //         }else{
+        //             $this->ajaxReturn(1);
+        //         }
+        //      }
+
+        //     if($_FILES['img']['name'])
+        //     {
+        //         $upload = new \Think\Upload();// 实例化上传类
+        //         $upload->maxSize=3145728 ;// 设置附件上传大小
+        //         $upload->exts=array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+        //         $upload->rootPath = "./Public";//需要手动设置上传的根目录
+        //         $upload->savePath ='/Uploads/'; // 设置附件上传目录    // 上传文件
+        //         $info   =$upload->upload();
+
+        //         //拼接图片的路径
+        //         $_POST['img'] = $upload->rootPath.$info['img']['savepath'].$info['img']['savename'];
+        //     }
+
+
+        //     $_POST['lonetime']=time();
+
+        //     if($goods->add($_POST))
+        //     {
+        //         $this->success('添加成功',U('Admin/Goods/index'),3);
+        //     } else {
+        //         $this->error('添加失败',U('Admin/Goods/index'),3);
+        //     }
+
+        // }
 
         // public function eideGoods()
         // {
@@ -116,7 +135,7 @@
         //         $this->error('更新失败',U('Goods/index'),3);
 
         //     }
-        // }
+        }
 
 
         // public function index()

@@ -31,10 +31,27 @@
         //将分类写进数据库
         public function insert()
         {
-            $typeModel = D('Type')->insert();
+            //实例化当前的模型
+            $type = M('type');
+            // dump($type);
+
+            //添加一级分类
+            if ($_POST['pid'] == 0)
+            {
+                $_POST['path'] = '0';
+
+            } else {
+                //读取一级分类信息
+                $pid = $_POST['pid'];
+                $parentInfo = $type->where("id = $pid")->find();
+                //拼接二级分类的path
+                // dump($_POST);
+                $_POST['path'] = $parentInfo['path'].'-'.$parentInfo['id'];
+            }
 
             //进行添加
-            if ($typeModel) {
+            if ($type->add($_POST))
+            {
                 $this->success('添加成功', U('type/index'), 3);
             } else {
                 $this->error('添加失败', U('type/index'), 3);
@@ -66,7 +83,6 @@
             $types = $typeModel->getAlltype();
             //获取分类的id
             $cid = I('get.id');
-
             if(empty($cid)) $this->error('非法请求');
             //查询数据库
             $type = M('type');
@@ -85,21 +101,21 @@
         public function update()
         {
             //创建模型
-            $type = D('type');
-            if (!$type->create()) {
-
-                error( $type->getError() );
-            }
+            $type = M('type');
+            $type->create();
             //执行更新
-            if($type->save()) {
+            if($type->save())
+            {
                 //检测是否为ajax请求
-                if(IS_AJAX) {
+                if(IS_AJAX)
+                {
                     $this->ajaxReturn(0);
                 } else {
                     $this->success('更新成功', U('type/index'), 1);
                 }
             } else {
-                if(IS_AJAX) {
+                if(IS_AJAX)
+                {
                     $this->ajaxReturn(1);
                 } else {
                     $this->error('更新失败', U('type/index'), 1);
@@ -111,13 +127,17 @@
         //删除操作
         public function delete()
         {
-
             //获取id
-            $type = D('type')->myDelete();
-
+            $id = I('get.id');//3
+            $type = M('type');
+            //执行删除
+            $typeInfo = $type->find($id);//  3  0,1  => 0,1,3
+            $paths = $typeInfo['path'].','.$typeInfo['id'];
             //先删除id为指定id的值
-            if($type) {
+            if($type->where("id=$id")->delete())
+            {
                 //删除当前分类下的子分类
+                $type->where("path like '$paths%'")->delete();
                 $this->success('删除成功', U('type/index'), 1);
             } else {
                 $this->error('删除失败', U('type/index'), 1);
