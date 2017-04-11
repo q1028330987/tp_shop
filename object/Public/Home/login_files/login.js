@@ -120,21 +120,21 @@ $(function  () {
 		})
 
 		$(".v_inp").focus(function  () {
-			// input_focus2(this)
+			input_focus2(this)
 		})
 		$(".v_inp").blur(function  () {
 			if ($(this).attr("type")=="password") {
-				// input_blur2(this);
+				input_blur2(this);
 			} else{
-				// input_blur3(this);
+				input_blur3(this);
 			};
 		})
     }else{
     	$(".v_inp").focus(function  () {
-			// input_focus(this)
+			input_focus(this)
 		})
 		$(".v_inp").blur(function  () {
-			// input_blur(this);
+			input_blur(this);
 		})
     }
 
