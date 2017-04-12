@@ -5,7 +5,73 @@
 
     class GoodsController extends Controller
     {
-        //打开Type/add页面
+        public function dropzoneUpload()
+        {
+
+
+
+               // 实例化上传类
+              $upload = new \Think\Upload();
+
+               // 设置附件上传大小
+              $upload->maxSize   =     3145728;//3M
+
+            // 设置附件上传类型
+              $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');
+              // $upload->exts      =     array('wmv','mp4');
+
+              $upload->rootPath   = './Public/';
+
+              // 设置附件上传目录
+               $upload->savePath  =      './Upload/';
+
+
+              //返回上传信息
+              $info   =   $upload->uploadOne($_FILES['imgs']);
+
+              if( !$info ) {
+                // 上传错误提示错误信息
+
+                  $data['status'] = 404;
+
+                  //错误信息
+                  $data['msg']    = $upload->getError();
+
+                  echo  json_encode($data);
+
+              }else{
+
+                  // 上传成功 (图片路径、图片名字)
+
+                  $data['status']  = 200;
+                  $data['msg']     = 'UPLOAD SUCCESS';
+
+                  //图片原始名字
+                  $data['details']['originName'] = $info['name'];
+                  $data['details']['savename'] = $info['savename'];
+                  $data['details']['savepath'] = $info['savepath'];
+
+                  echo json_encode($data);
+              }
+        }
+
+        public function dropzoneDelete()
+        {
+            // dump($this);
+            // if(IS_AJAX) {
+            //     $this->delete();
+            //     $this->ajaxReturn(1);
+            //     // unlink ( string $filename  );
+            // } else {
+
+            //     $this->error('删除失败');
+            //     $this->ajaxReturn(0);
+            // }
+
+            $this->ajaxReturn(1);
+        }
+
+        //打开Goods/add页面
         public function add()
         {
             //获取Model类
@@ -52,45 +118,20 @@
 
 
         //商品详情
-        public function intro()
+        public function product_add()
         {
             //获取Model类
-            $goods = D('Goods')->intro();
-
-            // dump($id);
-            // $goods=M('goods');
-            // $type=M('type');
-            // $goodtype=M('goodtype');
-            // $mealtable=M('mealtable');
-
-
-            // $goodsInfo=$goods->find($id);
-            // $pid=$goodsInfo['pid'];
-            // $typePid=$goodsInfo['id'];
-            // // var_dump($goodsInfo);
-            // $types=$type->find($pid);
-            // $goodtypes=$goodtype->where("pid='$typeid'")->select();
-            // $mealpid='';
-
-            // foreach($goodtypes as $key=>$value)
-            // {
-
-            //     $mealpid[$key]=$value['id'];
-
-            //     $mealInfo[]=$mealtable->where("typeid='$mealpid[$key]'")->select();
-
-            // }
-
+            $goods = D('Goods')->product_add();
+            // dump(I('get.id'));
             // // var_dump($goodsInfo);
             // // var_dump($mealInfo);die;
             // $this->assign('mealInfo',$mealInfo);
             // $this->assign('goodtypes',$goodtypes);
 
             // $this->assign('types',$types);
-            // $this->assign('goodsInfo',$goodsInfo);
+            // $this->assign('goods',$goodsInfo);
             // $this->display();
         }
-
 
 
         // public function eideGoods()

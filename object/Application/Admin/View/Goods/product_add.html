@@ -33,6 +33,7 @@
 <body>
 <div class="page-container">
 	<form action="{:U('Goods/intro')}" method="post" class="form form-horizontal" id="form-article-add" enctype="multipart/form-data">
+        <input type="hidden" name="gid" value="id">
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">CPU：</label>
             <div class="formControls col-xs-8 col-sm-9">
@@ -133,22 +134,14 @@
             <div class="row">
                 <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>图片上传：</label>
                 <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-                    <div class="dropzone" style="width:100%px;height:300px;">
-                        <p align="center">将照片拖到这里，单次最多可选300张</p>
+                    <div class="dropzone" style="width:100%px;">
+                        <p align="center">请将图片拖到这里</p>
                     </div>
                </div>
             </div>
-		<div class="row fill"></div>
-            <div class="row">
-                <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>商品描述：</label>
-                <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-                <script id="editor" type="text/plain" style="width:100%px;height:300px;"></script>
-               </div>
-            </div>
 		<div class="row cl">
-			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-				<button onClick="article_save_submit();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存并提交审核</button>
-				<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存草稿</button>
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2"><br />
+				<button class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存并提交审核</button>
 				<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
 			</div>
 		</div>
@@ -167,9 +160,9 @@
 <script type="text/javascript" src="__PUBLIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
 <script type="text/javascript" src="__PUBLIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
 <script type="text/javascript" src="__PUBLIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
-<script type="text/javascript" src="__PUBLIC__/lib/ueditor/1.4.3/ueditor.config.js"></script>
+<!-- <script type="text/javascript" src="__PUBLIC__/lib/ueditor/1.4.3/ueditor.config.js"></script>
 <script type="text/javascript" src="__PUBLIC__/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
-<script type="text/javascript" src="__PUBLIC__/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script> -->
 <!-- 加载dropzone的js -->
 <script src="__PUBLIC__/dropzone/dropzone.js"></script>
 <script type="text/javascript">
@@ -180,7 +173,7 @@
         $(".dropzone").dropzone({
 
             //请求一个PHP来做上传
-            url: "__URL__/upload/",
+            url: "__URL__/dropzoneUpload/",
 
             //是否显示删除图片按钮
             addRemoveLinks: true,
@@ -191,11 +184,14 @@
             //取消上传样式
             dictCancelUpload: "x",
 
-            //<input type="text" name="pic">
-            paramName:"pic",//$_FILES['pic']
+            //<input type="text" name="imgs">
+            paramName:"imgs",//$_FILES['imgs']
+            dictDefaultMessage: "单次最多可选12张",
+            dictRemoveFile: "点击删除",
+
 
             //最大文件上传数
-            maxFiles: 10,
+            maxFiles: 12,
 
             //文件的大小,单位M
             maxFilesize: 5,
@@ -218,19 +214,20 @@
 
 
                     //res为dropzone.js返回的图片路经
-                    file.path = res;
+
 
 
                     //拿到图片路径
                     var filePath = obj['details'].savepath + obj['details'].savename;
+                    file.path = filePath;
 
 
                     if( obj.status == 200 ){
 
                      //将服务器得到的数据生成一个隐藏域。做商品添加的时候就可以获取到了
-                        var input = '<input type="hidden" name="pic[]" value="'+filePath+'" />';
+                        var input = '<input type="hidden" name="imgs[]" value="'+filePath+'"/>';
 
-                        $('.myform').append(input);
+                        $('.form-horizontal').append(input);
 
                     }else{
                         alert('上传失败');
@@ -245,18 +242,21 @@
                 //每次删除图片都会触发这个方法
                 this.on("removedfile", function(file) {
 
-
-
-                    console.log(file.path);
-                    // alert(1);
-
-         /*           $.ajax({
-                      url: "改成你的php删除图片的路径",
+                   $.ajax({
+                      url: "__URL__/dropzoneDelete/",
                       type: "post",
 
                       //file.path可以获取到点击删除按钮的那张图片
-                      data: { 'path': file.path }
-                    });*/
+                      data: { 'path': file.path },
+                      success:function (data) {
+
+                        // console.log(file.path);
+                        // var obj = JSON.parse(file.path);
+                        $("input[value='"+file.path+"']").remove();
+
+                      },
+                      dataType:'json'
+                    });
                 });
 
             }
@@ -264,7 +264,7 @@
 
 
 // $(function(){
-	var ue = UE.getEditor('editor');
+	// var ue = UE.getEditor('editor');
 // });
 </script>
 </body>

@@ -37,33 +37,27 @@
         }
 
         //添加商品参数
-        public function intro()
+        public function product_add()
         {
+            //实例化模型
+            $Parameter = M('parameter');
+            $Goods = M('goods');
+            $Pics = M('pics');
+
             //获取商品id
-            $id=I('post.');
-            dump($id);
-            // $goods=M('goods');
-            // $type=M('type');
-            // $goodtype=M('stock');
-            // $mealtable=M('mealtable');
+            $id=I('get.');
+            dump(I('get.'));
+            // dump($_POST);
+
+            $goodsInfo=$this->find($id);
+            $pid=$goodsInfo['pid'];
+            $ParameterPid=$goodsInfo['id'];
+            $Parameters=$Parameter->find('pid');
+            dump($goodsInfo);
+            dump($ParameterPid);
+            dump($Parameters);
 
 
-            // $goodsInfo=$goods->find($id);
-            // $pid=$goodsInfo['pid'];
-            // $typePid=$goodsInfo['id'];
-            // // var_dump($goodsInfo);
-            // $types=$type->find($pid);
-            // $goodtypes=$goodtype->where("pid='$typeid'")->select();
-            // $mealpid='';
-
-            // foreach($goodtypes as $key=>$value)
-            // {
-
-            //     $mealpid[$key]=$value['id'];
-
-            //     $mealInfo[]=$mealtable->where("typeid='$mealpid[$key]'")->select();
-
-            // }
 
         }
 
