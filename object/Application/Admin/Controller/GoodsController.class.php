@@ -5,69 +5,93 @@
 
     class GoodsController extends Controller
     {
+        //打开Type/add页面
         public function add()
         {
             //获取Model类
             $GoodsModel = D('Goods');
-            // $id  = I('post');
+            $id  = I('post');
             // dump($_POST['id']);
 
             //获取所有分类
             $types = $GoodsModel->getAlltype();
             dump($type);
             $this->assign('types',$types);
-            // $this->assign('id',$id);
 
             $this->display();
         }
 
+        //将商品写进数据库
         public function insert()
         {
-            echo '11';
+            //获取Model类
+            $GoodsModel = D('Goods')->insert();
+
+            //获取所有post
             $a  = I('post.');
-            dump($a);
+            // dump($a);
+
+            if($GoodsModel) {
+                $this->success('添加成功',U('Admin/Goods/index'),3);
+            } else {
+                $this->error('添加失败',U('Admin/Goods/index'),3);
+            }
+
+        }
+
+        //分类的列表页
+        public function index()
+        {
+            //获取Model类
+            $goods = D('Goods')->index();
+
+            //分配变量
+            $this->assign('goods',$goods);
+            $this->display();
+        }
 
 
-        //     //实例化模型
-        //     $goods=M('goods');
+        //商品详情
+        public function intro()
+        {
+            //获取Model类
+            $goods = D('Goods')->intro();
 
-        //     if(IS_AJAX)
-        //     {
-        //         $title=$_POST['title'];
-
-        //         $result=$goods->where("title='$title'")->select();
-
-        //         if($result){
-        //             $this->ajaxReturn(0);
-        //         }else{
-        //             $this->ajaxReturn(1);
-        //         }
-        //      }
-
-        //     if($_FILES['img']['name'])
-        //     {
-        //         $upload = new \Think\Upload();// 实例化上传类
-        //         $upload->maxSize=3145728 ;// 设置附件上传大小
-        //         $upload->exts=array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-        //         $upload->rootPath = "./Public";//需要手动设置上传的根目录
-        //         $upload->savePath ='/Uploads/'; // 设置附件上传目录    // 上传文件
-        //         $info   =$upload->upload();
-
-        //         //拼接图片的路径
-        //         $_POST['img'] = $upload->rootPath.$info['img']['savepath'].$info['img']['savename'];
-        //     }
+            // dump($id);
+            // $goods=M('goods');
+            // $type=M('type');
+            // $goodtype=M('goodtype');
+            // $mealtable=M('mealtable');
 
 
-        //     $_POST['lonetime']=time();
+            // $goodsInfo=$goods->find($id);
+            // $pid=$goodsInfo['pid'];
+            // $typePid=$goodsInfo['id'];
+            // // var_dump($goodsInfo);
+            // $types=$type->find($pid);
+            // $goodtypes=$goodtype->where("pid='$typeid'")->select();
+            // $mealpid='';
 
-        //     if($goods->add($_POST))
-        //     {
-        //         $this->success('添加成功',U('Admin/Goods/index'),3);
-        //     } else {
-        //         $this->error('添加失败',U('Admin/Goods/index'),3);
-        //     }
+            // foreach($goodtypes as $key=>$value)
+            // {
 
-        // }
+            //     $mealpid[$key]=$value['id'];
+
+            //     $mealInfo[]=$mealtable->where("typeid='$mealpid[$key]'")->select();
+
+            // }
+
+            // // var_dump($goodsInfo);
+            // // var_dump($mealInfo);die;
+            // $this->assign('mealInfo',$mealInfo);
+            // $this->assign('goodtypes',$goodtypes);
+
+            // $this->assign('types',$types);
+            // $this->assign('goodsInfo',$goodsInfo);
+            // $this->display();
+        }
+
+
 
         // public function eideGoods()
         // {
@@ -135,140 +159,22 @@
         //         $this->error('更新失败',U('Goods/index'),3);
 
         //     }
-        }
-
-
-        // public function index()
-        // {
-        //     $id=I('get.id');
-        //     // var_dump($id);
-        //     //实例化模型
-        //     $goods=M('goods');
-
-        //     $num = I('get.num');//$_GET['num']
-
-        //     $num = !empty($num) ? $num : 10;//如果没有传递数量 每页默认显示10条
-        //     //获取关键字
-        //     $goodsname = I('get.keyword');
-
-        //     if($id)
-        //     {
-        //         $where['pid']=array('eq',$id);
-        //     } else {
-        //         $where="";
-        //     }
-
-        //     // $where = "";//条件字符串
-        //     if($goodsname)
-        //     {
-        //         //模糊查询
-        //         $where['title'] = array('like','%'.$goodsname.'%');
-        //     }
-
-        //     //获取数据的总数
-        //     $count = $goods->where($where)->count();
-
-        //     //实例化分页类
-        //     $Page = new \Think\Page($count,$num);//
-        //     //获取页码的字符串
-        //     $pages = $Page->show();// 分页显示输出
-        //     // var_dump($pages);
-
-        //     //获取limit参数
-        //     $limit = $Page->firstRow.','.$Page->listRows;
-
-
-        //     $goodses=$goods->where($where)->limit($limit)->select();
-
-
-        //     // var_dump($nu);die;
-        //     // var_dump($color);die;
-
-
-        //     $number=1;
-
-        //     //分配变量
-        //     $this->assign('number',$number);
-
-        //     $this->assign('pages',$pages);
-        //     $this->assign('num',$num);
-
-        //     $this->assign('goodses',$goodses);
-        //     $this->display();
         // }
 
-        // //删除
+        //删除
         // public function delete()
         // {
+        //     //获取Model类
+        //     $goods = D('Goods')->myDelete();
+
         //     //获取id
         //     $id=I('get.id');
+        //     dump($id);
+
         //     if(empty($id))
         //     {
         //         $this->error('非法操作',U('Goods/index'),3);
         //     }
-
-        //     //实例化对象
-
-        //     $goods=M('goods');
-        //     $goodsInfo=$goods->find($id);
-        //     $goodtype=M('goodtype');
-        //     $colorInfo=$goodtype->where("pid='$id'")->select();
-
-        //     if($colorInfo)
-        //     {
-        //         $this->error("商品还有子类,请删除子类",U("Admin/Meal/edit/id/$id"));
-        //     } else {
-
-        //         $img=$goodsInfo['img'];
-
-        //         @unlink($img);
-
-        //         //执行删除操作
-        //         if($goods->delete($id))
-        //         {
-        //             $this->success('删除成功',U('Goods/index'),3);
-        //         } else {
-        //             $this->error('删除失败',U('Goods/index'),3);
-        //         }
-        //     }
-        // }
-
-
-        // //商品详情
-        // public function intro()
-        // {
-        //     $id=I('get.id');
-        //     $goods=M('goods');
-        //     $type=M('type');
-        //     $goodtype=M('goodtype');
-        //     $mealtable=M('mealtable');
-
-
-        //     $goodsInfo=$goods->find($id);
-        //     $pid=$goodsInfo['pid'];
-        //     $typePid=$goodsInfo['id'];
-        //     // var_dump($goodsInfo);
-        //     $types=$type->find($pid);
-        //     $goodtypes=$goodtype->where("pid='$typeid'")->select();
-        //     $mealpid='';
-
-        //     foreach($goodtypes as $key=>$value)
-        //     {
-
-        //         $mealpid[$key]=$value['id'];
-
-        //         $mealInfo[]=$mealtable->where("typeid='$mealpid[$key]'")->select();
-
-        //     }
-
-        //     // var_dump($goodsInfo);
-        //     // var_dump($mealInfo);die;
-        //     $this->assign('mealInfo',$mealInfo);
-        //     $this->assign('goodtypes',$goodtypes);
-
-        //     $this->assign('types',$types);
-        //     $this->assign('goodsInfo',$goodsInfo);
-        //     $this->display();
         // }
 
 }
