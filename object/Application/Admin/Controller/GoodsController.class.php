@@ -5,6 +5,7 @@
 
     class GoodsController extends Controller
     {
+        //dropzone图片上传
         public function dropzoneUpload()
         {
 
@@ -23,7 +24,7 @@
               $upload->rootPath   = './Public/';
 
               // 设置附件上传目录
-               $upload->savePath  =      './Upload/';
+               $upload->savePath  =      '/Upload/';
 
 
               //返回上传信息
@@ -55,6 +56,8 @@
               }
         }
 
+
+        //dropzone图片删除
         public function dropzoneDelete()
         {
             // dump($this);
@@ -71,6 +74,7 @@
             $this->ajaxReturn(1);
         }
 
+
         //打开Goods/add页面
         public function add()
         {
@@ -86,6 +90,7 @@
 
             $this->display();
         }
+
 
         //将商品写进数据库
         public function insert()
@@ -105,6 +110,7 @@
 
         }
 
+
         //分类的列表页
         public function index()
         {
@@ -118,21 +124,60 @@
 
 
         //商品详情
-        public function product_add()
+        public function intro()
         {
-            //获取Model类
-            $goods = D('Goods')->product_add();
-            // dump(I('get.id'));
-            // // var_dump($goodsInfo);
-            // // var_dump($mealInfo);die;
-            // $this->assign('mealInfo',$mealInfo);
-            // $this->assign('goodtypes',$goodtypes);
+            $intro = D('Goods')->intro();
 
-            // $this->assign('types',$types);
-            // $this->assign('goods',$goodsInfo);
-            // $this->display();
+            if($intro) {
+                //获取id
+                $cid = $_GET['id'];
+
+                //获取所有分类
+                $this->assign('cid', $cid);
+                $this->assign('intro', $intro);
+                $this->display();
+
+            } else {
+
+                //当没参数时跳转
+                $this->display('product_add');
+            }
         }
 
+
+        //商品详情添加
+        public function product_add()
+        {
+            // echo 1;
+            // dump(I('get.'));
+            // dump(I(('post.')));
+            $product_add = D('Goods')->product_add();
+
+            if($product_add) {
+                $this->success('添加成功',U('Admin/Goods/intro'),3);
+            } else {
+                $this->error('添加失败',U('Admin/Goods/intro'),3);
+            }
+        }
+
+
+        //商品详情图片
+        public function product_show()
+        {
+            $product_show = D('Goods')->product_show();
+
+            if($product_show) {
+
+                //获取所有分类
+                $this->assign('product_show', $product_show);
+                $this->display();
+
+            } else {
+
+                //当没参数时跳转
+                $this->display('product_add');
+            }
+        }
 
         // public function eideGoods()
         // {
