@@ -8,16 +8,13 @@
         //dropzone图片上传
         public function dropzoneUpload()
         {
-
-
-
                // 实例化上传类
               $upload = new \Think\Upload();
 
                // 设置附件上传大小
               $upload->maxSize   =     3145728;//3M
 
-            // 设置附件上传类型
+               // 设置附件上传类型
               $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');
               // $upload->exts      =     array('wmv','mp4');
 
@@ -107,7 +104,6 @@
             } else {
                 $this->error('添加失败',U('Admin/Goods/index'),3);
             }
-
         }
 
 
@@ -179,88 +175,66 @@
             }
         }
 
-        // public function eideGoods()
-        // {
-        //     $id=I('get.id');
-        //     $goods=M('goods');
-        //     $goodsInfo=$goods->find($id);
-        //     $pid=$goodsInfo['pid'];
-        //     $type=M('type');
-        //     $typeInfo=$type->find($pid);
-        //     $this->assign('goodsInfo',$goodsInfo);
-        //     $this->assign('typeInfo',$typeInfo);
-        //     $types=$this->getAlltype();
-        //     $this->assign('types',$types);
-        //     $this->assign('id',$id);
-        //     $this->display();
-        // }
+        //编辑商品信息
+        public function product_edit()
+        {
+            //获取Model类
+            $GoodsModel = D('Goods');
+            $types = D('Goods')->getAlltype();
 
-        // public function UpdateGoods()
-        // {
-        //     $goods=M('goods');
-        //     $id=I('post.id');
-        //     if(IS_AJAX)
-        //     {
+            // 获取商品ID
+            $id = I('get.id');
+            // dump($id);
 
-        //         $result=$goods->save($_POST);
+            // 实例化数据库
+            $goods = M('goods');
+            $type  = M('type');
+            $stock = M('stock');
 
-        //         if($result)
-        //         {
-        //             $this->ajaxReturn(0);
-        //         } else {
-        //             $this->ajaxReturn(1);
-        //         }
-        //     }
+            //查询商品/分类信息
+            $goodsInfo = $goods->find($id);
+            // dump($goodsInfo);
+            $gid = $goodsInfo['id'];
+            $tid = $goodsInfo['tid'];
+            // dump($gid);
+            $typeInfo = $type->find($tid);
+            $stockInfo = $stock->where("gid='$gid'")->select();
+            // dump($stockInfo);
 
-        //     // //获取当前商品的信息
-        //     $goodsInfo = $goods->find($id);
-        //     //获取img的路径
-        //     $img = $goodsInfo['img'];
-        //     //执行删除
-        //     @unlink($img);
+            $this->assign('goodsInfo',$goodsInfo);
+            $this->assign('typeInfo',$typeInfo);
+            $this->assign('types',$types);
+            $this->assign('stockInfo',$stockInfo);
+            $this->assign('id',$id);
+            $this->display();
+        }
 
-        //     if($_FILES['img']['name'])
-        //     {
-        //         $upload = new \Think\Upload();// 实例化上传类
-        //         $upload->maxSize=3145728 ;// 设置附件上传大小
-        //         $upload->exts=array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-        //         $upload->rootPath = "./Public";//需要手动设置上传的根目录
-        //         $upload->savePath ='/Uploads/'; // 设置附件上传目录    // 上传文件
-        //         $info   =$upload->upload();
+        public function updateGoods()
+        {
+            //获得Model类
+            $updateGoods = D('goods')->updateGoods();
 
-        //         //拼接图片的路径
-        //         $_POST['img'] = $upload->rootPath.$info['img']['savepath'].$info['img']['savename'];
-        //     }
+            if($updateGoods)
+            {
+                $this->success('更新成功',U('Goods/index'),3);
 
-        //     $goodses=$goods->where("id='$id'")->save($_POST);
+            } else {
+                $this->error('更新失败',U('Goods/index'),3);
 
-
-        //     if($goodses)
-        //     {
-
-        //         $this->success('更新成功',U('Goods/index'),3);
-
-        //     } else {
-
-        //         $this->error('更新失败',U('Goods/index'),3);
-
-        //     }
-        // }
+            }
+        }
 
         //删除
-        // public function delete()
-        // {
-        //     //获取Model类
-        //     $goods = D('Goods')->myDelete();
+        public function delete()
+        {
+            //获取Model类
+            $goods = D('Goods')->myDelete();
 
-        //     //获取id
-        //     $id=I('get.id');
-        //     dump($id);
-
-        //     if(empty($id))
-        //     {
-        //         $this->error('非法操作',U('Goods/index'),3);
-        //     }
-        // }
+            if($goods) {
+                $this->success('删除成功',U('Goods/index'),3);
+            } else {
+                $this->error('非法操作',U('Goods/index'),3);
+            }
+        }
 
 }
