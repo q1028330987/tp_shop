@@ -1,0 +1,576 @@
+[ 2017-04-17T09:22:27+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/Homde
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Homde
+
+[ 2017-04-17T09:28:12+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/nc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/nc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.min_6163309.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.cookie_a5283b2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.lazyload_546c1da.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-stat_265b49b.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-common_38aa2f0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/dialog_6a2b3fb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery-placeholder_fb6154c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195853658929_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/login_confirm_485e7b4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195822489341_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-logo_865fdf1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405101641999849_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195746631209_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401200000427508_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405102540996548_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195907690676_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401095826952595_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405094338452748_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195836620431_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-common_38aa2f0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.validate.min_76c74f2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-weixin-ico_f8c8800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/dialog_6a2b3fb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_e1bfc47.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004320s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_0f7e03e.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/online-service_1e5d0b6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/qrcode_6a6b792.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-stat_265b49b.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405111444327258_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/login_confirm_485e7b4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/dialog_6a2b3fb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.validate.min_76c74f2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_0f7e03e.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_e1bfc47.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:39:01+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:16+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/nc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:16+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.cookie_a5283b2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:16+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.lazyload_546c1da.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:16+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-common_38aa2f0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:16+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/dialog_6a2b3fb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002538s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:16+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401095826952595_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery-placeholder_fb6154c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.min_6163309.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-logo_865fdf1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405102540996548_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-stat_265b49b.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.validate.min_76c74f2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_e1bfc47.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405094338452748_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_0f7e03e.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/login_confirm_485e7b4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405111444327258_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195836620431_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195853658929_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195746631209_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195822489341_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.cookie_a5283b2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195907690676_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405101641999849_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/online-service_1e5d0b6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401200000427508_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-weixin-ico_f8c8800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007914s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/qrcode_6a6b792.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.lazyload_546c1da.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery-placeholder_fb6154c.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-common_38aa2f0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/dialog_6a2b3fb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-stat_265b49b.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/login_confirm_485e7b4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/dialog_6a2b3fb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/jquery.validate.min_76c74f2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_0f7e03e.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/index_e1bfc47.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:43:17+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:43+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/nc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-logo_865fdf1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405111444327258_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401095826952595_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405094338452748_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195907690676_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195836620431_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405102540996548_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195746631209_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195853658929_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/online-service_1e5d0b6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/qrcode_6a6b792.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401195822489341_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/vivo-weixin-ico_f8c8800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170405101641999849_original.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/20170401200000427508_original.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:首页_files
+
+[ 2017-04-17T09:44:44+08:00 ] ::1 /gz25/github/tp_shop/object/index.php/%E9%A6%96%E9%A1%B5_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+ERR: 无法加载模块:首页_files
+

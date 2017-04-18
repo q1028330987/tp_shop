@@ -3,11 +3,10 @@
 
     use Think\Controller;
 
-    class IndexController extends Controller
+    class DetailsController extends Controller
     {
-        public function index()
+        public function details()
         {
             $this->display();
-
         }
     }
