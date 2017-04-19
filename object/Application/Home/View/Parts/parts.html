@@ -66,15 +66,10 @@
                 <div class="f-line">
                     <dl>
                         <dt class="fl-title fl-item">分类：</dt>
-                        <dd class="fl-item on"><a href="https://shop.vivo.com.cn/product/parts">全部</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=8">充电器/数据线/移动电源</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=73">保护壳/保护膜</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=147">内存卡</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=9">耳机/音箱</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=72">智能外设/移动存储</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=137">箱包/自拍杆</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=12">碎屏宝</a></dd>
-                                <dd class="fl-item "><a href="https://shop.vivo.com.cn/product/parts?category=96">其他</a></dd>
+                        <dd class="fl-item on"><a href="{:U('Parts/parts')}">全部</a></dd>
+                            <foreach name="parts" item="v">
+                                <dd class="fl-item "><a href="{:U('Parts/parts', array('id'=>$v['id']))}">{$v.name}</a></dd>
+                            </foreach>
                     </dl>
                 </div>
                 <div class="f-line sort">
@@ -98,22 +93,23 @@
             </div>
 				<div class="list-box">
 
-
-                            <ul class="prod-list cl">
-							<li class="prod-item ">
-                                <a target="_blank" href="https://shop.vivo.com.cn/product/9990">
-								<div class="figure">
-									<img src="__PUBLIC__/Home/Parts/4242_1488422329922hd_530x530.png" style="position: relative;">
-								</div>
-								<h3 title="【乐心】智能手环ziva">
-								【乐心】智能手环ziva
-								</h3>
-								<p class="price">
-									<dfn>¥</dfn>299.00
-								</p>
-                            </a>
-							</li>
-                            </ul>
+                    <ul class="prod-list cl">
+                    <foreach name="commodityParts" item="v">
+    					<li class="prod-item ">
+                            <a target="_blank" href="{:U('Details/details', array('id'=>$v['id']))}">
+    						<div class="figure">
+    							<img src="__PUBLIC__{$v.pic}" style="position: relative;">
+    						</div>
+    						<h3 title="{$v.name}">
+    						{$v.name}
+    						</h3>
+    						<p class="price">
+    							<dfn>¥</dfn>299.00
+    						</p>
+                        </a>
+    					</li>
+                    </foreach>
+                    </ul>
 
                 </div>
 

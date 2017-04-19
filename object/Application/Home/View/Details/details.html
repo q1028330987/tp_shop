@@ -27,6 +27,11 @@
 
 <style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="__PUBLIC__/js/nc.js"></script>
 <style>
+    #small{width:420px;height:520px;overflow:hidden;position:absolute;}
+    #big{width:420px;height:520px;position:absolute;left:435px;top:20px;border:solid 1px #CCCCCC;overflow:hidden;display:none;z-index:10;}
+    #move{width:215px;height:215px;position:absolute;left:0px;top:0px;background:url('__PUBLIC__/Home/picture/bg.png');cursor:move;visibility:hidden;}
+    #bigImg{position:absolute;}
+    #imgs div{cursor:pointer;}
 </style>
 </head>
 <body class="">
@@ -62,7 +67,7 @@
 
 <div class="wrapper">
     <div class="crumbs">您的位置:<a class="first" href="{:U('Index/index')}">首页</a><b></b>
-                <a href="https://shop.vivo.com.cn/product/phone">手机产品</a>
+                <a href="">手机产品</a>
         <b></b><span>Xplay系列</span></div>
 </div>
 
@@ -70,26 +75,41 @@
     <div class="wrapper">
         <div class="prod-container-top cl">
             <div class="prod-container-left">
-                <div id="j_SpecImgs" class="figure">
+                <foreach name="details" item="v">
+                <div class="product-album-pic"  id='small' >
+                      <!-- 放大镜功能 -->
+                      <img src="__PUBLIC__{$v['pic']}" alt="" class="small-pic" id='smallImg' style='width:100%;height:100%;'>
+                      <div id='move'></div>
+                </div>
+                <img class="loading" app="b2c" src="__PUBLIC__/Home/picture/loading.gif" alt="正在加载大图..." style="display:none;" />
+                </div>
+
+                <div id='big' style="background-color:#FAFAFA">
+                <!-- 放大镜大图 -->
+                    <img src="__PUBLIC__{$v['pic']}" alt="" class="small-pic" id='bigImg' style="width:100%;height:100%">
+                </div>
+                </foreach>
+                <!-- <div id="j_SpecImgs" class="figure">
                     <ul id="bigImgUl">
-
-
-                            <li style="display: block; opacity: 1; z-index: 9;"><img src="__PUBLIC__/Home/Details/4266_1490338119910hd_530x530.png" alt="商品图片"></li>
+                        <foreach name="details" item="v">
+                            <li style="display: block; opacity: 1; z-index: 9;"><img src="__PUBLIC__{$v.pic}" alt="商品图片"></li>
                             <li style="z-index: 1; opacity: 0; display: none;"><img src="__PUBLIC__/Home/Details/4266_1490271072649hd_530x530.png" alt="商品图片"></li>
                             <li style="z-index: 1; opacity: 0; display: none;"><img src="__PUBLIC__/Home/Details/4266_1490271073980hd_530x530.png" alt="商品图片"></li>
                             <li style="z-index: 1; opacity: 0; display: none;"><img src="__PUBLIC__/Home/Details/4266_1490271075005hd_530x530.png" alt="商品图片"></li>
-
+                        </foreach>
                     </ul>
-                </div>
-                <div id="j_SpecItems" class="spec-items">
+                </div> -->
+                <!-- <div id="j_SpecItems" class="spec-items">
                     <ul class="cl" id="smallImgUl">
-                            <li class="current"><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490338119910hd_250x250.png"></a></li>
+                        <foreach name="details" item="v">
+                            <li class="current"><a href="javascript:;"><img src="__PUBLIC__{$v.pic}"></a></li>
                             <li><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490271072649hd_250x250.png"></a></li>
                             <li><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490271073980hd_250x250.png"></a></li>
                             <li><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490271075005hd_250x250.png"></a></li>
+                        </foreach>
                     </ul>
-                </div>
-                <div class="favor">
+                </div> -->
+                <!--<div class="favor">
                     <ul class="cl">
                         <li class="collect"><a id="j_CollectTrigger" href="javascript:;">收藏商品（<span id="favCount">24352</span>人收藏）</a></li>
                         <li class="share" id="J_Share">分享
@@ -100,68 +120,42 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="prod-container-right">
-                <h1>Xplay6 全网通【旗舰精品】</h1>
-                <small class="promotion-words">全曲面设计，后置双摄，专业虚化，4080mAh大电池+双引擎闪充，支持分屏多任务，应用分身</small>
+            <foreach name="details" item="v">
+                <h1>{$v.name}</h1>
+                <small class="promotion-words">{$v.des}</small>
                 <ul class="summary-price">
                     <li>
-                        <span class="now-price"><dfn>¥</dfn>4498</span>
+                        <span class="now-price"><dfn>¥</dfn>{$v.price}</span>
                     </li>
-                    <li>
-                        <div class="table-cell"><span class="label">V币</span></div>
-                        <div class="table-cell">购买即送4498V币</div>
-                    </li>
-                        <li>
-                            <div class="table-cell"><span class="label">赠品</span></div>
-                            <div class="table-cell gift-box">
-                                    <span class="gift-item" title="【vivo】原装移动电源P50" sku-id="2017">
-                                        <a href="https://shop.vivo.com.cn/product/172?giftSkuid=2017" target="_blank"><img src="__PUBLIC__/Home/Details/2017_1481559028445_250x250.png"></a>
-                                        x 1
-                                    </span>
-                                    <span class="gift-item" title="【现代】蓝牙音箱" sku-id="1944">
-                                        <a href="https://shop.vivo.com.cn/product/129?giftSkuid=1944" target="_blank"><img src="__PUBLIC__/Home/Details/1944_1478880735535_250x250.png"></a>
-                                        x 1
-                                    </span>
-                                    <span class="gift-item" title="【vivo】休闲双肩包" sku-id="4131">
-                                        <a href="https://shop.vivo.com.cn/product/9947?giftSkuid=4131" target="_blank"><img src="__PUBLIC__/Home/Details/4131_1481559169065_250x250.png"></a>
-                                        x 1
-                                    </span>
-                            </div>
-                        </li>
-
                 </ul>
                 <form id="prod-detail-form" method="post">
                     <input type="hidden" id="spuId" name="spuId" value="9958">
                     <input type="hidden" id="cmdyCategoryId" name="cmdyCategoryId" value="139">
                     <input type="hidden" id="queryFlag" name="queryFlag" value="1">
                 <dl class="prod-params cl" id="j_colors" marketable="1">
-                                <dt>版本：</dt>
-                                <dd>
-                                    <ul class="tags nettype-tags">
-                                        <input type="hidden" id="netType" name="netType" value="58">
-                                            <li name="netTypeLi" nettype="58" class="on">全网通<i></i></li>
-                                    </ul>
-                                </dd>
                                 <dt>容量：</dt>
                                 <dd>
                                     <ul class="tags storage-tags">
-                                        <input type="hidden" id="storage" name="storage" value="84">
-                                            <li name="storageLi" storage="84" class="on">128G版本<i></i></li>
+                                        <foreach name="stock" item="v">
+                                        <li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" href="javascript:;"></a>{$v.capacity}<i></i>
+                                        </li>
+                                        </foreach>
                                     </ul>
                                 </dd>
 
                             <dt>颜色：</dt>
                             <dd>
                                 <ul class="tags color-box" spuinstallment="1">
-                                        <li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" style="background: #e5b9b7" href="javascript:;"></a>玫瑰金<i></i></li>
-                                        <li class="sub-sku" sku-store="1" sku-id="4164" sku-fullpay="0"><a class="color-ddd9c3" style="background: #ddd9c3" href="javascript:;"></a>香槟金<i></i></li>
-                                        <li class="sub-sku on" sku-store="1" sku-id="4266" sku-fullpay="0"><a class="color-000000" style="background: #000000" href="javascript:;"></a>磨砂黑<i></i></li>
+                                    <foreach name="stock" item="v">
+                                        <li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" href="javascript:;"></a>{$v.colors}<i></i></li>
+                                    </foreach>
                                 </ul>
                             </dd>
 
-                            <dt>套餐：</dt>
+                            <!-- <dt>套餐：</dt>
                             <dd class="package-box">
                                 <ul class="tags package-tags cl J_package_tags">
                                     <li class="on" saleprice="4498">
@@ -254,9 +248,9 @@
                                         </tr>
                                     </tbody></table>
                                 </div>
-                            </dd>
+                            </dd> -->
 
-                                <dt>服务：</dt>
+                                <!-- <dt>服务：</dt>
                                 <dd>
                                         <ul class="tags service-tags">
                                                 <li name="broken-svc" sku-id="9101" svc-price="158" broken-svc-id="187" title="此碎屏宝仅适用于双曲面屏Xplay5系列、Xplay6系列,请您和手机绑定购买或在购机3天内购买" class="broken">
@@ -267,7 +261,7 @@
                                                 </li>
                                             <li class="detail"><a target="_blank" href="https://shop.vivo.com.cn/helpcenter/broken-screen">详情&gt;</a></li>
                                         </ul>
-                                </dd>
+                                </dd> -->
                         <dt>数量：</dt>
                         <dd class="order-num">
                             <label id="dec" class="disabled">-</label>
@@ -314,7 +308,7 @@
                             <li class="change-arbitrary"></li>
                         </ul>
                 </div>
-
+            </foreach>
             </div>
 
         </div>
@@ -347,29 +341,33 @@
     <div class="prod-main-box">
         <div class="prod-main-information" style="display: block;">
             <div class="section">
-            <p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170408/2017040817104078139_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/2017040817104078139_original.jpg" style="display: inline;"><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170315173182_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170315173182_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170325266459_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170325266459_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317033610379_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317033610379_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317034086756_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317034086756_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154746798561_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154746798561_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170400228102_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170400228102_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170404124754_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170404124754_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317041488351_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317041488351_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170424818227_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170424818227_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170428108229_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170428108229_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170437833814_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170437833814_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170448393563_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170448393563_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154833431853_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154833431853_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170503134665_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170503134665_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170513250257_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170513250257_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329161716509617_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329161716509617_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170408/2017040817094595243_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/2017040817094595243_original.jpg" style="display: inline;"></p><p><br></p>
+            <!-- <p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170408/2017040817104078139_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/2017040817104078139_original.jpg" style="display: inline;"><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170315173182_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170315173182_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170325266459_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170325266459_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317033610379_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317033610379_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317034086756_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317034086756_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154746798561_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154746798561_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170400228102_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170400228102_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170404124754_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170404124754_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317041488351_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317041488351_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170424818227_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170424818227_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170428108229_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170428108229_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170437833814_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170437833814_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170448393563_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170448393563_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154833431853_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154833431853_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170503134665_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170503134665_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170513250257_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170513250257_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329161716509617_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329161716509617_original.jpg" style="display: inline;"></p> -->
+            <foreach name="pics" item="v">
+            <p><img title="" alt="图片被绑架了" src="__PUBLIC__{$v.imgs}" style="display: inline;"></p>
+            </foreach>
             </div>
         </div>
             <div class="prod-main-parameter" style="display: none;">
                 <div class="prod-parameter-box">
                     <ul>
-                            <li class="c"><h4>CPU</h4><p>高通骁龙MSM8996/骁龙820</p></li>
-                            <li><h4>内存（运行内存）</h4><p>6GB RAM（因为安装操作系统占据了部分运存空间，实际可用运存小于6G）</p></li>
-                            <li class="c"><h4>ROM</h4><p>128GB ROM，（不支持T卡扩展）注：由于手机系统和预装的程序占据了部分存储空间，实际可用存储空间小于128G</p></li>
-                            <li><h4>系统</h4><p>Funtouch OS 3.0(基于Android 6.0.1)</p></li>
-                            <li class="c"><h4>屏幕尺寸</h4><p>5.46英寸</p></li>
-                            <li><h4>屏幕分辨率</h4><p>2560*1440</p></li>
-                            <li class="c"><h4>PPI</h4><p>537</p></li>
-                            <li><h4>机身厚度</h4><p>8.25mm</p></li>
-                            <li class="c"><h4>电池</h4><p>一体式内置电池</p></li>
-                            <li><h4>容量</h4><p>4080mAh</p></li>
-                            <li class="c"><h4>支持频段</h4><p>网络类型 双卡双待 全网通* <br>2G   GSM ：GSM850/900/1800/1900MHz <br>2G CDMA： 800MHz <br>3G   WCDMA：850/900/1900/2100MHz；<br>3G  TD-SCDMA：1880/2010MHz；<br> 3G  CDMA2000：800MHz   <br>4G   TDD-LTE：B38/B39/B40/B41；<br> 4G  FDD-LTE：B1/3<br> 4G  FDD-LTE：B2/4/5/7/8/12（仅支持国际漫游） <br>支持移动、联通、电信SIM卡，两张卡不能同时享受4G网络，如卡1使用4G卡，卡2就不能使用4G网络，如果卡2使用4G网络，卡1就不能使用4G网络，数据网络切换手动选择完成置换；不支持两张电信卡同时使用</p></li>
-                            <li><h4>连接支持</h4><p>wifi、蓝牙4.2、USB2.0、GPS定位、OTG</p></li>
-                            <li class="c"><h4>功能特色</h4><p>全曲面设计，后置双摄，专业虚化，4080mAh大电池+双引擎闪充，分屏多任务，应用分身</p></li>
-                            <li><h4>摄像头类型</h4><p>后置双摄+前置</p></li>
-                            <li class="c"><h4>摄像头</h4><p>前置1600W/后置（1200W+500W）</p></li>
-                            <li><h4>视频拍摄</h4><p>支持</p></li>
-                            <li class="c"><h4>标配</h4><p>主机 *1 <br>取卡针 *1 <br>有线耳机 *1<br>9V2.0A闪充充电头 *1<br>micro USB数据线<br>保护壳 *2<br>快速入门指南 *1<br>重要信息和保修卡</p></li>
+                        <foreach name="parameter" item="v">
+                            <li class="c"><h4>CPU</h4><p>{$v.cpu}</p></li>
+                            <li><h4>内存（运行内存）</h4><p>{$v.memory}</p></li>
+                            <li class="c"><h4>ROM</h4><p>{$v.rom}</p></li>
+                            <li><h4>系统</h4><p>{$v.system}</p></li>
+                            <li class="c"><h4>屏幕尺寸</h4><p>{$v.size}</p></li>
+                            <li><h4>屏幕分辨率</h4><p>{$v.ratio}</p></li>
+                            <li class="c"><h4>PPI</h4><p>{$v.ppi}</p></li>
+                            <li><h4>机身厚度</h4><p>{$v.heights}</p></li>
+                            <li class="c"><h4>电池</h4><p>{$v.cell}</p></li>
+                            <li><h4>容量</h4><p>{$v.capacity}</p></li>
+                            <li><h4>连接支持</h4><p>{$v.support}</p></li>
+                            <li class="c"><h4>功能特色</h4><p>{$v.feature}</p></li>
+                            <li><h4>摄像头类型</h4><p>{$v.camera_type}</p></li>
+                            <li class="c"><h4>摄像头</h4><p>{$v.camera}</p></li>
+                            <li><h4>视频拍摄</h4><p>{$v.videos}</p></li>
+                            <li class="c"><h4>标配</h4><p>{$v.mark}</p></li>
+                        </foreach>
                     </ul>
                 </div>
             </div>
@@ -538,7 +536,97 @@
         </li>
        <li class="hide" id="J_backtop" style="display: none;"><a class="backtop"></a></li>
     </ul>
-</div><script>
+</div>
+    <!-- 放大镜特效 -->
+    <script type="text/javascript">
+
+      //获取元素
+      var small = document.getElementById('small');
+      var move = document.getElementById('move');
+      var bigImg = document.getElementById('bigImg');
+      var smallImg = document.getElementById('smallImg');
+      small.onmousemove = function(e){
+        big.style.display = "block";
+
+        //设置move  div的位置
+        var x = e.pageX;
+        var y = e.pageY;
+
+        //获取元素相对窗口左侧的距离
+        var _l = small.offsetLeft;
+        var _t = small.offsetTop;
+
+        //一半儿的move的宽度
+        var halfW = move.offsetWidth/2;
+        var halfH = move.offsetHeight/2;
+
+        var newLeft = x-_l-halfW-175;
+        var newTop = y-_t-halfH-125;
+
+        //检测x轴的越界
+        if(newLeft<=0){
+          newLeft =0;
+        }
+        var maxLeft = small.offsetWidth-move.offsetWidth;
+        if(newLeft >= maxLeft){
+          newLeft = maxLeft;
+        }
+
+        //检测Y轴越界
+        if(newTop <= 0){
+          newTop = 0;
+        }
+        var maxTop = small.offsetHeight - move.offsetHeight;
+        if(newTop >= maxTop){
+          newTop = maxTop;
+        }
+
+        //设置left
+        move.style.left = newLeft + 'px';
+        move.style.top = newTop + 'px';
+
+        //获取比例
+        var px = newLeft/small.offsetWidth;
+        var py = newTop/small.offsetHeight;
+
+        //获取大图的宽度
+        var bigImgWidth = bigImg.offsetWidth;
+        var bigImgHeight=  bigImg.offsetHeight;
+
+        //获取大图距离左侧的距离
+        var lf = bigImgWidth*px;
+        var rg = bigImgHeight*py;
+
+        //设置left属性
+        bigImg.style.left = -lf+'px';
+        bigImg.style.top = -rg +'px';
+
+
+
+        //显示div
+        move.style.visibility = "visible";
+      }
+
+      small.onmouseout = function(){
+        //隐藏div
+        move.style.visibility = "hidden";
+        big.style.display = "none";
+        // console.log(getComputedStyle(move));
+      }
+
+      //绑定单击事件 来切换图片
+      var img = document.getElementById('imgs').getElementsByTagName('img');
+      for(var i=0;i<img.length;i++){
+        img[i].onclick = function(){
+          //获取当前点击图片的src属性
+          var src = this.src;
+          //进行更换路径
+          smallImg.src = src;
+          bigImg.src = src;
+        }
+      }
+</script>
+<script>
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>

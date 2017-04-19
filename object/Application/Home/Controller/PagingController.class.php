@@ -8,9 +8,12 @@
         public function paging()
         {
             $paging = D('goods')->paging();
+            $commodityPhone = D('goods')->commodityPhone();
+            // dump($commodityPhone);
 
-            // dump($paging);
             $this->assign('paging', $paging);
+            $this->assign('commodityPhone', $commodityPhone);
             $this->display();
         }
+
     }

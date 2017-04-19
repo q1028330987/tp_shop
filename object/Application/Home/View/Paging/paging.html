@@ -65,9 +65,9 @@
                 <div class="f-line">
                     <dl>
                         <dt class="fl-title fl-item">分类：</dt>
-                            <dd class="fl-item on"><a href="{:U('Pagind/paging', array('id'=>$v['pid']))}">全部</a></dd>
+                            <dd class="fl-item on"><a href="{:U('Paging/paging')}">全部</a></dd>
                             <foreach name="paging" item="v">
-                                <dd class="fl-item "><a href="{:U('Pagind/paging', array('id'=>$v['id']))}">{$v.name}</a></dd>
+                                <dd class="fl-item "><a href="{:U('Paging/paging', array('id'=>$v['id']))}">{$v.name}</a></dd>
                             </foreach>
                     </dl>
                 </div>
@@ -91,21 +91,23 @@
                 </div>
             </div>
 				<div class="list-box">
-                            <ul class="prod-list cl">
+                        <ul class="prod-list cl">
+                            <foreach name="commodityPhone" item="v">
     							<li class="prod-item ">
-                                    <a target="_blank" href="https://shop.vivo.com.cn/product/9958">
+                                    <a target="_blank" href="{:U('Details/details', array('id'=>$v['id']))}">
     								<div class="figure">
-    									<img src="__PUBLIC__/Home/Paging/4266_1490338119910hd_530x530.png" style="position: relative;">
+    									<img src="__PUBLIC__{$v.pic}" style="position: relative;">
     								</div>
     								<h3 title="Xplay6 全网通【旗舰精品】">
-    								Xplay6 全网通【旗舰精品】
+                                        {$v.name}
     								</h3>
     								<p class="price">
-    									<dfn>¥</dfn>4498.00
+    									<dfn>¥</dfn>{$v.price}
     								</p>
                                 </a>
     							</li>
-                            </ul>
+                            </foreach>
+                        </ul>
                 </div>
 
 

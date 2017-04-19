@@ -82,7 +82,7 @@
 
             //获取所有分类
             $types = $GoodsModel->getAlltype();
-            dump($type);
+            // dump($type);
             $this->assign('types',$types);
 
             $this->display();
