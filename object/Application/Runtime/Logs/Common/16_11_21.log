@@ -28,3 +28,21 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
 ERR: 无法加载模块:ShowRegister
 
+[ 2016-11-21T23:57:44+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/ShopCart/addSession/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:ShopCart
+
+[ 2016-11-21T23:58:08+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/ShopCart/addSession/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:ShopCart
+
+[ 2016-11-21T23:58:34+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/ShopCart/addSession/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:ShopCart
+

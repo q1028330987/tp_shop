@@ -8,12 +8,24 @@
 	{ 
 		protected $tableName = 'goods';
 
-		public function getgoods()
+		public function getAllGoods()
 		{ 
 			$m = M('goods');
 
-			$res = $m->select();
+			$res = $m->field('id,name,price')->select();
 
 			return $res;
 		}
+
+		public function getGoods($id)
+		{ 
+			$m = M('goods');
+
+			$map['id'] = $id;
+
+			$res = $m->field('id,name,price,buynum')->where($map)->select();
+
+			return $res[0];
+		}
+
 	}
