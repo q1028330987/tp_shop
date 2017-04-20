@@ -123,18 +123,20 @@
         public function intro()
         {
             $intro = D('Goods')->intro();
-
+            // dump($intro);
             if($intro) {
                 //获取id
                 $cid = $_GET['id'];
-
+                // dump($cid);
                 //获取所有分类
                 $this->assign('cid', $cid);
                 $this->assign('intro', $intro);
                 $this->display();
 
             } else {
-
+                // echo "1";
+                $cid = $_GET['id'];
+                $this->assign('cid', $cid);
                 //当没参数时跳转
                 $this->display('product_add');
             }
@@ -145,9 +147,10 @@
         public function product_add()
         {
             // echo 1;
-            // dump(I('get.'));
+            // dump(I('get.' ));
             // dump(I(('post.')));
             $product_add = D('Goods')->product_add();
+            // dump($product_add);
 
             if($product_add) {
                 $this->success('添加成功',U('Admin/Goods/intro'),3);

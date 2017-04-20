@@ -25,6 +25,8 @@
         {
             $paging = $this->paging();
             $id = $_GET['id'];
+            //获取查询的关键字
+            $searchKeywordStr = I('post.searchKeywordStr');
             // dump($paging);
 
             $list = [];
@@ -34,12 +36,18 @@
                 $list[$k] = $v['id'];
             }
             // dump($list);
+
+            //判断构造条件
+            $arr['status'] = array('EQ',1);
             if ($id) {
 
                 $arr['tid'] = array('EQ', $id);
 
-            } else {
-                $arr['tid'] = array('IN', $list);
+            }
+            if($searchKeywordStr){
+
+                $arr['name'] = array('like','%'.$searchKeywordStr.'%');
+
             }
 
             $goodsInfo = $this->where($arr)->select();

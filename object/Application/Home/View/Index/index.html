@@ -29,7 +29,7 @@
 <header id="header">
     <div class="head-search">
         <div class="search-box">
-        	<form action="{:U('Paging/paging')}" method="get"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x9"><button type="submit">搜索</button></form><a class="close"></a>
+        	<form action="{:U('Paging/paging')}" method="post" onsubmit="if ($.trim($(this).find('input').val()) == '') {alert('请输入关键词'); return false;} return true;"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x9"><button type="submit">搜索</button></form><a class="close"></a>
         </div>
     </div>
     <div class="wrapper">
@@ -99,7 +99,8 @@
         <img class="j_bgImage" data-ratio="1.92" src="__PUBLIC__/Home/Index/20170401195746631209_original.gif" usemap="#Mmodule_1491047892085">
         <map class="j_map" name="Mmodule_1491047892085"><area class="j_link" data-coords="223,3,346,209" coords="428.15999999999997,5.76,664.3199999999999,401.28" href="https://shop.vivo.com.cn/lottery?uuid=af66810a-ba70-4df9-a162-597cfcc5f3c3" target="_blank"></map>
     </div>
-</div><div class="structure-module full">
+</div>
+<!-- <div class="structure-module full">
     <div class="sm-wrapper">
         <img class="j_bgImage" data-ratio="1.92" src="__PUBLIC__/Home/Index/20170401195822489341_original.gif" usemap="#Mmodule_1491047909236">
         <map class="j_map" name="Mmodule_1491047909236"><area class="j_link" data-coords="523,174,623,224" coords="1004.16,334.08,1196.1599999999999,430.08" href="https://shop.vivo.com.cn/product/9948" target="_blank"><area class="j_link" data-coords="630,176,730,226" coords="1209.6,337.91999999999996,1401.6,433.91999999999996" href="http://shop.vivo.com.cn/product/9957" target="_blank"><area class="j_link" data-coords="193,73,514,313" coords="370.56,140.16,986.88,600.9599999999999" href="https://shop.vivo.com.cn/product/9948" target="_blank"></map>
@@ -114,17 +115,21 @@
         <img class="j_bgImage" data-ratio="2.61" src="__PUBLIC__/Home/Index/20170401195853658929_original.gif" usemap="#Mmodule_1491047936286">
         <map class="j_map" name="Mmodule_1491047936286"><area class="j_link" data-coords="162,135,262,185" coords="422.82,352.34999999999997,683.8199999999999,482.84999999999997" href="https://shop.vivo.com.cn/product/9938" target="_blank"><area class="j_link" data-coords="269,136,369,186" coords="702.0899999999999,354.96,963.0899999999999,485.46" href="https://shop.vivo.com.cn/product/9967" target="_blank"><area class="j_link" data-coords="374,52,597,262" coords="976.14,135.72,1558.1699999999998,683.8199999999999" href="https://shop.vivo.com.cn/product/9967" target="_blank"><area class="j_link" data-coords="168,272,614,470" coords="438.47999999999996,709.92,1602.54,1226.7" href="https://shop.vivo.com.cn/product/9964" target="_blank"></map>
     </div>
-</div><div class="structure-module full">
+</div> -->
+<!-- <div class="structure-module full">
     <div class="sm-wrapper">
         <img class="j_bgImage" data-ratio="1.92" src="__PUBLIC__/Home/Index/20170401195907690676_original.gif" usemap="#Mmodule_1491047979264">
         <map class="j_map" name="Mmodule_1491047979264"><area class="j_link" data-coords="179,86,501,342" coords="343.68,165.12,961.92,656.64" href="https://shop.vivo.com.cn/product/9937" target="_blank"><area class="j_link" data-coords="512,87,817,342" coords="983.04,167.04,1568.6399999999999,656.64" href="https://shop.vivo.com.cn/product/125" target="_blank"></map>
     </div>
-</div><div class="structure-module full">
+</div> -->
+<div class="structure-module full">
     <div class="sm-wrapper">
         <img class="j_bgImage" data-ratio="1.92" src="__PUBLIC__/Home/Index/20170405101641999849_original.jpg" usemap="#Mmodule_1491358602318">
-        <map class="j_map" name="Mmodule_1491358602318"><area class="j_link" data-coords="659,261,776,416" coords="1265.28,501.12,1489.9199999999998,798.72" href="https://shop.vivo.com.cn/product/111" target="_blank"><area class="j_link" data-coords="510,258,633,414" coords="979.1999999999999,495.35999999999996,1215.36,794.88" href="https://shop.vivo.com.cn/product/9989" target="_blank"><area class="j_link" data-coords="369,257,490,415" coords="708.48,493.44,940.8,796.8" href="https://shop.vivo.com.cn/product/208" target="_blank"><area class="j_link" data-coords="229,256,352,412" coords="439.68,491.52,675.8399999999999,791.04" href="https://shop.vivo.com.cn/product/249" target="_blank"><area class="j_link" data-coords="655,72,776,238" coords="1257.6,138.24,1489.9199999999998,456.96" href="https://shop.vivo.com.cn/product/172" target="_blank"><area class="j_link" data-coords="506,74,633,238" coords="971.52,142.07999999999998,1215.36,456.96" href="https://shop.vivo.com.cn/product/9943" target="_blank"><area class="j_link" data-coords="369,68,496,236" coords="708.48,130.56,952.3199999999999,453.12" href="https://shop.vivo.com.cn/product/9990" target="_blank"><area class="j_link" data-coords="228,68,354,236" coords="437.76,130.56,679.68,453.12" href="https://shop.vivo.com.cn/product/9962" target="_blank"><area class="j_link" data-coords="412,427,609,475" coords="791.04,819.8399999999999,1169.28,912" href="https://shop.vivo.com.cn/product/parts" target="_blank"></map>
+        <map class="j_map" name="Mmodule_1491358602318"><area class="j_link" data-coords="659,261,776,416" coords="1265.28,501.12,1489.9199999999998,798.72" href="https://shop.vivo.com.cn/product/111" target="_blank">
+        <area class="j_link" data-coords="510,258,633,414" coords="979.1999999999999,495.35999999999996,1215.36,794.88" href="https://shop.vivo.com.cn/product/9989" target="_blank"><area class="j_link" data-coords="369,257,490,415" coords="708.48,493.44,940.8,796.8" href="https://shop.vivo.com.cn/product/208" target="_blank"><area class="j_link" data-coords="229,256,352,412" coords="439.68,491.52,675.8399999999999,791.04" href="https://shop.vivo.com.cn/product/249" target="_blank"><area class="j_link" data-coords="655,72,776,238" coords="1257.6,138.24,1489.9199999999998,456.96" href="https://shop.vivo.com.cn/product/172" target="_blank"><area class="j_link" data-coords="506,74,633,238" coords="971.52,142.07999999999998,1215.36,456.96" href="https://shop.vivo.com.cn/product/9943" target="_blank"><area class="j_link" data-coords="369,68,496,236" coords="708.48,130.56,952.3199999999999,453.12" href="https://shop.vivo.com.cn/product/9990" target="_blank"><area class="j_link" data-coords="228,68,354,236" coords="437.76,130.56,679.68,453.12" href="https://shop.vivo.com.cn/product/9962" target="_blank"><area class="j_link" data-coords="412,427,609,475" coords="791.04,819.8399999999999,1169.28,912" href="https://shop.vivo.com.cn/product/parts" target="_blank"></map>
     </div>
-</div><div class="structure-module full">
+</div>
+<div class="structure-module full">
     <div class="sm-wrapper">
         <img class="j_bgImage" data-ratio="1.92" src="__PUBLIC__/Home/Index/20170401200000427508_original.gif" usemap="#Mmodule_1491048002984">
 

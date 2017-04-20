@@ -136,7 +136,7 @@
             $Pics = M('pics');
 
             $gid=$_POST['gid'];
-            // dump($Goods);
+            // dump(I('post.'));
             if(IS_POST) {
                 //开启事务处理
                 M()->startTrans();
@@ -146,7 +146,7 @@
 
                 // $result->create();
                 // $result->save();
-
+                // dump($Goods->where("id='$gid'")->select());
                 if(!$result) {
                     return 0;
                     exit;
@@ -193,7 +193,8 @@
             $Parameter = M('parameter');
 
             $id = $_GET['id'];
-            // dump($id);
+            // $gid = $id;
+            // dump($gid);
 
             if(!empty($id)) {
                 $Parameters = $Parameter->where("gid='$id'")->select();
@@ -235,6 +236,9 @@
 
             $id=I('post.gid');
             if(IS_POST) {
+
+                // dump(I('post.'));
+                // die;
                 //开启事务处理
                 M()->startTrans();
 

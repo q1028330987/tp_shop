@@ -28,7 +28,7 @@
 <header id="header">
     <div class="head-search">
         <div class="search-box">
-        	<form action="https://shop.vivo.com.cn/product/search" method="get"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x9"><button type="submit">搜索</button></form><a class="close"></a>
+        	<form action="{:U('Paging/paging')}" method="post" onsubmit="if ($.trim($(this).find('input').val()) == '') {alert('请输入关键词'); return false;} return true;"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x9"><button type="submit">搜索</button></form><a class="close"></a>
         </div>
     </div>
     <div class="wrapper">
