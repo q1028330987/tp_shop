@@ -7,7 +7,11 @@
 	class AddressModel extends Model
 	{ 	
 		protected $uid;
-		protected $_auto; 
+		protected $_auto;
+		protected $_map = array(         
+			'receiverName' =>'recname',         
+			'mobilePhone'  =>'recphone',  
+		);
 
 		public function getUserAddr($uid)
 		{ 	
@@ -20,7 +24,7 @@
 
 			$data['uid'] = $uid;
 
-			$addrInfo = $db->field('id,uid,address,name,phone')->where($data)->select();
+			$addrInfo = $db->field('id,uid,recname,recphone,province,city,area,address')->where($data)->select();
 
 			return $addrInfo;
 		}
@@ -37,18 +41,37 @@
 			return $addrInfo;
 		}
 
-		protected $_map = array(         
-			'receiverName' =>'name',         
-			'mobilePhone'  =>'phone',  
-		);
-
 		public function addNewAddr()
 		{ 
 			$this->uid = $_SESSION['user']['id'];
 
 			$this->_auto = array (          
 
-		 	array('uid', $this->uid)
-		 );
+		 		array('uid', $this->uid)
+		 	);
 		}
+
+		public function findAddr($id)
+		{ 
+			$db = M('address');
+
+			$data['id'] = $id;
+
+			$addr = $db->where($data)->field('id,uid,recname,recphone,province,city,area,address')->find();
+
+			return $addr;
+
+		}
+
+		public function delAddr($id)
+		{ 
+			$db = M('address');
+
+			$data['id'] = $id;
+
+			$res = $db->where($data)->delete();
+
+			return $res;
+		}
+
 	} 

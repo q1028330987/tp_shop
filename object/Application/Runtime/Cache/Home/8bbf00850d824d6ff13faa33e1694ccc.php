@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -10,8 +10,8 @@
 <meta name="applicable-device" content="pc">
 <meta http-equiv="Cache-Control" content="no-siteapp">
 <meta http-equiv="Cache-Control" content="no-transform">
-<link href="__PUBLIC__/Home/shopCart_files/saved_resource" type="text/css" rel="stylesheet"> 
-<script src="__PUBLIC__/Home/shopCart_files/hm.js"></script><script src="__PUBLIC__/Home/shopCart_files/saved_resource(1)"></script><script language="javascript">
+<link href="/gitHub/tp_shop/object/Public/Home/shopCart_files/saved_resource" type="text/css" rel="stylesheet"> 
+<script src="/gitHub/tp_shop/object/Public/Home/shopCart_files/hm.js"></script><script src="/gitHub/tp_shop/object/Public/Home/shopCart_files/saved_resource(1)"></script><script language="javascript">
 	var u = navigator.userAgent;
 	if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1
 			|| u.indexOf('Windows Phone') > -1 || u.indexOf('iPhone') > -1
@@ -67,7 +67,7 @@
 	<div id="header-simple">
 		<div class="w w1 header clearfix">
 			<div id="logo">
-				<a href=""><img src="__PUBLIC__/Home/shopCart_files/cn_logo.png" title="返回ANTA 官方商城首页" alt="返回ANTA 官方商城首页" class="png_bg" style=""></a>
+				<a href=""><img src="/gitHub/tp_shop/object/Public/Home/shopCart_files/cn_logo.png" title="返回ANTA 官方商城首页" alt="返回ANTA 官方商城首页" class="png_bg" style=""></a>
 			</div>
 			<div class="cartnew-title clearfix">
 				<ul>
@@ -94,7 +94,7 @@
 			<!-- 满399立减10元 -->
 		</span>
 	</div>
-<form action="{:U('Order/createOrder')}" method="post" id="ShopCart">
+<form action="<?php echo U('Order/createOrder');?>" method="post" id="ShopCart">
 	<div class="w_cart_inner">
 		<table class="w_cart_table">
 			<thead>
@@ -111,35 +111,32 @@
 			</thead>
 			<tbody>
 				<!-- 主商品 -->
-<foreach name='cartList' item='v'>
-	
-					<tr class="item" data-id="{$v.id}">
+<?php if(is_array($cartList)): foreach($cartList as $key=>$v): ?><tr class="item" data-id="<?php echo ($v["id"]); ?>">
 						<td align="center">
-						 	<input class="checkbox Jcki" type="checkbox" id="ck_1850422" name="checkItem[]" value="{$v.id}" data="1850422" onchange="count()" checked="">
+						 	<input class="checkbox Jcki" type="checkbox" id="ck_1850422" name="checkItem[]" value="<?php echo ($v["id"]); ?>" data="1850422" onchange="count()" checked="">
 						</td>
-						<td class="p-numbered">{$v.id}</td>
+						<td class="p-numbered"><?php echo ($v["id"]); ?></td>
 						<td class="p-img">
-							<a href="javascript:;" class="in_b"><img src="__PUBLIC__{$v['pic']}" width="50" height="50" alt="跑鞋" class="vm"></a>
+							<a href="javascript:;" class="in_b"><img src="/gitHub/tp_shop/object/Public<?php echo ($v['pic']); ?>" width="50" height="50" alt="跑鞋" class="vm"></a>
 						</td>
 						<td class="p-name">
-							<h2> <a href="" target="_blank" title="">{$v.name}</a> </h2> <span class="promise411">{$v.des}</span>
+							<h2> <a href="" target="_blank" title=""><?php echo ($v["name"]); ?></a> </h2> <span class="promise411"><?php echo ($v["des"]); ?></span>
 						</td>
 						<td class="p-price">
-							<span class="u_price" style="text-decoration: line-through;"></span> <span class="price">{$v.price}</span>
+							<span class="u_price" style="text-decoration: line-through;"></span> <span class="price"><?php echo ($v["price"]); ?></span>
 							 						</td>
 						<td class="p-quantity">
 							<div class="quantity-form" data-bind="">
 									<a onclick="reduceNum(this,false)" class="decrement">-</a> 
-									<input type="text" class="quantity-text" value="{$v.buynum}"> 
+									<input type="text" class="quantity-text" value="<?php echo ($v["buynum"]); ?>"> 
 									<a onclick="reduceNum(this,true)" class="increment">+</a>
 							</div>
 						</td>
-						<td class="p-inventory">{$v['price']*$v['buynum']}</td>
+						<td class="p-inventory"><?php echo ($v['price']*$v['buynum']); ?></td>
 						<td class="p-remove">
-							<a class="cart-remove" onclick="count()" style="cursor: pointer;" data-id="{$v.id}">删除</a>
+							<a class="cart-remove" onclick="count()" style="cursor: pointer;" data-id="<?php echo ($v["id"]); ?>">删除</a>
 						</td>
-					</tr>
-</foreach>
+					</tr><?php endforeach; endif; ?>
 				<tr class="cart_toolbar">
 					<td colspan="8">
 						<div class="control" style="width: 200px;">
@@ -163,7 +160,7 @@
 				<tr class="cart_total">
 					<td colspan="8">
 					<button class="account" style="width:132px;height:37px">提交订单</button>
-					<a href="{:U('Paging/paging')}" class="continue" >继续购物</a>
+					<a href="<?php echo U('Paging/paging');?>" class="continue" >继续购物</a>
 						
 						<!-- style="display:inline-block;float:right;width:100px;height:30px;background:red;color:white;font-weight:800;text-align:center;line-height:30px;margin-left:20px" -->
 
@@ -217,9 +214,9 @@ $(this).parent().find('.w_pro_sale_ctr').hide();
 	<div class="company-cr w-full">
 			<div class="company-info w clearfix">
 					<span class="copyright">COPYRIGHT 2012-2016</span>
-	<a href="javascript:;" class="chengxing-img"><img src="__PUBLIC__/Home/shopCart_files/chengxing1.png"></a>
+	<a href="javascript:;" class="chengxing-img"><img src="/gitHub/tp_shop/object/Public/Home/shopCart_files/chengxing1.png"></a>
 	<span class="company-name">厦门安踏电子商务有限公司</span>
-	<a href="javascript:;" class="police-img"><img src="__PUBLIC__/Home/shopCart_files/police_black.jpg"></a>
+	<a href="javascript:;" class="police-img"><img src="/gitHub/tp_shop/object/Public/Home/shopCart_files/police_black.jpg"></a>
 	<span class="company-icp">闽ICP备11020421号</span>
 	<!-- <span class="tel" style="margin-left:50px;">在线团购：0592-3515057</span> -->
 				<div><a target="_blank" href="http://www.anta.cn/sitemap.shtml">网站地图</a><a target="_blank" href="http://www.anta.cn/tag-hot.html">标签</a><a target="_blank" href="http://www.anta.cn/help-59.html">友情链接</a></div>
@@ -237,13 +234,13 @@ var _ozuid = '';var _hmt = _hmt || [];
 	//_mvq.push(['$logConversion']);
 /* 	(function() {var mvl = document.createElement('script');mvl.type = 'text/javascript'; mvl.async = true;mvl.src = ('https:' == document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'http://static.mediav.com/mvl.js');var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(mvl, s);})(); */
 </script>	<script>$(function(){$(".loading").scrollLoading();})</script>
-	<script src="__PUBLIC__/Home/shopCart_files/saved_resource(2)"></script> 
+	<script src="/gitHub/tp_shop/object/Public/Home/shopCart_files/saved_resource(2)"></script> 
 	
 	 
 
 <div id="top"><div id="izl_rmenu" class="izl-rmenu"><a class="btn btn-qq" onclick="xiaoneng()"></a><div class="btn btn-phone"><div class="phone" style="display: none;">400-858-2020</div></div><div class="btn btn-top" style="display: none;"></div></div></div></body></html>
 
-<script src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/jquery-1.8.3.min.js"></script>
 <script>
 	
 	$('#toggle-checkboxes').click(function () { 
@@ -261,7 +258,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 
 		var that = $(this);
 		$.post(
-			'{:U("ShopCart/delGoods")}',
+			'<?php echo U("ShopCart/delGoods");?>',
 			{id:$(this).attr('data-id')},
 			function (data) { 
 
@@ -282,7 +279,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 		 		var that = $(this);
 
 		 		$.post(
-					'{:U("ShopCart/delGoods")}',
+					'<?php echo U("ShopCart/delGoods");?>',
 					{id:$(this).parent().parent().attr('data-id')},
 					function (data) { 
 
@@ -301,7 +298,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 	$('#clearShopCart').click(function () { 
 
 		$.post(
-			'{:U("ShopCart/clearAll")}',
+			'<?php echo U("ShopCart/clearAll");?>',
 			function (data) { 
 
 				if (data) { 
@@ -322,7 +319,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 		var id = $(dom).parent().parent().parent().attr('data-id');
 
 		$.post( 
-			'{:U("ShopCart/controllerNum")}',
+			'<?php echo U("ShopCart/controllerNum");?>',
 			{id:id,bool:bool},
 			function (data) { 
 				if (data == 0) { 
@@ -354,7 +351,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 		var num = $(this).val();
 		var that = $(this);
 		$.post(
-			'{:U("ShopCart/writeNum")}',
+			'<?php echo U("ShopCart/writeNum");?>',
 			{id:id,num:num},
 			function (data) { 
 				//待判断
@@ -374,7 +371,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 	function sum(id, who) { 
 
 		$.post(
-			'{:U("ShopCart/sum")}',
+			'<?php echo U("ShopCart/sum");?>',
 			{id:id},
 			function (data) { 
 
@@ -391,7 +388,7 @@ var _ozuid = '';var _hmt = _hmt || [];
 			idArr[i] = $(this).parent().parent().attr('data-id');
 		});
 		$.post(
-			'{:U("ShopCart/count")}',
+			'<?php echo U("ShopCart/count");?>',
 			{'idarr[]':idArr},
 			function (data) { 
 

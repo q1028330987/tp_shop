@@ -9144,3 +9144,58 @@ SQL: SHOW COLUMNS FROM `shop_address` [ RunTime:0.0010s ]
 SQL: SHOW COLUMNS FROM `shop_district` [ RunTime:0.0006s ]
 SQL: SELECT `id`,`name`,`level`,`upid` FROM `shop_district` WHERE `level` = 1 AND `upid` = 0  [ RunTime:0.0007s ]
 
+[ 2016-11-26T23:53:30+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Home/Order/getAaddrData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `shop_address` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `shop_district` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`level`,`upid` FROM `shop_district` WHERE `level` = 1 AND `upid` = 0  [ RunTime:0.0004s ]
+
+[ 2016-11-26T23:53:33+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Home/Order/getAaddrData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `shop_address` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `shop_district` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`name`,`level`,`upid` FROM `shop_district` WHERE `level` = 2 AND `upid` = 17  [ RunTime:0.0006s ]
+
+[ 2016-11-26T23:53:34+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Home/Order/getAaddrData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `shop_address` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_district` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`level`,`upid` FROM `shop_district` WHERE `level` = 3 AND `upid` = 272  [ RunTime:0.0003s ]
+
+[ 2016-11-26T23:53:36+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Home/Order/getAaddrData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `shop_address` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `shop_district` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`level`,`upid` FROM `shop_district` WHERE `level` = 4 AND `upid` = 2911  [ RunTime:0.0008s ]
+
+[ 2016-11-26T23:53:38+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Home/Order/getAaddrData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `shop_address` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_district` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`name`,`level`,`upid` FROM `shop_district` WHERE `level` = 2 AND `upid` = 12  [ RunTime:0.0007s ]
+

@@ -29,7 +29,6 @@
 			}
 
 			// session('goods', null);
-
 			return $_SESSION;
 		}
 	}

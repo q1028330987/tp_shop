@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!-- saved from url=(0037)https://shop.vivo.com.cn/product/9958 -->
 <html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -9,27 +9,27 @@
     <meta name="description" content="vivo Xplay6">
     <link rel="shortcut icon" href="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/favicon_7761e1f.ico">
 
-    <link href="__PUBLIC__/css/global_79a0974.css" rel="stylesheet" type="text/css">
-    <link href="__PUBLIC__/css/layout_3a0d4d9.css" rel="stylesheet" type="text/css">
-    <link href="__PUBLIC__/css/dialog_523c50b.css" rel="stylesheet" type="text/css">
+    <link href="/gitHub/tp_shop/object/Public/css/global_79a0974.css" rel="stylesheet" type="text/css">
+    <link href="/gitHub/tp_shop/object/Public/css/layout_3a0d4d9.css" rel="stylesheet" type="text/css">
+    <link href="/gitHub/tp_shop/object/Public/css/dialog_523c50b.css" rel="stylesheet" type="text/css">
 
 
-<link href="__PUBLIC__/css/prod-detail_a0bd3da.css" rel="stylesheet" type="text/css">
-<link href="__PUBLIC__/css/dialog_523c50b.css" rel="stylesheet" type="text/css">
+<link href="/gitHub/tp_shop/object/Public/css/prod-detail_a0bd3da.css" rel="stylesheet" type="text/css">
+<link href="/gitHub/tp_shop/object/Public/css/dialog_523c50b.css" rel="stylesheet" type="text/css">
 <style>
     .no_store{background:#ccc;border:1px solid #ccc;}
     em{font-style: italic}
 </style>
 
-    <script src="__PUBLIC__/js/hm.js" async=""></script><script type="text/javascript" src="__PUBLIC__/js/065f0df8c3a79510e698e5de40c8fb71.js"></script><!--[if lt IE 9]>
+    <script src="/gitHub/tp_shop/object/Public/js/hm.js" async=""></script><script type="text/javascript" src="/gitHub/tp_shop/object/Public/js/065f0df8c3a79510e698e5de40c8fb71.js"></script><!--[if lt IE 9]>
     <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
     <![endif]-->
 
-<style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="__PUBLIC__/js/nc.js"></script>
+<style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="/gitHub/tp_shop/object/Public/js/nc.js"></script>
 <style>
     #small{width:520px;height:520px;overflow:hidden;position:absolute;}
     #big{width:420px;height:520px;position:absolute;left:535px;top:20px;border:solid 1px #CCCCCC;overflow:hidden;display:none;z-index:10;}
-    #move{width:215px;height:215px;position:absolute;left:0px;top:0px;background:url('__PUBLIC__/Home/picture/bg.png');cursor:move;visibility:hidden;}
+    #move{width:215px;height:215px;position:absolute;left:0px;top:0px;background:url('/gitHub/tp_shop/object/Public/Home/picture/bg.png');cursor:move;visibility:hidden;}
     #bigImg{position:absolute;}
     #imgs div{cursor:pointer;}
 </style>
@@ -46,10 +46,10 @@
     </div>
     <div class="wrapper">
         <nav id="navigator" class="cl">
-        	<a href="{:U('Index/index')}" class="vivo-logo"><img src="__PUBLIC__/Home/Details/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站"></a>
+        	<a href="<?php echo U('Index/index');?>" class="vivo-logo"><img src="/gitHub/tp_shop/object/Public/Home/Details/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站"></a>
             <ul class="cl">
-                <li class="current"><a href="{:U('Paging/paging')}">手机</a></li>
-                <li><a href="{:U('Parts/parts')}">配件</a></li>
+                <li class="current"><a href="<?php echo U('Paging/paging');?>">手机</a></li>
+                <li><a href="<?php echo U('Parts/parts');?>">配件</a></li>
                 <li><a href="https://shop.vivo.com.cn/helpcenter/service-promise">服务</a></li>
             </ul>
             <div class="search-user">
@@ -58,7 +58,7 @@
                     <li id="j_UserMenuTrigger">
                     	<a href="https://shop.vivo.com.cn/my/" class="user"><b></b></a>
                     </li>
-                    <li><a href="{:U('ShopCart/show')}" class="shoppingcart"><b></b><span class="shopcart-num">{$Think.session.goods|count}</span></a></li>
+                    <li><a href="<?php echo U('ShopCart/show');?>" class="shoppingcart"><b></b><span class="shopcart-num"><?php echo (count(session('goods'))); ?></span></a></li>
                 </ul>
             </div>
         </nav>
@@ -69,53 +69,43 @@
 <input type="hidden" id="salePrice" name="salePrice" value="4498">
 
 <div class="wrapper">
-    <div class="crumbs">您的位置:<a class="first" href="{:U('Index/index')}">首页</a><b></b>
-            <foreach name="type" item="v">
-                <if condition="$v['pid'] eq 87">
-                    <a href="{:U('Paging/paging')}">手机产品</a>
-                <else />
-                    <a href="{:U('Parts/parts')}">配件产品</a>
-                </if>
-        <b></b><span>{$v.title}</span></div>
-            </foreach>
+    <div class="crumbs">您的位置:<a class="first" href="<?php echo U('Index/index');?>">首页</a><b></b>
+            <?php if(is_array($type)): foreach($type as $key=>$v): if($v['pid'] == 87): ?><a href="<?php echo U('Paging/paging');?>">手机产品</a>
+                <?php else: ?>
+                    <a href="<?php echo U('Parts/parts');?>">配件产品</a><?php endif; ?>
+        <b></b><span><?php echo ($v["title"]); ?></span></div><?php endforeach; endif; ?>
 </div>
 
 <div class="prod-container">
     <div class="wrapper">
         <div class="prod-container-top cl">
             <div class="prod-container-left">
-                <foreach name="details" item="v">
-                <div class="product-album-pic"  id='small' >
+                <?php if(is_array($details)): foreach($details as $key=>$v): ?><div class="product-album-pic"  id='small' >
                       <!-- 放大镜功能 -->
-                      <img src="__PUBLIC__{$v['pic']}" alt="" class="small-pic" id='smallImg' style='width:100%;height:100%;' goodsid="{$v.id}">
+                      <img src="/gitHub/tp_shop/object/Public<?php echo ($v['pic']); ?>" alt="" class="small-pic" id='smallImg' style='width:100%;height:100%;' goodsid="<?php echo ($v["id"]); ?>">
                       <div id='move'></div>
                 </div>
-                <img class="loading" app="b2c" src="__PUBLIC__/Home/picture/loading.gif" alt="正在加载大图..." style="display:none;" />
+                <img class="loading" app="b2c" src="/gitHub/tp_shop/object/Public/Home/picture/loading.gif" alt="正在加载大图..." style="display:none;" />
                 </div>
 
                 <div id='big' style="background-color:#FAFAFA">
                 <!-- 放大镜大图 -->
-                    <img src="__PUBLIC__{$v['pic']}" alt="" class="small-pic" id='bigImg' style="width:840px;height:100%px">
-                </div>
-                </foreach>
+                    <img src="/gitHub/tp_shop/object/Public<?php echo ($v['pic']); ?>" alt="" class="small-pic" id='bigImg' style="width:840px;height:100%px">
+                </div><?php endforeach; endif; ?>
                 <!-- <div id="j_SpecImgs" class="figure">
                     <ul id="bigImgUl">
-                        <foreach name="details" item="v">
-                            <li style="display: block; opacity: 1; z-index: 9;"><img src="__PUBLIC__{$v.pic}" alt="商品图片"></li>
-                            <li style="z-index: 1; opacity: 0; display: none;"><img src="__PUBLIC__/Home/Details/4266_1490271072649hd_530x530.png" alt="商品图片"></li>
-                            <li style="z-index: 1; opacity: 0; display: none;"><img src="__PUBLIC__/Home/Details/4266_1490271073980hd_530x530.png" alt="商品图片"></li>
-                            <li style="z-index: 1; opacity: 0; display: none;"><img src="__PUBLIC__/Home/Details/4266_1490271075005hd_530x530.png" alt="商品图片"></li>
-                        </foreach>
+                        <?php if(is_array($details)): foreach($details as $key=>$v): ?><li style="display: block; opacity: 1; z-index: 9;"><img src="/gitHub/tp_shop/object/Public<?php echo ($v["pic"]); ?>" alt="商品图片"></li>
+                            <li style="z-index: 1; opacity: 0; display: none;"><img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271072649hd_530x530.png" alt="商品图片"></li>
+                            <li style="z-index: 1; opacity: 0; display: none;"><img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271073980hd_530x530.png" alt="商品图片"></li>
+                            <li style="z-index: 1; opacity: 0; display: none;"><img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271075005hd_530x530.png" alt="商品图片"></li><?php endforeach; endif; ?>
                     </ul>
                 </div> -->
                 <!-- <div id="j_SpecItems" class="spec-items">
                     <ul class="cl" id="smallImgUl">
-                        <foreach name="details" item="v">
-                            <li class="current"><a href="javascript:;"><img src="__PUBLIC__{$v.pic}"></a></li>
-                            <li><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490271072649hd_250x250.png"></a></li>
-                            <li><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490271073980hd_250x250.png"></a></li>
-                            <li><a href="javascript:;"><img src="__PUBLIC__/Home/Details/4266_1490271075005hd_250x250.png"></a></li>
-                        </foreach>
+                        <?php if(is_array($details)): foreach($details as $key=>$v): ?><li class="current"><a href="javascript:;"><img src="/gitHub/tp_shop/object/Public<?php echo ($v["pic"]); ?>"></a></li>
+                            <li><a href="javascript:;"><img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271072649hd_250x250.png"></a></li>
+                            <li><a href="javascript:;"><img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271073980hd_250x250.png"></a></li>
+                            <li><a href="javascript:;"><img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271075005hd_250x250.png"></a></li><?php endforeach; endif; ?>
                     </ul>
                 </div> -->
                 <!--<div class="favor">
@@ -132,12 +122,11 @@
                 </div> -->
             </div>
             <div class="prod-container-right">
-            <foreach name="details" item="v">
-                <h1>{$v.name}</h1>
-                <small class="promotion-words">{$v.des}</small>
+            <?php if(is_array($details)): foreach($details as $key=>$v): ?><h1><?php echo ($v["name"]); ?></h1>
+                <small class="promotion-words"><?php echo ($v["des"]); ?></small>
                 <ul class="summary-price">
                     <li>
-                        <span class="now-price"><dfn>¥</dfn>{$v.price}</span>
+                        <span class="now-price"><dfn>¥</dfn><?php echo ($v["price"]); ?></span>
                     </li>
                 </ul>
                 <form id="prod-detail-form" method="post">
@@ -148,19 +137,15 @@
                                 <dt>容量：</dt>
                                 <dd>
                                     <ul class="tags storage-tags">
-                                        <foreach name="stock" item="v">
-                                        <li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" href="javascript:;"></a>{$v.capacity}<i></i>
-                                        </li>
-                                        </foreach>
+                                        <?php if(is_array($stock)): foreach($stock as $key=>$v): ?><li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" href="javascript:;"></a><?php echo ($v["capacity"]); ?><i></i>
+                                        </li><?php endforeach; endif; ?>
                                     </ul>
                                 </dd>
 
                             <dt>颜色：</dt>
                             <dd>
                                 <ul class="tags color-box" spuinstallment="1">
-                                    <foreach name="stock" item="v">
-                                        <li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" href="javascript:;"></a>{$v.colors}<i></i></li>
-                                    </foreach>
+                                    <?php if(is_array($stock)): foreach($stock as $key=>$v): ?><li class="sub-sku" sku-store="1" sku-id="4154" sku-fullpay="0"><a class="color-e5b9b7" href="javascript:;"></a><?php echo ($v["colors"]); ?><i></i></li><?php endforeach; endif; ?>
                                 </ul>
                             </dd>
 
@@ -192,7 +177,7 @@
                                     <table class="package-table hidden J_suite_table" suitecode="148473273720681006">
                                         <tbody><tr>
                                             <td class="main-prod">
-                                                <img src="__PUBLIC__/Home/Details/4266_1490271072649hd_250x250.png" alt="">
+                                                <img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271072649hd_250x250.png" alt="">
                                                 <h3>Xplay6</h3>
                                             </td>
                                             <td class="split-box"><span class="split"></span></td>
@@ -214,7 +199,7 @@
                                     <table class="package-table hidden J_suite_table" suitecode="148643345204561756">
                                         <tbody><tr>
                                             <td class="main-prod">
-                                                <img src="__PUBLIC__/Home/Details/4266_1490271072649hd_250x250.png" alt="">
+                                                <img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271072649hd_250x250.png" alt="">
                                                 <h3>Xplay6</h3>
                                             </td>
                                             <td class="split-box"><span class="split"></span></td>
@@ -236,7 +221,7 @@
                                     <table class="package-table hidden J_suite_table" suitecode="148482219879561814">
                                         <tbody><tr>
                                             <td class="main-prod">
-                                                <img src="__PUBLIC__/Home/Details/4266_1490271072649hd_250x250.png" alt="">
+                                                <img src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271072649hd_250x250.png" alt="">
                                                 <h3>Xplay6</h3>
                                             </td>
                                             <td class="split-box"><span class="split"></span></td>
@@ -293,7 +278,7 @@
                                         </tr>
                                     </tbody><tbody id="installment-tbd"><tr><td class="red"><dfn>¥</dfn>1499.33</td> <td>3期</td> <td>共计约<dfn>¥</dfn>4498 含0%手续费</td></tr><tr><td class="red"><dfn>¥</dfn>749.66</td> <td>6期</td> <td>共计约<dfn>¥</dfn>4498 含0%手续费</td></tr><tr><td class="red"><dfn>¥</dfn>374.83</td> <td>12期</td> <td>共计约<dfn>¥</dfn>4498 含0%手续费</td></tr></tbody>
                                     </table>
-                                    <div class="info-tip"><img src="__PUBLIC__/Home/Details/icon-warning_f446f02.png">此处仅查看，请在收银台选择分期方案</div>
+                                    <div class="info-tip"><img src="/gitHub/tp_shop/object/Public/Home/Details/icon-warning_f446f02.png">此处仅查看，请在收银台选择分期方案</div>
                                 </div>
                                 <i class="icon-close"></i>
 
@@ -317,8 +302,7 @@
                             <li class="post-free"></li>
                             <li class="change-arbitrary"></li>
                         </ul>
-                </div>
-            </foreach>
+                </div><?php endforeach; endif; ?>
             </div>
 
         </div>
@@ -331,10 +315,10 @@
             <div class="thumb-goods cl" style="display: none;">
 
                 <div class="figure">
-                        <li> <img id="j_smallPic" src="__PUBLIC__/Home/Details/4266_1490338119910hd_250x250.png" width="45" height="45"></li>
-                        <li> <img id="j_smallPic" src="__PUBLIC__/Home/Details/4266_1490271072649hd_250x250.png" width="45" height="45"></li>
-                        <li> <img id="j_smallPic" src="__PUBLIC__/Home/Details/4266_1490271073980hd_250x250.png" width="45" height="45"></li>
-                        <li> <img id="j_smallPic" src="__PUBLIC__/Home/Details/4266_1490271075005hd_250x250.png" width="45" height="45"></li>
+                        <li> <img id="j_smallPic" src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490338119910hd_250x250.png" width="45" height="45"></li>
+                        <li> <img id="j_smallPic" src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271072649hd_250x250.png" width="45" height="45"></li>
+                        <li> <img id="j_smallPic" src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271073980hd_250x250.png" width="45" height="45"></li>
+                        <li> <img id="j_smallPic" src="/gitHub/tp_shop/object/Public/Home/Details/4266_1490271075005hd_250x250.png" width="45" height="45"></li>
                 </div>
                 <h3 title="Xplay6 全网通【旗舰精品】">Xplay6 全网通【旗舰精品】</h3>
                 <span>￥4498</span>
@@ -352,33 +336,31 @@
         <div class="prod-main-information" style="display: block;">
             <div class="section">
                 <div></div>
-            <!-- <p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170408/2017040817104078139_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/2017040817104078139_original.jpg" style="display: inline;"><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170315173182_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170315173182_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170325266459_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170325266459_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317033610379_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317033610379_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317034086756_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317034086756_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154746798561_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154746798561_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170400228102_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170400228102_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170404124754_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170404124754_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317041488351_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317041488351_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170424818227_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170424818227_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170428108229_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170428108229_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170437833814_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170437833814_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170448393563_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170448393563_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154833431853_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154833431853_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170503134665_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170503134665_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170513250257_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170513250257_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329161716509617_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329161716509617_original.jpg" style="display: inline;"></p> -->
-            <!-- <foreach name="pics" item="v"> -->
-            <!-- <p><img title="" alt="图片被绑架了" src="__PUBLIC__{$v.imgs}" style="display: inline;"></p> -->
-           <!--  </foreach> -->
+            <!-- <p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170408/2017040817104078139_original.jpg" title="" alt="" src="/gitHub/tp_shop/object/Public/Home/Details/2017040817104078139_original.jpg" style="display: inline;"><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170315173182_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170315173182_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170325266459_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170325266459_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317033610379_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/2017032317033610379_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317034086756_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/2017032317034086756_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154746798561_original.jpg" title="" alt="" src="/gitHub/tp_shop/object/Public/Home/Details/20170329154746798561_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170400228102_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170400228102_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170404124754_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170404124754_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317041488351_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/2017032317041488351_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170424818227_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170424818227_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170428108229_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170428108229_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170437833814_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170437833814_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170448393563_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170448393563_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154833431853_original.jpg" title="" alt="" src="/gitHub/tp_shop/object/Public/Home/Details/20170329154833431853_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170503134665_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170503134665_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170513250257_original.jpg" style="display: inline;" src="/gitHub/tp_shop/object/Public/Home/Details/20170323170513250257_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329161716509617_original.jpg" title="" alt="" src="/gitHub/tp_shop/object/Public/Home/Details/20170329161716509617_original.jpg" style="display: inline;"></p> -->
+            <!-- <?php if(is_array($pics)): foreach($pics as $key=>$v): ?>-->
+            <!-- <p><img title="" alt="图片被绑架了" src="/gitHub/tp_shop/object/Public<?php echo ($v["imgs"]); ?>" style="display: inline;"></p> -->
+           <!--<?php endforeach; endif; ?> -->
             </div>
         </div>
             <div class="prod-main-parameter" style="display: none;">
                 <div class="prod-parameter-box">
                     <ul>
-                        <foreach name="parameter" item="v">
-                            <li class="c"><h4>CPU</h4><p>{$v.cpu}</p></li>
-                            <li><h4>内存（运行内存）</h4><p>{$v.memory}</p></li>
-                            <li class="c"><h4>ROM</h4><p>{$v.rom}</p></li>
-                            <li><h4>系统</h4><p>{$v.system}</p></li>
-                            <li class="c"><h4>屏幕尺寸</h4><p>{$v.size}</p></li>
-                            <li><h4>屏幕分辨率</h4><p>{$v.ratio}</p></li>
-                            <li class="c"><h4>PPI</h4><p>{$v.ppi}</p></li>
-                            <li><h4>机身厚度</h4><p>{$v.heights}</p></li>
-                            <li class="c"><h4>电池</h4><p>{$v.cell}</p></li>
-                            <li><h4>容量</h4><p>{$v.capacity}</p></li>
-                            <li><h4>连接支持</h4><p>{$v.support}</p></li>
-                            <li class="c"><h4>功能特色</h4><p>{$v.feature}</p></li>
-                            <li><h4>摄像头类型</h4><p>{$v.camera_type}</p></li>
-                            <li class="c"><h4>摄像头</h4><p>{$v.camera}</p></li>
-                            <li><h4>视频拍摄</h4><p>{$v.videos}</p></li>
-                            <li class="c"><h4>标配</h4><p>{$v.mark}</p></li>
-                        </foreach>
+                        <?php if(is_array($parameter)): foreach($parameter as $key=>$v): ?><li class="c"><h4>CPU</h4><p><?php echo ($v["cpu"]); ?></p></li>
+                            <li><h4>内存（运行内存）</h4><p><?php echo ($v["memory"]); ?></p></li>
+                            <li class="c"><h4>ROM</h4><p><?php echo ($v["rom"]); ?></p></li>
+                            <li><h4>系统</h4><p><?php echo ($v["system"]); ?></p></li>
+                            <li class="c"><h4>屏幕尺寸</h4><p><?php echo ($v["size"]); ?></p></li>
+                            <li><h4>屏幕分辨率</h4><p><?php echo ($v["ratio"]); ?></p></li>
+                            <li class="c"><h4>PPI</h4><p><?php echo ($v["ppi"]); ?></p></li>
+                            <li><h4>机身厚度</h4><p><?php echo ($v["heights"]); ?></p></li>
+                            <li class="c"><h4>电池</h4><p><?php echo ($v["cell"]); ?></p></li>
+                            <li><h4>容量</h4><p><?php echo ($v["capacity"]); ?></p></li>
+                            <li><h4>连接支持</h4><p><?php echo ($v["support"]); ?></p></li>
+                            <li class="c"><h4>功能特色</h4><p><?php echo ($v["feature"]); ?></p></li>
+                            <li><h4>摄像头类型</h4><p><?php echo ($v["camera_type"]); ?></p></li>
+                            <li class="c"><h4>摄像头</h4><p><?php echo ($v["camera"]); ?></p></li>
+                            <li><h4>视频拍摄</h4><p><?php echo ($v["videos"]); ?></p></li>
+                            <li class="c"><h4>标配</h4><p><?php echo ($v["mark"]); ?></p></li><?php endforeach; endif; ?>
                     </ul>
                 </div>
             </div>
@@ -489,7 +471,7 @@
                 <dd>周一至周五 08:00-21:00</dd>
                 <dd>周六、周日 09:00-18:00</dd>
                 <dd class="online-service">
-                    <a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007161118&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><img class="lazy" data-src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/common/online-service_1e5d0b6.png" src="__PUBLIC__/Home/Index/online-service_1e5d0b6.png" style="display: inline;"></a>
+                    <a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007161118&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><img class="lazy" data-src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/common/online-service_1e5d0b6.png" src="/gitHub/tp_shop/object/Public/Home/Index/online-service_1e5d0b6.png" style="display: inline;"></a>
                 </dd>
             </dl>
         </div>
@@ -500,7 +482,7 @@
                 成为vivo粉丝:<a href="#" target="_blank" class="sina"><b></b></a>
                 <a href="#" target="_blank" class="tencent"><b></b></a>
                 <a href="#" target="_blank" class="renren"><b></b></a>
-                <a href="javascript:;" class="weixin"><b></b><div class="vivo-weixin-overbox"><img src="__PUBLIC__/Home/Index/vivo-weixin-ico_f8c8800.jpg"><b></b></div></a>
+                <a href="javascript:;" class="weixin"><b></b><div class="vivo-weixin-overbox"><img src="/gitHub/tp_shop/object/Public/Home/Index/vivo-weixin-ico_f8c8800.jpg"><b></b></div></a>
             </div>
             <div class="copy-info">
                 <a href="#" class="footer-logo"></a>Copyright ©2011-2016 广东步步高电子工业有限公司<br>版权所有 保留一切权利粤B2-20080267 | <a href="#" target="_blank">粤ICP备05100288号</a>
@@ -514,7 +496,7 @@
         <li>
             <a class="qrcode">
                 <div class="qrcode-container">
-                    <img src="__PUBLIC__/Home/Index/qrcode_6a6b792.png">
+                    <img src="/gitHub/tp_shop/object/Public/Home/Index/qrcode_6a6b792.png">
                     <p>支付宝扫码<br>关注享最新活动福利</p>
                 </div>
             </a>
@@ -641,14 +623,14 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="__PUBLIC__/js/jquery.min_6163309.js"></script>
-<script src="__PUBLIC__/js/jquery.cookie_a5283b2.js"></script>
-<script src="__PUBLIC__/js/jquery.lazyload_546c1da.js"></script>
-<script src="__PUBLIC__/js/jquery-placeholder_fb6154c.js"></script>
-<script src="__PUBLIC__/js/vivo-common_38aa2f0.js"></script>
-<script src="__PUBLIC__/js/dialog_6a2b3fb.js"></script>
-<script src="__PUBLIC__/js/vivo-stat_265b49b.js"></script>
-<script src="__PUBLIC__/js/login_confirm_485e7b4.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/jquery.min_6163309.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/jquery.cookie_a5283b2.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/jquery.lazyload_546c1da.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/jquery-placeholder_fb6154c.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/vivo-common_38aa2f0.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/dialog_6a2b3fb.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/vivo-stat_265b49b.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/login_confirm_485e7b4.js"></script>
 <script>
     // var imgHost = "https://swsdl.vivo.com.cn/vivoshop/";
     var skuImageJsonStr = '([{"bigPic":"commodity/54/4154_1484965277259hd_530x530.png","hdPic":"commodity/54/4154_1484965277259hd_1080x1080.png","imageNo":"1484965277259hd","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1484965277259hd_250x250.png","thumbnailPic":"commodity/54/4154_1484965277259hd_100x100.png"},{"bigPic":"commodity/54/4154_1482378368543_530x530.png","hdPic":"commodity/54/4154_1482378368543_530x530.png","imageNo":"1482378368543","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1482378368543_250x250.png","thumbnailPic":"commodity/54/4154_1482378368543_100x100.png"},{"bigPic":"commodity/54/4154_1482378368983_530x530.png","hdPic":"commodity/54/4154_1482378368983_530x530.png","imageNo":"1482378368983","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1482378368983_250x250.png","thumbnailPic":"commodity/54/4154_1482378368983_100x100.png"},{"bigPic":"commodity/54/4154_1482378369387_530x530.png","hdPic":"commodity/54/4154_1482378369387_530x530.png","imageNo":"1482378369387","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1482378369387_250x250.png","thumbnailPic":"commodity/54/4154_1482378369387_100x100.png"},{"bigPic":"commodity/64/4164_1484965280001hd_530x530.png","hdPic":"commodity/64/4164_1484965280001hd_1080x1080.png","imageNo":"1484965280001hd","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1484965280001hd_250x250.png","thumbnailPic":"commodity/64/4164_1484965280001hd_100x100.png"},{"bigPic":"commodity/64/4164_1480669444073_530x530.png","hdPic":"commodity/64/4164_1480669444073_530x530.png","imageNo":"1480669444073","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1480669444073_250x250.png","thumbnailPic":"commodity/64/4164_1480669444073_100x100.png"},{"bigPic":"commodity/64/4164_1480669445121_530x530.png","hdPic":"commodity/64/4164_1480669445121_530x530.png","imageNo":"1480669445121","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1480669445121_250x250.png","thumbnailPic":"commodity/64/4164_1480669445121_100x100.png"},{"bigPic":"commodity/64/4164_1481333122284_530x530.png","hdPic":"commodity/64/4164_1481333122284_530x530.png","imageNo":"1481333122284","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1481333122284_250x250.png","thumbnailPic":"commodity/64/4164_1481333122284_100x100.png"},{"bigPic":"commodity/66/4266_1490338119910hd_530x530.png","hdPic":"commodity/66/4266_1490338119910hd_1080x1080.png","imageNo":"1490338119910hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490338119910hd_250x250.png","thumbnailPic":"commodity/66/4266_1490338119910hd_100x100.png"},{"bigPic":"commodity/66/4266_1490271072649hd_530x530.png","hdPic":"commodity/66/4266_1490271072649hd_1080x1080.png","imageNo":"1490271072649hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490271072649hd_250x250.png","thumbnailPic":"commodity/66/4266_1490271072649hd_100x100.png"},{"bigPic":"commodity/66/4266_1490271073980hd_530x530.png","hdPic":"commodity/66/4266_1490271073980hd_1080x1080.png","imageNo":"1490271073980hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490271073980hd_250x250.png","thumbnailPic":"commodity/66/4266_1490271073980hd_100x100.png"},{"bigPic":"commodity/66/4266_1490271075005hd_530x530.png","hdPic":"commodity/66/4266_1490271075005hd_1080x1080.png","imageNo":"1490271075005hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490271075005hd_250x250.png","thumbnailPic":"commodity/66/4266_1490271075005hd_100x100.png"}])';
@@ -688,7 +670,7 @@
         if (scrollHeight >= 380) {
 
             $.post(
-                "{:U('Details/ajaxDetailPicLoad')}",
+                "<?php echo U('Details/ajaxDetailPicLoad');?>",
                 {
                     goodsid:goodsid,
                 },
@@ -699,7 +681,7 @@
                     var ter = '';
                     for ( var i = 0; i < data.length; i++ ) {
 
-                        ter += '<p><img title="" alt="图片被绑架了" src="__PUBLIC__'+data[i]['imgs']+'" style="display: inline;"></p>';
+                        ter += '<p><img title="" alt="图片被绑架了" src="/gitHub/tp_shop/object/Public'+data[i]['imgs']+'" style="display: inline;"></p>';
                     }
                     $('.section').append(ter);
                 },
@@ -717,10 +699,10 @@
 </script>
 
 
-<script src="__PUBLIC__/js/simpleStorage_f115cd4.js"></script>
-<script src="__PUBLIC__/js/view_cbc6422.js"></script>
-<script src="__PUBLIC__/js/view-hist_823c137.js"></script>
-<script src="__PUBLIC__/js/dialog_6a2b3fb.js" type="text/javascript"></script>
+<script src="/gitHub/tp_shop/object/Public/js/simpleStorage_f115cd4.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/view_cbc6422.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/view-hist_823c137.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/dialog_6a2b3fb.js" type="text/javascript"></script>
 
 <script>
     //百度统计代码
@@ -734,15 +716,15 @@
     })();
 </script>
 
-<div style="height: 0px; width: 0px; overflow: hidden;"><object width="0" height="0" tabindex="-1" style="height:0;width:0;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="JSocket"><param name="allowScriptAccess" value="always"><param name="movie" value="https://aeu.alicdn.com/flash/JSocket.swf"> <embed src="https://aeu.alicdn.com/flash/JSocket.swf" name="JSocket" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="https://www.adobe.com/go/getflashplayer_cn" width="0" height="0"></object></div><div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><img class="waf-nc-icon" src="__PUBLIC__/Home/Details/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png" alt="" height="20" width="20"><p class="waf-nc-title">安全验证</p><div class="waf-nc-splitter"></div><p class="waf-nc-description">请完成以下验证后继续操作：</p><div id="nocaptcha"></div></div></div></body></html>
+<div style="height: 0px; width: 0px; overflow: hidden;"><object width="0" height="0" tabindex="-1" style="height:0;width:0;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="JSocket"><param name="allowScriptAccess" value="always"><param name="movie" value="https://aeu.alicdn.com/flash/JSocket.swf"> <embed src="https://aeu.alicdn.com/flash/JSocket.swf" name="JSocket" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="https://www.adobe.com/go/getflashplayer_cn" width="0" height="0"></object></div><div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><img class="waf-nc-icon" src="/gitHub/tp_shop/object/Public/Home/Details/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png" alt="" height="20" width="20"><p class="waf-nc-title">安全验证</p><div class="waf-nc-splitter"></div><p class="waf-nc-description">请完成以下验证后继续操作：</p><div id="nocaptcha"></div></div></div></body></html>
 
-<script src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script src="/gitHub/tp_shop/object/Public/js/jquery-1.8.3.min.js"></script>
 <script>
     
     $('#ShopCart').click(function () { 
 
         $.post(
-            '{:U("ShopCart/addShopCart")}',
+            '<?php echo U("ShopCart/addShopCart");?>',
             {id:$('#smallImg').attr('goodsid')},
             function (data) { 
                
@@ -760,7 +742,7 @@
     function countGoods() { 
 
         $.post(
-            '{:U("ShopCart/countGoods")}',
+            '<?php echo U("ShopCart/countGoods");?>',
             function(data) { 
 
                 $('span.shopcart-num').html(data);

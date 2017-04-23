@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
@@ -7,14 +7,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <!--[if lt IE 9]>
-<script type="text/javascript" src="__PUBLIC__/lib/html5shiv.js"></script>
-<script type="text/javascript" src="__PUBLIC__/lib/respond.min.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/html5shiv.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/respond.min.js"></script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/css/style.css" />
 <!--[if IE 6]>
 <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
@@ -33,11 +33,11 @@
 			<option value="2">分类二</option>
 		</select>
 		</span> 日期范围：
-<literal>
+
 		<input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })" id="logmin" class="input-text Wdate" style="width:120px;">
 		-
-</literal>
-		<input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })" id="logmax" class="input-text Wdate" style="width:120px;">
+
+		<input type="text" onfocus="WdatePicker({ minDate:'#F<?php echo ($dp["$D('logmin')"]); ?>',maxDate:'%y-%M-%d' })" id="logmax" class="input-text Wdate" style="width:120px;">
 		<input type="text" name="" id="" placeholder=" 资讯名称" style="width:250px" class="input-text">
 		<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜资讯</button>
 	</div>
@@ -85,16 +85,16 @@
 	</div>
 </div>
 <!--_footer 作为公共模版分离出去-->
-<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="__PUBLIC__/lib/layer/2.4/layer.js"></script>
-<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.min.js"></script> 
-<script type="text/javascript" src="__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/static/h-ui/js/H-ui.min.js"></script> 
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <!--/_footer 作为公共模版分离出去-->
 
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="__PUBLIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
-<script type="text/javascript" src="__PUBLIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
-<script type="text/javascript" src="__PUBLIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/laypage/1.2/laypage.js"></script>
 <script type="text/javascript">
 $('.table-sort').dataTable({
 	"aaSorting": [[ 1, "desc" ]],//默认第几个排序

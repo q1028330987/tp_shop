@@ -12,7 +12,7 @@
 		{ 
 			$m = M('goods');
 
-			$res = $m->field('id,name,price')->select();
+			$res = $m->field('id,name,price,pic,stocks,des')->select();
 
 			return $res;
 		}
@@ -23,7 +23,7 @@
 
 			$map['id'] = $id;
 
-			$res = $m->field('id,name,price,buynum')->where($map)->select();
+			$res = $m->field('id,name,price,pic,buynum,stocks,des')->where($map)->select();
 
 			return $res[0];
 		}

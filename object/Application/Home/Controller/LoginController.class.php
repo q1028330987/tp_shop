@@ -21,7 +21,7 @@
 				if ($bool) { 
 
 					$_SESSION['user'] = $userInfo[0];
-					// $this->display('shouye ');
+					$this->display('Index/index');
 				}
 
 				

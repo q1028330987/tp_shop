@@ -6,11 +6,17 @@
 
 	class OrderController extends Controller
 	{  
-		public function createOrder()
-		{ 
-			$idArr = I('post.checkItem');
 
-			$goodsList = [];
+		public function createOrder()
+		{ 	
+			if (empty($_SESSION['user'])) { 
+
+				$this->display('login/login');
+
+				exit;
+			}
+
+			$idArr = I('post.checkItem');
 
 			$sum = 0;
 
@@ -18,7 +24,7 @@
 
 				$id = $idArr[$i];
 
-				$goodsList[$i] = $_SESSION['goods'][$id];
+				$_SESSION['goodsList'][$i] = $_SESSION['goods'][$id];
 
 				$sum += $_SESSION['goods'][$id]['sum'];
 
@@ -30,11 +36,11 @@
 
 			$addrList = $addrModel->getUserAddr($uid);
 
-			$_SESSION['goods']['sum'] = $sum;
+			$_SESSION['sum'] = $sum;
 
 			$this->assign('addrList', $addrList);
 
-			$this->assign('goodsList', $goodsList);
+			$this->assign('goodsList', $_SESSION['goodsList']);
 
 			$this->display('order/order');
 		}
@@ -55,13 +61,16 @@
 
 
 		public function createAddr()
-		{ 
+		{ 	
 			$addrModel = D('address');
 			$addrModel->addNewAddr();
+
 			if ($addrModel->create()) { 
 
-				$addrModel->add();
-				echo '1';
+				$id = $addrModel->add();
+				$addr = $addrModel->findAddr($id);
+
+				echo $this->ajaxReturn($addr);
 			} else { 
 
 				echo '2';
@@ -69,5 +78,71 @@
 			
 			// dump($addrModel);
 		}
+
+		public function delAddr()
+		{ 
+			// dump(I('post.'));
+			if ($_SESSION['aid'] = I('post.id')) { 
+
+				unset($_SESSION['aid']);
+			}
+			
+			$addrModel = D('address');
+			$res = $addrModel->delAddr(I('post.id'));
+
+			echo $res;
+		}
+
+		public function chooseAddr()
+		{ 	
+			$aid = I('post.aid');
+			if (empty($aid)) { 
+
+				echo $_SESSION['aid'];
+			} else { 
+
+				$_SESSION['aid'] = I('post.aid');
+			}
+		}
+
+		public function submitOrder ()
+		{ 
+			$orderModel = D('Orders');
+
+			$_SESSION['oid'] = $orderModel->addOrder();
+
+			$a = $orderModel->addOrderDetail($_SESSION['oid']);
+
+			if (intval($a)) { 
+
+				echo '1';
+			}
+
+		}
+
+		public function Cashier()
+		{ 	
+
+			$this->display('Cashier/Cashier');
+		}
+
+		public function pay()
+		{ 
+			$id = $_SESSION['oid'];
+
+			$ordersModel = D('Orders');
+			$ordersMsg = $ordersModel->getOrdersMsg($id);
+
+			$a = $ordersModel->pay($id, $ordersMsg['status']);
+
+			if ($a) { 
+				unset($_SESSION['oid']);
+				echo '1';
+			} else { 
+				echo '2';
+			}
+
+		}
+
 
 	}

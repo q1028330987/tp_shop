@@ -1,0 +1,6 @@
+[ 2016-11-28T09:27:22+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/ShopCart/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012170s ]
+ERR: 无法加载模块:ShopCart
+

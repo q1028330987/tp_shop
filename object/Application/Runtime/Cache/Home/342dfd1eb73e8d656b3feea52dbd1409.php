@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!-- saved from url=(0146)http://shop.vivo.com.cn/order/quick/confirm?skuId=4280&num=1&sSkuIds=&suiteCode=&bSkuIds=&code=r3bsSm&openid=bae60344a1b1f646&openkey=W041cePK7rG8 -->
 <html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -9,25 +9,25 @@
     <meta name="description" content="vivo智能手机官方商城">
     <link rel="shortcut icon" href="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/favicon_7761e1f.ico">
 
-    <link href="__PUBLIC__/Home/order_files/global_79a0974.css" rel="stylesheet" type="text/css">
-    <link href="__PUBLIC__/Home/order_files/layout_3a0d4d9.css" rel="stylesheet" type="text/css">
-    <link href="__PUBLIC__/Home/order_files/dialog_523c50b.css" rel="stylesheet" type="text/css">
+    <link href="/gitHub/tp_shop/object/Public/Home/order_files/global_79a0974.css" rel="stylesheet" type="text/css">
+    <link href="/gitHub/tp_shop/object/Public/Home/order_files/layout_3a0d4d9.css" rel="stylesheet" type="text/css">
+    <link href="/gitHub/tp_shop/object/Public/Home/order_files/dialog_523c50b.css" rel="stylesheet" type="text/css">
 
 
-<link href="__PUBLIC__/Home/order_files/dialog_523c50b.css" rel="stylesheet" type="text/css">
-<link href="__PUBLIC__/Home/order_files/buy-process_e40c238.css" rel="stylesheet" type="text/css">
-<link href="__PUBLIC__/Home/order_files/order-detail_988f712.css" rel="stylesheet" type="text/css">
+<link href="/gitHub/tp_shop/object/Public/Home/order_files/dialog_523c50b.css" rel="stylesheet" type="text/css">
+<link href="/gitHub/tp_shop/object/Public/Home/order_files/buy-process_e40c238.css" rel="stylesheet" type="text/css">
+<link href="/gitHub/tp_shop/object/Public/Home/order_files/order-detail_988f712.css" rel="stylesheet" type="text/css">
 <style>
     span.error-style {
         color: red;
     }
 </style>
 
-    <script src="__PUBLIC__/Home/order_files/hm.js" async=""></script><script type="text/javascript" src="__PUBLIC__/Home/order_files/065f0df8c3a79510e698e5de40c8fb71.js"></script><!--[if lt IE 9]>
+    <script src="/gitHub/tp_shop/object/Public/Home/order_files/hm.js" async=""></script><script type="text/javascript" src="/gitHub/tp_shop/object/Public/Home/order_files/065f0df8c3a79510e698e5de40c8fb71.js"></script><!--[if lt IE 9]>
     <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
     <![endif]-->
 
-<style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="__PUBLIC__/Home/order_files/nc.js"></script><style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style>
+<style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="/gitHub/tp_shop/object/Public/Home/order_files/nc.js"></script><style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style>
 </head>
 <body class="buy-process">
 <header id="header">
@@ -38,7 +38,7 @@
     </div>
     <div class="wrapper">
         <nav id="navigator" class="cl">
-        	<a href="http://shop.vivo.com.cn/index.html" class="vivo-logo"><img src="__PUBLIC__/Home/order_files/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站"></a>
+        	<a href="http://shop.vivo.com.cn/index.html" class="vivo-logo"><img src="/gitHub/tp_shop/object/Public/Home/order_files/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站"></a>
             <ul class="cl">
                 <li><a href="http://shop.vivo.com.cn/product/phone">手机</a></li>
                 <li><a href="http://shop.vivo.com.cn/product/parts">配件</a></li>
@@ -51,7 +51,7 @@
                 <ul class="top-quick-menu">
                     <li id="j_SearchTrigger" class="search"><a href="javascript:void(0)" rel="nofollow"><b></b></a></li>
                     <li id="j_UserMenuTrigger">
-                    	<a href="http://shop.vivo.com.cn/my/" class="user"><b><img src="__PUBLIC__/Home/order_files/small"></b></a>
+                    	<a href="http://shop.vivo.com.cn/my/" class="user"><b><img src="/gitHub/tp_shop/object/Public/Home/order_files/small"></b></a>
                         <ul class="user-menu">
                         	<li class="member-center"><a href="http://shop.vivo.com.cn/my/"><i></i>个人中心</a><span class="icon-angular"></span></li>
                             <li class="my-order"><a href="http://shop.vivo.com.cn/my/order"><i></i>我的订单</a></li>
@@ -77,19 +77,18 @@
                 <dt class="module-title">收货人信息</dt>
                 <dd class="address-info">
                     <ul class="adress-list">
-<foreach name="addrList" item="vo">
-                        <li onclick="chooseAddr(this)" class="address-item J_address-item" name="addressMsg" value="{$vo.id}">
+<?php if(is_array($addrList)): foreach($addrList as $key=>$vo): ?><li onclick="chooseAddr(this)" class="address-item J_address-item" name="addressMsg" value="<?php echo ($vo["id"]); ?>">
                             <label class="inner">
                                 <p class="item-top">
-                                    <span name="address.receiverName">{$vo.name}</span> 
-                                    <span name="address.mobilePhone">{$vo.phone}</span> 
+                                    <span name="address.receiverName"><?php echo ($vo["name"]); ?></span> 
+                                    <span name="address.mobilePhone"><?php echo ($vo["phone"]); ?></span> 
                                     <span name="address.telPhone" hidden=""></span>
                                 </p>
                                 <p>
-                                    <span name="address.province">{$vo.province}</span> 
-                                    <span name="address.city">{$vo.city}</span> 
-                                    <span name="address.area">{$vo.area}</span> 
-                                    <span name="address.address">{$vo.address}</span>
+                                    <span name="address.province"><?php echo ($vo["province"]); ?></span> 
+                                    <span name="address.city"><?php echo ($vo["city"]); ?></span> 
+                                    <span name="address.area"><?php echo ($vo["area"]); ?></span> 
+                                    <span name="address.address"><?php echo ($vo["address"]); ?></span>
                                     <span name="address.zipCode"></span>
                                 </p>
                             </label>
@@ -97,8 +96,7 @@
                                 <!-- <li value="2100414" class="operations-address-edit">编辑</li> -->
                                 <li value="2100414" class="operations-address-del" onclick="delAddr(this)">删除</li>
                             </ul>
-                        </li>
-</foreach>
+                        </li><?php endforeach; endif; ?>
                         <li class="address-item J_address-item new on" id="use-new-address" name="address">
                                 <label class="inner">添加新地址 </label>
                            <!--  <ul class="operations" id="opertions-cancel">
@@ -173,13 +171,12 @@
                                 <th width="137">赠送V币</th>
                                 <th width="162">小计（元）</th>
                             </tr>
-<foreach name="goodsList" item="v">
-                            </thead>
+<?php if(is_array($goodsList)): foreach($goodsList as $key=>$v): ?></thead>
                                     <input type="hidden" class="order-commodity-main" skuid="4280" spuid="9948" num="1">
                                     <tbody class="prod-item ">
                                     <tr class="prod-line">
                                         <td class="prod-pic">
-                                            <a class="figure" href="http://shop.vivo.com.cn/product/9948" target="_blank"><img src="__PUBLIC__/{$v[pic]}" alt=""></a>
+                                            <a class="figure" href="http://shop.vivo.com.cn/product/9948" target="_blank"><img src="/gitHub/tp_shop/object/Public/<?php echo ($v[pic]); ?>" alt=""></a>
                                         </td>
                                         <td class="prods-info" colspan="2">
 
@@ -191,10 +188,10 @@
                                                 </colgroup>
                                                 <tbody><tr class="prod-info">
                                                     <td class="prod-name" colspan="2">
-                                                        <a class="figure" href="javascript:;" target="_blank">{$v.name}</a>
+                                                        <a class="figure" href="javascript:;" target="_blank"><?php echo ($v["name"]); ?></a>
                                                         <br> 颜色：X9i磨砂黑
                                                     </td>
-                                                    <td>{$v.price}</td>
+                                                    <td><?php echo ($v["price"]); ?></td>
                                                 </tr>
 
                                                     <tr class="empty-line">
@@ -203,7 +200,7 @@
 <!--                                                 <tr class="attach-line gift">
                                                             <td class="title">【赠品】：</td>
                                                             <td class="name"><a href="http://shop.vivo.com.cn/product/9961" target="_blank">
-                                                                <div class="figure"><img src="__PUBLIC__/Home/order_files/4159_1481006893498_100x100.png" alt="">
+                                                                <div class="figure"><img src="/gitHub/tp_shop/object/Public/Home/order_files/4159_1481006893498_100x100.png" alt="">
                                                                 </div>
                                                                 <p>【vivo】小V蓝牙音箱</p>
                                                             </a></td>
@@ -212,7 +209,7 @@
 <!--                                                         <tr class="attach-line gift">
                                                             <td class="title"></td>
                                                             <td class="name"><a href="http://shop.vivo.com.cn/product/9944" target="_blank">
-                                                                <div class="figure"><img src="__PUBLIC__/Home/order_files/4128_1481559221417_100x100.png" alt="">
+                                                                <div class="figure"><img src="/gitHub/tp_shop/object/Public/Home/order_files/4128_1481559221417_100x100.png" alt="">
                                                                 </div>
                                                                 <p>【远点拍】线控手机自拍杆</p>
                                                             </a></td>
@@ -221,7 +218,7 @@
                                                         <tr class="attach-line gift">
                                                             <td class="title"></td>
                                                             <td class="name"><a href="http://shop.vivo.com.cn/product/172" target="_blank">
-                                                                <div class="figure"><img src="__PUBLIC__/Home/order_files/2017_1481559028445_100x100.png" alt="">
+                                                                <div class="figure"><img src="/gitHub/tp_shop/object/Public/Home/order_files/2017_1481559028445_100x100.png" alt="">
                                                                 </div>
                                                                 <p>【vivo】原装移动电源P50</p>
                                                             </a></td>
@@ -230,13 +227,12 @@
                                                     </tbody>
                                                 </table>
                                         </td>
-                                        <td>{$v.buynum}</td>
+                                        <td><?php echo ($v["buynum"]); ?></td>
                                         <td class="prod-privilege J_promotion-price">
                                             -0.00</td>
                                         <td></td>
-                                        <td class="total-price J_total-price">{$v.sum}</td>
-                                    </tr>
-</foreach>
+                                        <td class="total-price J_total-price"><?php echo ($v["sum"]); ?></td>
+                                    </tr><?php endforeach; endif; ?>
                                     </tbody>
                         </table>
                     </div>
@@ -261,8 +257,8 @@
                         </ul>
                         <div class="other-info right-box pull-right">
                             <ul>
-                                <li class="order-sum"><label>商品:&nbsp;&nbsp;<em class="red">{$Think.sesson.goodsList|count}</em>件
-                                    &nbsp;商品总金额：</label><span class="price"><dfn>¥</dfn>{$Think.session.sum}.00</span>
+                                <li class="order-sum"><label>商品:&nbsp;&nbsp;<em class="red"><?php echo (count()); ?></em>件
+                                    &nbsp;商品总金额：</label><span class="price"><dfn>¥</dfn><?php echo (session('sum')); ?>.00</span>
                                 </li>
                                 <li class="order-sum"><label>优惠：</label><span class="red">-<dfn>¥</dfn><span id="privilege">0.00</span></span>
                                 </li>
@@ -279,7 +275,7 @@
                         <li class="item receiver-name"><label>收件人：</label><span id="receivePerson"> </span>
                         </li>
                     </ul>
-                    <label>应付总额</label><span class="real-price red"><dfn>¥{$Think.session.sum}.00</dfn></span>
+                    <label>应付总额</label><span class="real-price red"><dfn>¥<?php echo (session('sum')); ?>.00</dfn></span>
                 </dt>
             </dl>
             <div class="btn-box">
@@ -349,7 +345,7 @@
                 <dd>周一至周五 08:00-21:00</dd>
                 <dd>周六、周日 09:00-18:00</dd>
                 <dd class="online-service">
-                    <a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007161118&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><img class="lazy" data-src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/common/online-service_1e5d0b6.png" src="__PUBLIC__/Home/order_files/online-service_1e5d0b6.png" style="display: inline;"></a>
+                    <a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007161118&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><img class="lazy" data-src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/common/online-service_1e5d0b6.png" src="/gitHub/tp_shop/object/Public/Home/order_files/online-service_1e5d0b6.png" style="display: inline;"></a>
                 </dd>
             </dl>
         </div>
@@ -360,7 +356,7 @@
                 成为vivo粉丝:<a href="http://weibo.com/vivomobile" target="_blank" class="sina"><b></b></a>
                 <a href="http://t.qq.com/vivomobile" target="_blank" class="tencent"><b></b></a>
                 <a href="http://page.renren.com/vivo?checked=true" target="_blank" class="renren"><b></b></a>
-                <a href="javascript:;" class="weixin"><b></b><div class="vivo-weixin-overbox"><img src="__PUBLIC__/Home/order_files/vivo-weixin-ico_f8c8800.jpg"><b></b></div></a>
+                <a href="javascript:;" class="weixin"><b></b><div class="vivo-weixin-overbox"><img src="/gitHub/tp_shop/object/Public/Home/order_files/vivo-weixin-ico_f8c8800.jpg"><b></b></div></a>
             </div>
             <div class="copy-info">
                 <a href="http://shop.vivo.com.cn/index.html" class="footer-logo"></a>Copyright ©2011-2016 广东步步高电子工业有限公司<br>版权所有 保留一切权利粤B2-20080267 | <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备05100288号</a>
@@ -374,7 +370,7 @@
         <li>
             <a class="qrcode">
                 <div class="qrcode-container">
-                    <img src="__PUBLIC__/Home/order_files/qrcode_6a6b792.png">
+                    <img src="/gitHub/tp_shop/object/Public/Home/order_files/qrcode_6a6b792.png">
                     <p>支付宝扫码<br>关注享最新活动福利</p>
                 </div>
             </a>
@@ -411,18 +407,18 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="__PUBLIC__/Home/order_files/jquery.min_6163309.js"></script>
-<script src="__PUBLIC__/Home/order_files/jquery.cookie_a5283b2.js"></script>
-<script src="__PUBLIC__/Home/order_files/jquery.lazyload_546c1da.js"></script>
-<script src="__PUBLIC__/Home/order_files/jquery-placeholder_fb6154c.js"></script>
-<script src="__PUBLIC__/Home/order_files/vivo-common_38aa2f0.js"></script>
-<script src="__PUBLIC__/Home/order_files/dialog_6a2b3fb.js"></script>
-<script src="__PUBLIC__/Home/order_files/vivo-stat_265b49b.js"></script>
-<script src="__PUBLIC__/Home/order_files/login_confirm_485e7b4.js"></script>
-<script src="__PUBLIC__/Home/order_files/region_a46b4bb.js"></script>
-<script src="__PUBLIC__/Home/order_files/jquery.validate.min_76c74f2.js"></script>
-<script src="__PUBLIC__/Home/order_files/dialog_6a2b3fb.js"></script>
-<script src="__PUBLIC__/Home/order_files/view_1c5c771.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/jquery.min_6163309.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/jquery.cookie_a5283b2.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/jquery.lazyload_546c1da.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/jquery-placeholder_fb6154c.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/vivo-common_38aa2f0.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/dialog_6a2b3fb.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/vivo-stat_265b49b.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/login_confirm_485e7b4.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/region_a46b4bb.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/jquery.validate.min_76c74f2.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/dialog_6a2b3fb.js"></script>
+<script src="/gitHub/tp_shop/object/Public/Home/order_files/view_1c5c771.js"></script>
 <script>
     // 基础邮费
     var basePostFee = parseInt(5);
@@ -446,16 +442,16 @@
     })();
 </script>
 
-<div style="height: 0px; width: 0px; overflow: hidden;"><object width="0" height="0" tabindex="-1" style="height:0;width:0;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="JSocket"><param name="allowScriptAccess" value="always"><param name="movie" value="http://aeu.alicdn.com/flash/JSocket.swf"> <embed src="http://aeu.alicdn.com/flash/JSocket.swf" name="JSocket" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_cn" width="0" height="0" id="__wow_video_player__1294128225"></object></div><div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><img class="waf-nc-icon" src="__PUBLIC__/Home/order_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png" alt="" height="20" width="20"><p class="waf-nc-title">安全验证</p><div class="waf-nc-splitter"></div><p class="waf-nc-description">请完成以下验证后继续操作：</p><div id="nocaptcha"></div></div></div></body></html>
+<div style="height: 0px; width: 0px; overflow: hidden;"><object width="0" height="0" tabindex="-1" style="height:0;width:0;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="JSocket"><param name="allowScriptAccess" value="always"><param name="movie" value="http://aeu.alicdn.com/flash/JSocket.swf"> <embed src="http://aeu.alicdn.com/flash/JSocket.swf" name="JSocket" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_cn" width="0" height="0" id="__wow_video_player__1294128225"></object></div><div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><img class="waf-nc-icon" src="/gitHub/tp_shop/object/Public/Home/order_files/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png" alt="" height="20" width="20"><p class="waf-nc-title">安全验证</p><div class="waf-nc-splitter"></div><p class="waf-nc-description">请完成以下验证后继续操作：</p><div id="nocaptcha"></div></div></div></body></html>
 
-<script  src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script  src="/gitHub/tp_shop/object/Public/js/jquery-1.8.3.min.js"></script>
 <script> 
     $('#use-new-address').click( function () { 
         $('.address-info-new').show();
         if ($('select[data-level-index="1"]').attr('data-ajax') != 'true') { 
             
             $.post(
-                '{:U("Order/getAaddrData")}',
+                '<?php echo U("Order/getAaddrData");?>',
                 {level:$("[name='province']").attr('data-level-index')},
                 function (data) { 
                     var option;
@@ -480,7 +476,7 @@
             var level = parseInt($("[name='"+$(DOM).attr('name')+"']").attr('data-level-index'))+1;
             $(DOM).next().children().not('[value="_NULL_"]').remove();
             $.post(
-                '{:U("Order/getAaddrData")}',
+                '<?php echo U("Order/getAaddrData");?>',
                 {
                     level:level,
                     upid:$(DOM).find('option:selected').attr('data-id')
@@ -572,7 +568,7 @@
         // var formArr = [];
         if (falg1 && falg2 && falg3 && falg4 && falg5 && falg6) { 
             $.post(
-                '{:U("Order/createAddr")}',
+                '<?php echo U("Order/createAddr");?>',
                 $(this).serialize(),
                 function (data) { 
                     
@@ -593,7 +589,7 @@
     function delAddr(DOM) { 
 
         $.post(
-            '{:U("Order/delAddr")}',
+            '<?php echo U("Order/delAddr");?>',
             {id:$(DOM).parent().parent().val()},
             function (data) { 
 
@@ -613,7 +609,7 @@
         $('#receivePerson').html($(DOM).find('span[name="address.receiverName"]').html());
 
         $.post(
-            '{:U("Order/chooseAddr")}',
+            '<?php echo U("Order/chooseAddr");?>',
             {aid:$(DOM).val()},
             function(data){ 
 
@@ -623,7 +619,7 @@
 
     $('#btn-submit-order').click(function () { 
         $.post(
-            '{:U("Order/chooseAddr")}',
+            '<?php echo U("Order/chooseAddr");?>',
             function(data){ 
 
                 if ($('li[value="'+data+'"]').attr('on') != 'true') { 
@@ -632,13 +628,13 @@
                 } else { 
                     $('#btn-submit-order').html('正在提交...').css({background:'#ccc', border:'1px solid #ccc'}).attr('disabled', true);
                     $.post(
-                        '{:U("Order/submitOrder")}',
+                        '<?php echo U("Order/submitOrder");?>',
                         function(data) { 
 
                             if (data == '1') { 
 
                                 setTimeout(function () { 
-                                    self.location = '{:U("Order/Cashier")}'; 
+                                    self.location = '<?php echo U("Order/Cashier");?>'; 
                                 }, 2000);
                             }
                         }

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
@@ -6,26 +6,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<link rel="Bookmark" href="__PUBLIC__/favicon.ico" >
-<link rel="Shortcut Icon" href="__PUBLIC__/favicon.ico" />
+<link rel="Bookmark" href="/gitHub/tp_shop/object/Public/favicon.ico" >
+<link rel="Shortcut Icon" href="/gitHub/tp_shop/object/Public/favicon.ico" />
 <!--[if lt IE 9]>
-<script type="text/javascript" src="__PUBLIC__/lib/html5shiv.js"></script>
-<script type="text/javascript" src="__PUBLIC__/lib/respond.min.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/html5shiv.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/respond.min.js"></script>
 <![endif]-->
 
 
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/css/style.css" />
 
 
 
 
 
 <!--[if IE 6]>
-<script type="text/javascript" src="__PUBLIC__/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
 
@@ -33,7 +33,7 @@
 
 
 </head>
-<block name="content">
+
 <body>
 <header class="navbar-wrapper">
 	<div class="navbar navbar-fixed-top">
@@ -85,7 +85,7 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 订单管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{:U('Orders/orders_list')}" data-title="资讯管理" href="javascript:void(0)">订单管理</a></li>
+					<li><a data-href="<?php echo U('Orders/orders_list');?>" data-title="资讯管理" href="javascript:void(0)">订单管理</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -93,7 +93,7 @@
 			<dt><i class="Hui-iconfont">&#xe613;</i> 图片管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{:U('Picture/picture_list')}" data-title="图片管理" href="javascript:void(0)">图片管理</a></li>
+					<li><a data-href="<?php echo U('Picture/picture_list');?>" data-title="图片管理" href="javascript:void(0)">图片管理</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -101,9 +101,9 @@
 			<dt><i class="Hui-iconfont">&#xe620;</i> 产品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{:U('Type/index')}" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
-					<li><a data-href="{:U('Goods/index')}" data-title="商品管理" href="javascript:void(0)">商品管理</a></li>
-					<li><a data-href="{:U('Product/product_category')}" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
+					<li><a data-href="<?php echo U('Type/index');?>" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
+					<li><a data-href="<?php echo U('Goods/index');?>" data-title="商品管理" href="javascript:void(0)">商品管理</a></li>
+					<li><a data-href="<?php echo U('Product/product_category');?>" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -112,7 +112,7 @@
 			<dd>
 				<ul>
 					<li><a data-href="http://h-ui.duoshuo.com/admin/" data-title="评论列表" href="javascript:;">评论列表</a></li>
-					<li><a data-href="{:U('Feedback/feedback_ist')}" data-title="意见反馈" href="javascript:void(0)">意见反馈</a></li>
+					<li><a data-href="<?php echo U('Feedback/feedback_ist');?>" data-title="意见反馈" href="javascript:void(0)">意见反馈</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -120,10 +120,10 @@
 			<dt><i class="Hui-iconfont">&#xe60d;</i> 会员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{:U('Member/member_list')}" data-title="会员列表" href="javascript:;">会员列表</a></li>
-					<li><a data-href="{:U('Member/member_address')}" data-title="浏览记录" href="javascript:void(0)">会员地址</a></li>
-					<!-- <li><a data-href="{:U('Member/member_record_download')}" data-title="下载记录" href="javascript:void(0)">下载记录</a></li>
-					<li><a data-href="{:U('Member/member_record_share')}" data-title="分享记录" href="javascript:void(0)">分享记录</a></li> -->
+					<li><a data-href="<?php echo U('Member/member_list');?>" data-title="会员列表" href="javascript:;">会员列表</a></li>
+					<li><a data-href="<?php echo U('Member/member_address');?>" data-title="浏览记录" href="javascript:void(0)">会员地址</a></li>
+					<!-- <li><a data-href="<?php echo U('Member/member_record_download');?>" data-title="下载记录" href="javascript:void(0)">下载记录</a></li>
+					<li><a data-href="<?php echo U('Member/member_record_share');?>" data-title="分享记录" href="javascript:void(0)">分享记录</a></li> -->
 
 			</ul>
 		</dd>
@@ -132,9 +132,9 @@
 			<dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="{:U('Admin/admin_role')}" data-title="角色管理" href="javascript:void(0)">角色管理</a></li>
-					<li><a data-href="{:U('Admin/admin_permission')}" data-title="权限管理" href="javascript:void(0)">权限管理</a></li>
-					<li><a data-href="{:U('Admin/admin_list')}" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
+					<li><a data-href="<?php echo U('Admin/admin_role');?>" data-title="角色管理" href="javascript:void(0)">角色管理</a></li>
+					<li><a data-href="<?php echo U('Admin/admin_permission');?>" data-title="权限管理" href="javascript:void(0)">权限管理</a></li>
+					<li><a data-href="<?php echo U('Admin/admin_list');?>" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
 			</ul>
 		</dd>
 	</dl>
@@ -174,7 +174,7 @@
 				<div class="Hui-tabNav-wp">
 					<ul id="min_title_list" class="acrossTab cl">
 						<li class="active">
-							<span title="我的桌面" data-href="{:U('Index/welcome')}">我的桌面</span>
+							<span title="我的桌面" data-href="<?php echo U('Index/welcome');?>">我的桌面</span>
 							<em></em></li>
 					</ul>
 				</div>
@@ -183,7 +183,7 @@
 				<div id="iframe_box" class="Hui-article">
 					<div class="show_iframe">
 						<div style="display:none" class="loading"></div>
-						<iframe scrolling="yes" frameborder="0" src="{:U('Index/welcome')}"></iframe>
+						<iframe scrolling="yes" frameborder="0" src="<?php echo U('Index/welcome');?>"></iframe>
 				</div>
 			</div>
 		</section>
@@ -194,17 +194,17 @@
 			<li id="closeall">关闭全部 </li>
 		</ul>
 	</div>
-</block>
+
 <!--_footer 作为公共模版分离出去-->
-<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/lib/layer/2.4/layer.js"></script>
-<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <!--/_footer 作为公共模版分离出去-->
 
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="__PUBLIC__/lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
-<block name="button">
+<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
+
 <script type="text/javascript">
 $(function(){
 	/*$("#min_title_list li").contextMenu('Huiadminmenu', {
@@ -216,7 +216,7 @@ $(function(){
 				}
 			},
 			'closeall': function(t) {
-				alert('Trigger was '+t.id+'\nAction was Email');
+				alert('Trigger was '+t.id+'nAction was Email');
 			},
 		}
 	});*/
@@ -270,4 +270,3 @@ function member_add(title,url,w,h){
 </script>
 </body>
 </html>
-</block>

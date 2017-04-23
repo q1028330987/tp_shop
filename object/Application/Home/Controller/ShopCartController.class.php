@@ -9,6 +9,9 @@
 
 		public function show()
 		{ 	
+			$cartList = $_SESSION;
+
+			$this->assign('cartList', $cartList['goods']);
 
 			$this->display('shopCart/shopCart');
 		}
@@ -24,7 +27,6 @@
 
 			if ($cartList) { 
 
-				$this->list = $cartList;
 				echo '1';
 
 			} else { 
@@ -170,6 +172,11 @@
 			// }
 
 
+		}
+
+		public function countGoods()
+		{ 
+			echo count($_SESSION['goods']);
 		}
 
 
