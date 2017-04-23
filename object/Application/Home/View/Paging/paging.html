@@ -75,17 +75,19 @@
                     <dl>
                         <dt class="fl-title fl-item">排序：</dt>
                         <dd class="fl-item on">
-							<a href="https://shop.vivo.com.cn/product/phone?category=&amp;netType=&amp;hasStore=">默认</a>
+							<a href="{:U('Paging/paging')}">默认</a>
 						</dd>
                         <dd class="fl-item ">
-							<a href="https://shop.vivo.com.cn/product/phone?category=&amp;netType=&amp;sortType=price_asc&amp;hasStore=">价格<i class="icon-sort"></i></a>
+                            <i>价格&nbsp;</i>
+							<a href="{:U('Paging/paging?cost=1')}">正序</a>
+                            <i>/</i>
+                            <a href="{:U('Paging/paging?cost=2')}">倒序</a>
 						</dd>
                         <dd class="fl-item ">
-							<a href="https://shop.vivo.com.cn/product/phone?category=&amp;netType=&amp;sortType=market_time_asc&amp;hasStore=">上架时间<i class="icon-sort"></i></a>
-						</dd>
-                        <dd class="fl-item">
-							<a href="https://shop.vivo.com.cn/product/phone?category=&amp;netType=&amp;sortType=&amp;hasStore=1">
-							<i class="icon-checkbox "></i>仅看有货</a>
+                            <i>上架时间&nbsp;</i>
+							<a href="{:U('Paging/paging?grounding=1')}">正序</a>
+                            <i>／</i>
+                            <a href="{:U('Paging/paging?grounding=2')}">倒序</a>
 						</dd>
                     </dl>
                 </div>
@@ -109,7 +111,11 @@
                             </foreach>
                         </ul>
                 </div>
-
+                <!-- 输出分页信息 -->
+                <div class="pagination">
+                        <span class="">{$pages} </span>
+                        <div class="num"></div>
+                </div>
 
 	</div>
 </div>

@@ -39,12 +39,11 @@
 			<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜商品</button>
 		</div>
 </literal>
-		<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="{:U('Goods/add')}"><i class="Hui-iconfont">&#xe600;</i> 添加商品</a></span> <span class="r">共有数据：<strong>54</strong> 条</span> </div>
+		<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a class="btn btn-primary radius" href="{:U('Goods/add')}"><i class="Hui-iconfont">&#xe600;</i> 添加商品</a></span> <span class="r">共有数据：<strong>54</strong> 条</span> </div>
 		<div class="mt-20">
 			<table class="table table-border table-bordered table-bg table-hover table-sort">
 				<thead>
 					<tr class="text-c">
-						<th width="40"><input name="" type="checkbox" value=""></th>
 						<th width="40">ID</th>
 						<th width="60">缩略图</th>
 						<th width="100">商品名称</th>
@@ -57,7 +56,6 @@
 				<tbody>
 					<foreach name="goods" item="v">
 						<tr class="text-c va-m">
-							<td><input name="" type="checkbox" value=""></td>
 							<td>{$v.id}</td>
 							<td><a onClick="product_show('商品详情图','product_show.html?id={$v.id}','{$v.id}')" href="javascript:;" title="商品详情图"><img width="60" class="product-thumb" src="__PUBLIC__{$v.pic}"></a></td>
 							<td class="text-l"><span>{$v.name}</span></td>
@@ -147,7 +145,7 @@ $('.table-sort').dataTable({
 	"aaSorting": [[ 1, "desc" ]],//默认第几个排序
 	"bStateSave": true,//状态保存
 	"aoColumnDefs": [
-	  {"orderable":false,"aTargets":[0,7]}// 制定列不参与排序
+	  {"orderable":false,"aTargets":[0,6]}// 制定列不参与排序
 	]
 });
 /*参数-添加*/

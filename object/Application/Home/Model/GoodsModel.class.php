@@ -23,8 +23,13 @@
         //查询商品手机
         public function commodityPhone()
         {
+            // dump(I('get.'));
             $paging = $this->paging();
             $id = $_GET['id'];
+            $grounding = $_GET['grounding'];
+            $cost = $_GET['cost'];
+            // dump($cost);die;
+
             //获取查询的关键字
             $searchKeywordStr = I('post.searchKeywordStr');
             // dump($paging);
@@ -38,21 +43,60 @@
             // dump($list);
 
             //判断构造条件
-            $arr['status'] = array('EQ',1);
             if ($id) {
-
                 $arr['tid'] = array('EQ', $id);
 
-            }
-            if($searchKeywordStr){
-
+            } else if($searchKeywordStr){
                 $arr['name'] = array('like','%'.$searchKeywordStr.'%');
 
+            } else{
+                $arr['tid'] = array('IN', $list);
+
             }
 
-            $goodsInfo = $this->where($arr)->select();
+            //判断排序
+            if ($cost == 1) {
+                //判断价格排序
+                $res = array('price'=>'asc');
+
+            } else if ($cost == 2) {
+                $res = array('price'=>'desc');
+
+            } else if ($grounding == 1) {
+                //判断上架时间排序
+                $res = array('addtime'=>'asc');
+
+            } else if ($grounding == 2) {
+                $res = array('addtime'=>'desc');
+
+            } else {
+                $res = '';
+            }
+
+            // dump(array('order', 'price'=>'desc'));
+            // die;
+            //获取数据的总数
+            $count = $this->where($arr)->count();
+            //设置每页显示
+            $num = 4;
+            //实例化分页类
+            $Page = new \Think\Page($count,$num);
+            //显示分页
+            $pages = $Page->show();
+            //获取limit参数
+            $limit = $Page->firstRow.','.$Page->listRows;
+            //进行分页查询
+            $goodsInfo = $this->where($arr)->limit($limit)->order($res)->select();
             // echo $this->getLastSql();
-            return $goodsInfo;
+            // die;
+            // return 1;
+            return array(
+                'pageBtn' => $pages,
+                'goodsInfo' => $goodsInfo
+            );
+            // $goodsInfo = $this->where($arr)->select();
+            // echo $this->getLastSql();
+            // return $goodsInfo;
             // dump($list);
         }
 
@@ -61,6 +105,8 @@
         {
             $parts = $this->parts();
             $id = $_GET['id'];
+            //获取查询的关键字
+            $searchKeywordStr = I('post.searchKeywordStr');
             // dump($parts);
 
             $list = [];
@@ -70,17 +116,61 @@
                 $list[$k] = $v['id'];
             }
             // dump($list);
+
+            //判断排序
+            if ($cost == 1) {
+                //判断价格排序
+                $res = array('price'=>'asc');
+
+            } else if ($cost == 2) {
+                $res = array('price'=>'desc');
+
+            } else if ($grounding == 1) {
+                //判断上架时间排序
+                $res = array('addtime'=>'asc');
+
+            } else if ($grounding == 2) {
+                $res = array('addtime'=>'desc');
+
+            } else {
+                $res = '';
+            }
+
+
+            //判断构造条件
             if ($id) {
 
                 $arr['tid'] = array('EQ', $id);
 
-            } else {
+            } else if($searchKeywordStr){
+
+                $arr['name'] = array('like','%'.$searchKeywordStr.'%');
+
+            } else{
                 $arr['tid'] = array('IN', $list);
             }
 
-            $goodsInfo = $this->where($arr)->select();
+            //获取数据的总数
+            $count = $this->where($arr)->count();
+            //设置每页显示
+            $num = 4;
+            //实例化分页类
+            $Page = new \Think\Page($count,$num);
+            //显示分页
+            $pages = $Page->show();
+            //获取limit参数
+            $limit = $Page->firstRow.','.$Page->listRows;
+            //进行分页查询
+            $goodsInfo = $this->where($arr)->order($res)->limit($limit)->select();
+
+            // return 1;
+            return array(
+                'pageBtn' => $pages,
+                'goodsInfo' => $goodsInfo
+            );
+            // $goodsInfo = $this->where($arr)->select();
             // echo $this->getLastSql();
-            return $goodsInfo;
+            // return $goodsInfo;
         }
 
 
@@ -96,6 +186,27 @@
             return $typesPhone;
         }
 
+        //判断商品的分类路径
+        public function detailsType()
+        {
+            // dump(I('get.'));die;
+            $id = I('get.id');
+            $goods = M('goods');
+            $type = M('type');
+
+            $goods = $goods->where("id='$id'")->select();
+            $tid = $goods[0]['tid'];
+            $types = $type->where("id='$tid'")->select();
+
+            $arr = '';
+            foreach ($types as $k => $v) {
+                // dump($v);
+                $arr[$k] = $v;
+            };
+            // dump($arr);
+            return $arr;
+
+        }
 
         //商品详情
         public function details()
@@ -177,7 +288,7 @@
         //商品图片详情
         public function pics()
         {
-            $id = I('get.id');
+            $id = I('post.goodsid');
             $pic = M('pics');
 
             if (!$id) {

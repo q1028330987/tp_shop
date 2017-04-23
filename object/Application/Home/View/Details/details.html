@@ -27,8 +27,8 @@
 
 <style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="__PUBLIC__/js/nc.js"></script>
 <style>
-    #small{width:420px;height:520px;overflow:hidden;position:absolute;}
-    #big{width:420px;height:520px;position:absolute;left:435px;top:20px;border:solid 1px #CCCCCC;overflow:hidden;display:none;z-index:10;}
+    #small{width:520px;height:520px;overflow:hidden;position:absolute;}
+    #big{width:420px;height:520px;position:absolute;left:535px;top:20px;border:solid 1px #CCCCCC;overflow:hidden;display:none;z-index:10;}
     #move{width:215px;height:215px;position:absolute;left:0px;top:0px;background:url('__PUBLIC__/Home/picture/bg.png');cursor:move;visibility:hidden;}
     #bigImg{position:absolute;}
     #imgs div{cursor:pointer;}
@@ -67,8 +67,14 @@
 
 <div class="wrapper">
     <div class="crumbs">您的位置:<a class="first" href="{:U('Index/index')}">首页</a><b></b>
-                <a href="">手机产品</a>
-        <b></b><span>Xplay系列</span></div>
+            <foreach name="type" item="v">
+                <if condition="$v['pid'] eq 87">
+                    <a href="{:U('Paging/paging')}">手机产品</a>
+                <else />
+                    <a href="{:U('Parts/parts')}">配件产品</a>
+                </if>
+        <b></b><span>{$v.title}</span></div>
+            </foreach>
 </div>
 
 <div class="prod-container">
@@ -78,7 +84,7 @@
                 <foreach name="details" item="v">
                 <div class="product-album-pic"  id='small' >
                       <!-- 放大镜功能 -->
-                      <img src="__PUBLIC__{$v['pic']}" alt="" class="small-pic" id='smallImg' style='width:100%;height:100%;'>
+                      <img src="__PUBLIC__{$v['pic']}" alt="" class="small-pic" id='smallImg' style='width:100%;height:100%;' goodsid="{$v.id}">
                       <div id='move'></div>
                 </div>
                 <img class="loading" app="b2c" src="__PUBLIC__/Home/picture/loading.gif" alt="正在加载大图..." style="display:none;" />
@@ -296,7 +302,8 @@
 
                 <div class="btns">
 
-                    <button class="btn-next J_buy-button btn-confirm now-buy" type="button" title="立即购买">立即购买</button>
+                    <button class="btn-next J_buy-button btn-confirm now-buy" type="button" title="立即购买">立即购买</button>&nbsp;&nbsp;&nbsp;
+                    <button class="btn-next J_buy-button btn-confirm now-buy" type="button" title="立即购买">加入购物车</button>
                     <p class="count-down-text"></p>
 
                     <div id="error-msg" class="red hidden"></div>
@@ -330,21 +337,22 @@
                 <span>￥4498</span>
             </div>
             <ul>
-                <li class="tab-information current" v="information"><a href="https://shop.vivo.com.cn/product/9958#">详情<b></b></a></li>
-                <li class="tab-parameter" v="parameter"><a href="https://shop.vivo.com.cn/product/9958#">参数<b></b></a></li>
-                <li class="tab-evaluate" v="evaluate"><a id="remarkHandler" href="https://shop.vivo.com.cn/product/9958#" prodid="9958">评价<span id="remarkCountSpan"> ( 1950 ) </span><b></b></a></li>
-                <li class="tab-evaluation" v="evaluation" style="display: none"><a href="https://shop.vivo.com.cn/product/9958#">评测<b></b></a></li>
-                <li class="tab-afterservice" v="afterservice"><a href="https://shop.vivo.com.cn/product/9958#">售后服务<b></b></a></li>
+                <li class="tab-information current" v="information"><a href="">详情<b></b></a></li>
+                <li class="tab-parameter" v="parameter"><a href="">参数<b></b></a></li>
+                <li class="tab-evaluate" v="evaluate"><a id="remarkHandler" prodid="9958">评价<span id="remarkCountSpan"> ( 1950 ) </span><b></b></a></li>
+                <li class="tab-evaluation" v="evaluation" style="display: none"><a href="">评测<b></b></a></li>
+                <li class="tab-afterservice" v="afterservice"><a href="">售后服务<b></b></a></li>
             </ul>
         </div>
     </div>
     <div class="prod-main-box">
         <div class="prod-main-information" style="display: block;">
             <div class="section">
+                <div></div>
             <!-- <p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170408/2017040817104078139_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/2017040817104078139_original.jpg" style="display: inline;"><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170315173182_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170315173182_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170325266459_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170325266459_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317033610379_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317033610379_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317034086756_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317034086756_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154746798561_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154746798561_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170400228102_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170400228102_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170404124754_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170404124754_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/2017032317041488351_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/2017032317041488351_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170424818227_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170424818227_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170428108229_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170428108229_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170437833814_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170437833814_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170448393563_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170448393563_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329154833431853_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329154833431853_original.jpg" style="display: inline;"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170503134665_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170503134665_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170323/20170323170513250257_original.jpg" style="display: inline;" src="__PUBLIC__/Home/Details/20170323170513250257_original.jpg"></p><p><img data-src="https://swsdl.vivo.com.cn/vivoshop/commodity/20170329/20170329161716509617_original.jpg" title="" alt="" src="__PUBLIC__/Home/Details/20170329161716509617_original.jpg" style="display: inline;"></p> -->
-            <foreach name="pics" item="v">
-            <p><img title="" alt="图片被绑架了" src="__PUBLIC__{$v.imgs}" style="display: inline;"></p>
-            </foreach>
+            <!-- <foreach name="pics" item="v"> -->
+            <!-- <p><img title="" alt="图片被绑架了" src="__PUBLIC__{$v.imgs}" style="display: inline;"></p> -->
+           <!--  </foreach> -->
             </div>
         </div>
             <div class="prod-main-parameter" style="display: none;">
@@ -414,7 +422,7 @@
     </div>
 </div>    </div>
 
-</div>
+<!-- </div> -->
 
 </div>
 
@@ -639,14 +647,73 @@
 <script src="__PUBLIC__/js/vivo-stat_265b49b.js"></script>
 <script src="__PUBLIC__/js/login_confirm_485e7b4.js"></script>
 <script>
-    var imgHost = "https://swsdl.vivo.com.cn/vivoshop/";
+    // var imgHost = "https://swsdl.vivo.com.cn/vivoshop/";
     var skuImageJsonStr = '([{"bigPic":"commodity/54/4154_1484965277259hd_530x530.png","hdPic":"commodity/54/4154_1484965277259hd_1080x1080.png","imageNo":"1484965277259hd","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1484965277259hd_250x250.png","thumbnailPic":"commodity/54/4154_1484965277259hd_100x100.png"},{"bigPic":"commodity/54/4154_1482378368543_530x530.png","hdPic":"commodity/54/4154_1482378368543_530x530.png","imageNo":"1482378368543","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1482378368543_250x250.png","thumbnailPic":"commodity/54/4154_1482378368543_100x100.png"},{"bigPic":"commodity/54/4154_1482378368983_530x530.png","hdPic":"commodity/54/4154_1482378368983_530x530.png","imageNo":"1482378368983","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1482378368983_250x250.png","thumbnailPic":"commodity/54/4154_1482378368983_100x100.png"},{"bigPic":"commodity/54/4154_1482378369387_530x530.png","hdPic":"commodity/54/4154_1482378369387_530x530.png","imageNo":"1482378369387","imageType":"","skuId":"4154","smallPic":"commodity/54/4154_1482378369387_250x250.png","thumbnailPic":"commodity/54/4154_1482378369387_100x100.png"},{"bigPic":"commodity/64/4164_1484965280001hd_530x530.png","hdPic":"commodity/64/4164_1484965280001hd_1080x1080.png","imageNo":"1484965280001hd","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1484965280001hd_250x250.png","thumbnailPic":"commodity/64/4164_1484965280001hd_100x100.png"},{"bigPic":"commodity/64/4164_1480669444073_530x530.png","hdPic":"commodity/64/4164_1480669444073_530x530.png","imageNo":"1480669444073","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1480669444073_250x250.png","thumbnailPic":"commodity/64/4164_1480669444073_100x100.png"},{"bigPic":"commodity/64/4164_1480669445121_530x530.png","hdPic":"commodity/64/4164_1480669445121_530x530.png","imageNo":"1480669445121","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1480669445121_250x250.png","thumbnailPic":"commodity/64/4164_1480669445121_100x100.png"},{"bigPic":"commodity/64/4164_1481333122284_530x530.png","hdPic":"commodity/64/4164_1481333122284_530x530.png","imageNo":"1481333122284","imageType":"","skuId":"4164","smallPic":"commodity/64/4164_1481333122284_250x250.png","thumbnailPic":"commodity/64/4164_1481333122284_100x100.png"},{"bigPic":"commodity/66/4266_1490338119910hd_530x530.png","hdPic":"commodity/66/4266_1490338119910hd_1080x1080.png","imageNo":"1490338119910hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490338119910hd_250x250.png","thumbnailPic":"commodity/66/4266_1490338119910hd_100x100.png"},{"bigPic":"commodity/66/4266_1490271072649hd_530x530.png","hdPic":"commodity/66/4266_1490271072649hd_1080x1080.png","imageNo":"1490271072649hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490271072649hd_250x250.png","thumbnailPic":"commodity/66/4266_1490271072649hd_100x100.png"},{"bigPic":"commodity/66/4266_1490271073980hd_530x530.png","hdPic":"commodity/66/4266_1490271073980hd_1080x1080.png","imageNo":"1490271073980hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490271073980hd_250x250.png","thumbnailPic":"commodity/66/4266_1490271073980hd_100x100.png"},{"bigPic":"commodity/66/4266_1490271075005hd_530x530.png","hdPic":"commodity/66/4266_1490271075005hd_1080x1080.png","imageNo":"1490271075005hd","imageType":"","skuId":"4266","smallPic":"commodity/66/4266_1490271075005hd_250x250.png","thumbnailPic":"commodity/66/4266_1490271075005hd_100x100.png"}])';
     var skuImageJson = eval(skuImageJsonStr);
     var fullpaySkuIdSet = "";
     var spuInstallment = "1";
     var isSecondBuy = false;
     var maxNumberPerUser = 3;
+
+    //获取到整个文档的高度
+    // $(document).scroll(function () {
+
+        // console.log(1);
+    // });
+    var documentHeight = $(document).height();
+
+    // console.log('整个文档的高度'+documentHeight);
+
+
+
+    $(document).on('scroll', function () {
+
+
+        //获取到浏览器窗口可见高度
+        var browserHeight = $(window).height();
+
+        console.log('浏览器窗口可见高度'+browserHeight);
+
+        //获取到滚动条的高度
+        var scrollHeight = $(this).scrollTop();
+
+        // console.log(scrollHeight);
+
+        //获取到商品的id号
+        var goodsid = $('.small-pic').attr('goodsid');
+
+        if (scrollHeight >= 380) {
+
+            $.post(
+                "{:U('Details/ajaxDetailPicLoad')}",
+                {
+                    goodsid:goodsid,
+                },
+                function (data) {
+                    $('.section p').remove();
+
+
+                    var ter = '';
+                    for ( var i = 0; i < data.length; i++ ) {
+                        console.log(data);
+                        ter += '<p><img title="" alt="图片被绑架了" src="__PUBLIC__'+data[i]['imgs']+'" style="display: inline;"></p>';
+                    }
+                    $('.section').append(ter);
+                },
+                'json'
+
+            );
+
+        }
+        //当滚动条到底部了
+        if ( scrollHeight + browserHeight >= documentHeight ) {
+
+            console.log('好深！到底啦！不要不要');
+        }
+    });
 </script>
+
+
 <script src="__PUBLIC__/js/simpleStorage_f115cd4.js"></script>
 <script src="__PUBLIC__/js/view_cbc6422.js"></script>
 <script src="__PUBLIC__/js/view-hist_823c137.js"></script>

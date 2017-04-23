@@ -12,7 +12,8 @@
 
             // dump($parts);
             $this->assign('parts', $parts);
-            $this->assign('commodityParts', $commodityParts);
+            $this->assign('commodityParts', $commodityParts['goodsInfo']);
+            $this->assign('pages', $commodityParts['pageBtn']);
             $this->display();
         }
     }

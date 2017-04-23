@@ -29,7 +29,7 @@
 <header id="header">
     <div class="head-search">
         <div class="search-box">
-        	<form action="{:U('Paging/paging')}" method="post" onsubmit="if ($.trim($(this).find('input').val()) == '') {alert('请输入关键词'); return false;} return true;"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x9"><button type="submit">搜索</button></form><a class="close"></a>
+        	<form action="{:U('Parts/Parts')}" method="post" onsubmit="if ($.trim($(this).find('input').val()) == '') {alert('请输入关键词'); return false;} return true;"><input type="text" autocomplete="off" name="searchKeywordStr" maxlength="20" placeholder="如:x9"><button type="submit">搜索</button></form><a class="close"></a>
         </div>
     </div>
     <div class="wrapper">
@@ -76,18 +76,20 @@
                     <dl>
                         <dt class="fl-title fl-item">排序：</dt>
                         <dd class="fl-item on">
-							<a href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;hasStore=">默认</a>
-						</dd>
+                            <a href="{:U('Parts/parts')}">默认</a>
+                        </dd>
                         <dd class="fl-item ">
-							<a href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=price_asc&amp;hasStore=">价格<i class="icon-sort"></i></a>
-						</dd>
+                            <i>价格&nbsp;</i>
+                            <a href="{:U('Parts/parts?cost=1')}">正序</a>
+                            <i>/</i>
+                            <a href="{:U('Parts/parts?cost=2')}">倒序</a>
+                        </dd>
                         <dd class="fl-item ">
-							<a href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=market_time_asc&amp;hasStore=">上架时间<i class="icon-sort"></i></a>
-						</dd>
-                        <dd class="fl-item">
-							<a href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=&amp;hasStore=1">
-							<i class="icon-checkbox "></i>仅看有货</a>
-						</dd>
+                            <i>上架时间&nbsp;</i>
+                            <a href="{:U('Parts/parts?grounding=1')}">正序</a>
+                            <i>／</i>
+                            <a href="{:U('Parts/parts?grounding=2')}">倒序</a>
+                        </dd>
                     </dl>
                 </div>
             </div>
@@ -104,7 +106,7 @@
     						{$v.name}
     						</h3>
     						<p class="price">
-    							<dfn>¥</dfn>299.00
+    							<dfn>¥</dfn>{$v.price}
     						</p>
                         </a>
     					</li>
@@ -112,16 +114,11 @@
                     </ul>
 
                 </div>
-
-		<nav class="pagination">
-
-                        <a class="num current" href="javascript:void(0)">1</a>
-                        <a class="num" href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=&amp;hasStore=&amp;searchKeywordStr=&amp;pageNum=2&amp;pageSize=12">2</a>
-                        <a class="num" href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=&amp;hasStore=&amp;searchKeywordStr=&amp;pageNum=3&amp;pageSize=12">3</a>
-                        <a class="num" href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=&amp;hasStore=&amp;searchKeywordStr=&amp;pageNum=4&amp;pageSize=12">4</a>
-				<a class="next" href="https://shop.vivo.com.cn/product/parts?category=&amp;netType=&amp;sortType=&amp;hasStore=&amp;searchKeywordStr=&amp;pageNum=2&amp;pageSize=12"></a>
-            <label><input class="go-num" type="text"> / 4</label><a data-total="4" data-url="/product/parts?category=&amp;netType=&amp;sortType=&amp;hasStore=&amp;searchKeywordStr=&amp;pageNum=PAGENUM&amp;pageSize=12" class="go j_go" href="javascript:void(0)"></a>
-		</nav>
+                <!-- 输出分页信息 -->
+                <div class="pagination">
+                        <span class="">{$pages} </span>
+                        <!-- <div class="num"></div> -->
+                </div>
 
 	</div>
 </div>
