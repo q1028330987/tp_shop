@@ -44,7 +44,7 @@
                 <ul class="top-quick-menu">
                     <li id="j_SearchTrigger" class="search"><a href="javascript:void(0)" rel="nofollow"><b></b></a></li>
                     <li id="j_UserMenuTrigger">
-                    	<a href="https://shop.vivo.com.cn/my/" class="user"><b></b></a>
+                    	<a href="<?php echo U('Login/showLogin');?>" class="user"><b></b></a>
                     </li>
                     <li><a href="<?php echo U('ShopCart/show');?>" class="shoppingcart"><b></b><span class="shopcart-num"><?php echo (count(session('goods'))); ?></span></a></li>
                 </ul>
