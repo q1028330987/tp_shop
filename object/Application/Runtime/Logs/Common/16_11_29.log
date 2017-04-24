@@ -1,0 +1,6 @@
+[ 2016-11-29T04:12:17+08:00 ] 192.168.42.125 /gitHub/tp_shop/object/index.php/vivoAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:VivoAdmin
+
