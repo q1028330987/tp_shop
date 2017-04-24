@@ -21,5 +21,5 @@ return array(
     //开启表单令牌，防止表单重复提交
     'TOKEN_ON'      =>    false,
 
-    
+
 );

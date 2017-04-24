@@ -9,18 +9,18 @@
     <meta name="description" content="vivo智能手机官方商城">
     <link rel="shortcut icon" href="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/favicon_7761e1f.ico">
 
-    <link href="/gitHub/tp_shop/object/Public/css/global_79a0974.css" rel="stylesheet" type="text/css">
-    <link href="/gitHub/tp_shop/object/Public/css/layout_3a0d4d9.css" rel="stylesheet" type="text/css">
-    <link href="/gitHub/tp_shop/object/Public/css/dialog_523c50b.css" rel="stylesheet" type="text/css">
+    <link href="/gz25/github/tp_shop/object/Public/css/global_79a0974.css" rel="stylesheet" type="text/css">
+    <link href="/gz25/github/tp_shop/object/Public/css/layout_3a0d4d9.css" rel="stylesheet" type="text/css">
+    <link href="/gz25/github/tp_shop/object/Public/css/dialog_523c50b.css" rel="stylesheet" type="text/css">
 
 
-    <link href="/gitHub/tp_shop/object/Public/css/prod-list_51dea72.css" rel="stylesheet" type="text/css">
+    <link href="/gz25/github/tp_shop/object/Public/css/prod-list_51dea72.css" rel="stylesheet" type="text/css">
 
-    <script src="/gitHub/tp_shop/object/Public/js/hm.js" async=""></script><script type="text/javascript" src="/gitHub/tp_shop/object/Public/js/065f0df8c3a79510e698e5de40c8fb71.js"></script><!--[if lt IE 9]>
+    <script src="/gz25/github/tp_shop/object/Public/js/hm.js" async=""></script><script type="text/javascript" src="/gz25/github/tp_shop/object/Public/js/065f0df8c3a79510e698e5de40c8fb71.js"></script><!--[if lt IE 9]>
     <script src="https://swsdl.vivo.com.cn/vivoshop/web/dist/js/bower_components/html5shiv/dist/html5shiv.min_23e126e.js"></script>
     <![endif]-->
 
-<style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="/gitHub/tp_shop/object/Public/js/nc.js"></script>
+<style type="text/css">#waf_nc_block {position: fixed;_position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;z-index: 9999;}.waf-nc-mask {background: #f8f8f8;opacity: 0.5;filter:alpha(opacity=50); width: 100%;height: 100%;} .waf-nc-wrapper {width:480px; height:254px; position: absolute; top: 50%; left: 50%; margin-top: -127px; margin-left: -240px; margin-bottom: 16px; background:#ffffff; border:3px solid #00A2CA;} .waf-nc-icon {position: absolute;top: 18px;left: 20px;} .waf-nc-title {margin-top: 23px; margin-left: 47px; font-size:16px; color:#333333; line-height:10px; text-align:left;} .waf-nc-splitter {margin-left: 26px; margin-top: 5px; width:430px; height:0px; border:1px solid #f4f4f4; } .waf-nc-description { margin-top: 22px; margin-left: 23px; font-size:12px; color:#333333; text-align: left; } #nocaptcha { margin-top: 20px; margin-left: 92px; width:300px; height36px;}</style><script src="/gz25/github/tp_shop/object/Public/js/nc.js"></script>
 <style>
 </style>
 </head>
@@ -33,7 +33,7 @@
     </div>
     <div class="wrapper">
         <nav id="navigator" class="cl">
-        	<a href="<?php echo U('Index/index');?>" class="vivo-logo"><img src="/gitHub/tp_shop/object/Public/Home/Paging/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站"></a>
+        	<a href="<?php echo U('Index/index');?>" class="vivo-logo"><img src="/gz25/github/tp_shop/object/Public/Home/Paging/vivo-logo_865fdf1.png" alt="vivo智能手机官方网站"></a>
             <ul class="cl">
                 <li class="current"><a href="<?php echo U('Paging/paging');?>">手机</a></li>
                 <li><a href="<?php echo U('Parts/parts');?>">配件</a></li>
@@ -95,7 +95,7 @@
                             <?php if(is_array($commodityPhone)): foreach($commodityPhone as $key=>$v): ?><li class="prod-item ">
                                     <a target="_blank" href="<?php echo U('Details/details', array('id'=>$v['id']));?>">
     								<div class="figure">
-    									<img src="/gitHub/tp_shop/object/Public<?php echo ($v["pic"]); ?>" style="position: relative;">
+    									<img src="/gz25/github/tp_shop/object/Public<?php echo ($v["pic"]); ?>" style="position: relative;">
     								</div>
     								<h3 title="Xplay6 全网通【旗舰精品】">
                                         <?php echo ($v["name"]); ?>
@@ -174,7 +174,7 @@
                 <dd>周一至周五 08:00-21:00</dd>
                 <dd>周六、周日 09:00-18:00</dd>
                 <dd class="online-service">
-                    <a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007161118&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><img class="lazy" data-src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/common/online-service_1e5d0b6.png" src="/gitHub/tp_shop/object/Public/Home/Index/online-service_1e5d0b6.png" style="display: inline;"></a>
+                    <a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007161118&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><img class="lazy" data-src="https://swsdl.vivo.com.cn/vivoshop/web/dist/img/common/online-service_1e5d0b6.png" src="/gz25/github/tp_shop/object/Public/Home/Index/online-service_1e5d0b6.png" style="display: inline;"></a>
                 </dd>
             </dl>
         </div>
@@ -185,7 +185,7 @@
                 成为vivo粉丝:<a href="#" target="_blank" class="sina"><b></b></a>
                 <a href="#" target="_blank" class="tencent"><b></b></a>
                 <a href="#" target="_blank" class="renren"><b></b></a>
-                <a href="javascript:;" class="weixin"><b></b><div class="vivo-weixin-overbox"><img src="/gitHub/tp_shop/object/Public/Home/Index/vivo-weixin-ico_f8c8800.jpg"><b></b></div></a>
+                <a href="javascript:;" class="weixin"><b></b><div class="vivo-weixin-overbox"><img src="/gz25/github/tp_shop/object/Public/Home/Index/vivo-weixin-ico_f8c8800.jpg"><b></b></div></a>
             </div>
             <div class="copy-info">
                 <a href="#" class="footer-logo"></a>Copyright ©2011-2016 广东步步高电子工业有限公司<br>版权所有 保留一切权利粤B2-20080267 | <a href="#" target="_blank">粤ICP备05100288号</a>
@@ -199,7 +199,7 @@
         <li>
             <a class="qrcode">
                 <div class="qrcode-container">
-                    <img src="/gitHub/tp_shop/object/Public/Home/Index/qrcode_6a6b792.png">
+                    <img src="/gz25/github/tp_shop/object/Public/Home/Index/qrcode_6a6b792.png">
                     <p>支付宝扫码<br>关注享最新活动福利</p>
                 </div>
             </a>
@@ -236,15 +236,15 @@
     var webCtx = "";
     var passportLoginUrlPrefix = "https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=";
 </script>
-<script src="/gitHub/tp_shop/object/Public/js/jquery.min_6163309.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/jquery.cookie_a5283b2.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/jquery.lazyload_546c1da.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/jquery-placeholder_fb6154c.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/vivo-common_38aa2f0.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/dialog_6a2b3fb.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/vivo-stat_265b49b.js"></script>
-<script src="/gitHub/tp_shop/object/Public/js/login_confirm_485e7b4.js"></script>
-    <script src="/gitHub/tp_shop/object/Public/js/list-hover_a2668cb.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/jquery.min_6163309.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/jquery.cookie_a5283b2.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/jquery.lazyload_546c1da.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/jquery-placeholder_fb6154c.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/vivo-common_38aa2f0.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/dialog_6a2b3fb.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/vivo-stat_265b49b.js"></script>
+<script src="/gz25/github/tp_shop/object/Public/js/login_confirm_485e7b4.js"></script>
+    <script src="/gz25/github/tp_shop/object/Public/js/list-hover_a2668cb.js"></script>
 
 <script>
     //百度统计代码
@@ -258,4 +258,4 @@
     })();
 </script>
 
-<div style="height: 0px; width: 0px; overflow: hidden;"><object width="0" height="0" tabindex="-1" style="height:0;width:0;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="JSocket"><param name="allowScriptAccess" value="always"><param name="movie" value="https://aeu.alicdn.com/flash/JSocket.swf"> <embed src="https://aeu.alicdn.com/flash/JSocket.swf" name="JSocket" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="https://www.adobe.com/go/getflashplayer_cn" width="0" height="0"></object></div><div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><img class="waf-nc-icon" src="/gitHub/tp_shop/object/Public/Home/Paging/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png" alt="" height="20" width="20"><p class="waf-nc-title">安全验证</p><div class="waf-nc-splitter"></div><p class="waf-nc-description">请完成以下验证后继续操作：</p><div id="nocaptcha"></div></div></div></body></html>
+<div style="height: 0px; width: 0px; overflow: hidden;"><object width="0" height="0" tabindex="-1" style="height:0;width:0;overflow:hidden;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="JSocket"><param name="allowScriptAccess" value="always"><param name="movie" value="https://aeu.alicdn.com/flash/JSocket.swf"> <embed src="https://aeu.alicdn.com/flash/JSocket.swf" name="JSocket" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="https://www.adobe.com/go/getflashplayer_cn" width="0" height="0"></object></div><div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><img class="waf-nc-icon" src="/gz25/github/tp_shop/object/Public/Home/Paging/TB1_3FrKVXXXXbdXXXXXXXXXXXX-129-128.png" alt="" height="20" width="20"><p class="waf-nc-title">安全验证</p><div class="waf-nc-splitter"></div><p class="waf-nc-description">请完成以下验证后继续操作：</p><div id="nocaptcha"></div></div></div></body></html>

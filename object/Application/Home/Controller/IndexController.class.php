@@ -7,6 +7,10 @@
     {
         public function index()
         {
+            $wheel = M('wheel');
+            $wheels = $wheel->where("status='1'")->select();
+            // dump($wheels);
+            $this->assign('wheel', $wheels);
             $this->display();
         }
     }

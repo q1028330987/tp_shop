@@ -6,26 +6,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<link rel="Bookmark" href="/gitHub/tp_shop/object/Public/favicon.ico" >
-<link rel="Shortcut Icon" href="/gitHub/tp_shop/object/Public/favicon.ico" />
+<link rel="Bookmark" href="/gz25/github/tp_shop/object/Public/favicon.ico" >
+<link rel="Shortcut Icon" href="/gz25/github/tp_shop/object/Public/favicon.ico" />
 <!--[if lt IE 9]>
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/html5shiv.js"></script>
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/respond.min.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/html5shiv.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/respond.min.js"></script>
 <![endif]-->
 
 
-<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="/gitHub/tp_shop/object/Public/static/h-ui.admin/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui.admin/css/style.css" />
 
 
 
 
 
 <!--[if IE 6]>
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
 
@@ -82,28 +82,28 @@
 <aside class="Hui-aside">
 	<div class="menu_dropdown bk_2">
 		<dl id="menu-article">
-			<dt><i class="Hui-iconfont">&#xe616;</i> 订单管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe616;</i> 资讯管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="<?php echo U('Orders/orders_list');?>" data-title="资讯管理" href="javascript:void(0)">订单管理</a></li>
+					<li><a data-href="<?php echo U('Article/article_list');?>" data-title="资讯管理" href="javascript:void(0)">资讯管理</a></li>
 			</ul>
 		</dd>
 	</dl>
 		<dl id="menu-picture">
-			<dt><i class="Hui-iconfont">&#xe613;</i> 图片管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe613;</i> 轮播图管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="<?php echo U('Picture/picture_list');?>" data-title="图片管理" href="javascript:void(0)">图片管理</a></li>
+					<li><a data-href="<?php echo U('Picture/picture_list');?>" data-title="轮播图管理" href="javascript:void(0)">轮播图管理</a></li>
 			</ul>
 		</dd>
 	</dl>
 		<dl id="menu-product">
-			<dt><i class="Hui-iconfont">&#xe620;</i> 产品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe620;</i> 商品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
 					<li><a data-href="<?php echo U('Type/index');?>" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
-					<li><a data-href="<?php echo U('Goods/index');?>" data-title="商品管理" href="javascript:void(0)">商品管理</a></li>
-					<li><a data-href="<?php echo U('Product/product_category');?>" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
+					<li><a data-href="<?php echo U('Goods/index');?>" data-title="商品管理" href="javascript:void(0)">商品管理</a></li><!--
+					<li><a data-href="<?php echo U('Product/product_category');?>" data-title="分类管理" href="javascript:void(0)">分类管理</a></li> -->
 			</ul>
 		</dd>
 	</dl>
@@ -196,14 +196,14 @@
 	</div>
 
 <!--_footer 作为公共模版分离出去-->
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/layer/2.4/layer.js"></script>
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/static/h-ui/js/H-ui.min.js"></script>
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <!--/_footer 作为公共模版分离出去-->
 
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="/gitHub/tp_shop/object/Public/lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
 
 <script type="text/javascript">
 $(function(){
