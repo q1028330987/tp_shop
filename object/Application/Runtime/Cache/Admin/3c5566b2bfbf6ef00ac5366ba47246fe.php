@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
@@ -7,18 +7,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <!--[if lt IE 9]>
-<script type="text/javascript" src="__PUBLIC__/lib/html5shiv.js"></script>
-<script type="text/javascript" src="__PUBLIC__/lib/respond.min.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/html5shiv.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/respond.min.js"></script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/style.css" />
-<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="/gz25/github/tp_shop/object/Public/static/h-ui.admin/css/style.css" />
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/jquery/1.9.1/jquery.min.js"></script>
 
 <!--[if IE 6]>
-<script type="text/javascript" src="__PUBLIC__/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
 <title>vivo后台登录</title>
@@ -31,7 +31,7 @@
 <div class="header"></div>
 <div class="loginWraper">
   <div id="loginform" class="loginBox">
-    <form id="login" class="form form-horizontal" action="{:U('Public/login')}" method="post" >
+    <form id="login" class="form form-horizontal" action="<?php echo U('Public/login');?>" method="post" >
       <div class="row cl">
         <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
         <div class="formControls col-xs-8">
@@ -48,7 +48,7 @@
         <div class="formControls col-xs-8 col-xs-offset-3">
 
           <input required="true" class="input-text size-L" type="text" placeholder="验证码" maxlength="4" value="" id="code" name="code" style="width:150px;">
-          <img class="verify" src="{:U('Public/verify')}" alt="验证码" onClick="this.src=this.src+'?'+Math.random()" />
+          <img class="verify" src="<?php echo U('Public/verify');?>" alt="验证码" onClick="this.src=this.src+'?'+Math.random()" />
           <input type="hidden" id="check_code" value="0">
           <p>看不清，点击图片刷新</p> </div>
       </div>
@@ -69,13 +69,13 @@
   </div>
 </div>
 <div class="footer">vivo</div>
-<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/gz25/github/tp_shop/object/Public/static/h-ui/js/H-ui.min.js"></script>
 <script>
 
 		function checkCode(){
 			var code = $('#code').val();
 			if(code.length == 4){
-			$.get("{:U('Public/check_code')}", {code:code},function(data){
+			$.get("<?php echo U('Public/check_code');?>", {code:code},function(data){
 				if(data == 1){
 
 
