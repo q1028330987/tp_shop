@@ -12,15 +12,8 @@
 			$m = new Model();
 			// dump($m->select());
 
-			$res = $m->query("select g.role,t.name from shop_auth_group g,shop_auth_group_access ga,shop_think_user t where g.id=ga.group_id and t.id=ga.uid");
-			// $role = $m->query("select r.title from shop_auth_group g,shop_auth_rule r where g.rules=r.id");
-					// shop_think_user   shop_auth_group_access
-			// dump($role);exit;
-			$rule = M('auth_rule');
-			$group = M('auth_group');
+			$res = $m->query("select g.role,t.name,t.id from shop_auth_group g,shop_auth_group_access ga,shop_think_user t where g.id=ga.group_id and t.id=ga.uid");
 
-			// $k = $m->join('auth_group ON auth_group.rules = auth_rule.id')->join()->select();
-			// dump($k);exit;
 
 			return $res;
 		}

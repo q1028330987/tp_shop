@@ -30,24 +30,24 @@
 <article class="page-container">
 	<form action="{:U('Admin/Admin/admin_add')}" class="form form-horizontal" id="form-admin-add" method="post" >
 	<div class="row cl">
-		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>管理员：</label>
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>控制器名：</label>
 		<div class="formControls col-xs-8 col-sm-9">
 			<input type="text" class="input-text" value="" placeholder="" id="name" name="name">
 			<input type="hidden" id="name_hidden" value="0" />
 		</div>
 	</div>
 	<div class="row cl">
-		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>密码：</label>
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>权限节点：</label>
 		<div class="formControls col-xs-8 col-sm-9">
-			<input type="password" class="input-text" autocomplete="off" value="" placeholder="密码" id="password" name="pass">
+			<input type="text" class="input-text" autocomplete="off" value="" placeholder="" id="password" name="pass">
 		</div>
 	</div>
-	<div class="row cl">
+<!-- 	<div class="row cl">
 		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>确认密码：</label>
 		<div class="formControls col-xs-8 col-sm-9">
 			<input type="password" class="input-text" autocomplete="off"  placeholder="确认密码" id="repass" name="repass">
 		</div>
-	</div>
+	</div> -->
 	<!-- <div class="row cl">
 		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别：</label>
 		<div class="formControls col-xs-8 col-sm-9 skin-minimal">
@@ -73,19 +73,19 @@
 			<input type="text" class="input-text" placeholder="@" name="email" id="email">
 		</div>
 	</div> -->
-	<div class="row cl">
+<!-- 	<div class="row cl">
 		<label class="form-label col-xs-4 col-sm-3">角色：</label>
 		<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
 			<select class="select" name="group_id" size="1">
-				<!-- <option value="0">超级管理员</option> -->
-				<!-- <option value="1">客服部门</option>
-				<option value="2">商品管理组</option> -->
+				<option value="0">超级管理员</option>
+				<option value="1">客服部门</option>
+				<option value="2">商品管理组</option>
 				<foreach name="res" item="v">
 				<option value="{$v.id}">{$v.role}</option>
 				</foreach>
 			</select>
 			</span> </div>
-	</div>
+	</div> -->
 	<!-- <div class="row cl">
 		<label class="form-label col-xs-4 col-sm-3">备注：</label>
 		<div class="formControls col-xs-8 col-sm-9">

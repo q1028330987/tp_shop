@@ -15,6 +15,8 @@
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css" />
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/skin/default/skin.css" id="skin" />
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/style.css" />
+<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script> 
+
 <!--[if IE 6]>
 <script type="text/javascript" src="__PUBLIC__/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
@@ -22,23 +24,70 @@
 <title>vivo后台登录</title>
 <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
 <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+
+</head>
+<body>
+<input type="hidden" id="TenantId" name="TenantId" value="" />
+<div class="header"></div>
+<div class="loginWraper">
+  <div id="loginform" class="loginBox">
+    <form id="login" class="form form-horizontal" action="{:U('Public/login')}" method="post" >
+      <div class="row cl">
+        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
+        <div class="formControls col-xs-8">
+          <input id="name" required="true" name="name" type="text" placeholder="账户" class="input-text size-L">
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60e;</i></label>
+        <div class="formControls col-xs-8">
+          <input id="pass" required="true" name="pass" type="password" placeholder="密码" class="input-text size-L">
+        </div>
+      </div>
+      <div class="row cl">
+        <div class="formControls col-xs-8 col-xs-offset-3">
+
+          <input required="true" class="input-text size-L" type="text" placeholder="验证码" maxlength="4" value="" id="code" name="code" style="width:150px;">
+          <img class="verify" src="{:U('Public/verify')}" alt="验证码" onClick="this.src=this.src+'?'+Math.random()" />
+          <input type="hidden" id="check_code" value="0">
+          <p>看不清，点击图片刷新</p> </div>
+      </div>
+      <div class="row cl">
+        <div class="formControls col-xs-8 col-xs-offset-3">
+          <label for="online">
+            <!-- <input type="checkbox" name="online" id="online" value="">
+            使我保持登录状态</label> -->
+        </div>
+      </div>
+      <div class="row cl">
+        <div class="formControls col-xs-8 col-xs-offset-3">
+          <input id="aaa" onClick="return checkCode()" name="" type="button" class="btn btn-success radius size-L" value="&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;">
+          <input name="" type="reset" class="btn btn-default radius size-L" value="&nbsp;重&nbsp;&nbsp;&nbsp;&nbsp;置&nbsp;">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="footer">vivo</div>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.min.js"></script>
 <script>
-	$(function(){
-		$('#code').keyup(function(){
+	
+		function checkCode(){
 			var code = $('#code').val();
-			if(code.length == 4 && $('#check_code').val() == 0){
-				$.get("{:U('Public/check_code')}", {code:code},function(data){
-			if(data == 1){
-				$('#check_code').val(1);
-				layer.tips('√ 通过验证', '#code',{time: 60000});
-				}else{
-				$('#check_code').val(0);
-				layer.tips('× 验证错误', '#code');
-				}
+			if(code.length == 4){
+			$.get("{:U('Public/check_code')}", {code:code},function(data){
+				if(data == 1){
+
+
+					document:login.submit()
+			
+					}else{
+
+					}
 			});
 		}
-	});
-})
+	}
+
 </script>
 <script>
 	function check_login(){
@@ -47,7 +96,7 @@
 		var code = $('#code').val();  //验证码
 		var check_code = $('#check_code').val();  //验证码验证结果
 		if(name == ''){
-			layer.tips('请输入用户名', '#name');
+			alert('请输入用户名', '#name');
 			return false;
 			}
 		if(password == ''){
@@ -65,52 +114,5 @@
 	return true;
 	}
 </script>
-</head>
-<body>
-<input type="hidden" id="TenantId" name="TenantId" value="" />
-<div class="header"></div>
-<div class="loginWraper">
-  <div id="loginform" class="loginBox">
-    <form class="form form-horizontal" action="{:U('Public/login')}" method="post" onSubmit="return check_login()">
-      <div class="row cl">
-        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
-        <div class="formControls col-xs-8">
-          <input id="name" name="name" type="text" placeholder="账户" class="input-text size-L">
-        </div>
-      </div>
-      <div class="row cl">
-        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60e;</i></label>
-        <div class="formControls col-xs-8">
-          <input id="pass" name="pass" type="password" placeholder="密码" class="input-text size-L">
-        </div>
-      </div>
-      <div class="row cl">
-        <div class="formControls col-xs-8 col-xs-offset-3">
-
-          <input class="input-text size-L" type="text" placeholder="验证码"  value="" id="code" name="code" style="width:150px;">
-          <img class="verify" src="{:U('Public/verify')}" alt="验证码" onClick="this.src=this.src+'?'+Math.random()" />
-          <input type="hidden" id="check_code" value="0">
-          <p>看不清，点击图片刷新</p> </div>
-      </div>
-      <div class="row cl">
-        <div class="formControls col-xs-8 col-xs-offset-3">
-          <label for="online">
-            <!-- <input type="checkbox" name="online" id="online" value="">
-            使我保持登录状态</label> -->
-        </div>
-      </div>
-      <div class="row cl">
-        <div class="formControls col-xs-8 col-xs-offset-3">
-          <input name="" type="submit" class="btn btn-success radius size-L" value="&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;">
-          <input name="" type="reset" class="btn btn-default radius size-L" value="&nbsp;重&nbsp;&nbsp;&nbsp;&nbsp;置&nbsp;">
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-<div class="footer">vivo</div>
-<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.min.js"></script>
-
 </body>
 </html>
