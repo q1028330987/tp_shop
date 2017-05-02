@@ -13,7 +13,7 @@
             $Stock=M('stock');
 
             $_POST['des'] = $_POST['editorValue'];
-            // dump($_POST);
+            // dump($_FILES['pic']);
 
             if(IS_POST) {
                 //开启事务处理
@@ -51,6 +51,7 @@
                     // die;
                     //拼接图片的路径
                     $_POST['pic'] = $info['pic']['savepath'].$info['pic']['savename'];
+                    // dump($info['pic']['savepath'].$info['pic']['savename']);
                 }
 
                 //统计商品库存总量
@@ -59,7 +60,7 @@
                         $census += $key;
                 }
                 $_POST['stocks'] = $census;
-                // dump($_POST);die;
+                // dump($_POST['pic']);die;
 
                 //插入商品表
                 $id = $Goods->add($_POST);

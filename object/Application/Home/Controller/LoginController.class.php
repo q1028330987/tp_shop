@@ -22,6 +22,9 @@
 
 					$_SESSION['user'] = $userInfo[0];
 					$this->display('Index/index');
+				} else { 
+
+					$this->display('login/login');
 				}
 
 				

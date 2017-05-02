@@ -1,0 +1,138 @@
+<extend name="personalpage" />
+
+<block name="title">
+    <title>地址添加</title>
+</block>
+
+<block name="content">
+<article class="content">
+<dl>
+    <dd class="">
+        <!-- <p>编辑收货地址</p> -->
+
+        <form id="" method="post" onsubmit="return false" novalidate="novalidate" action="{:U('Home/Personal/addressadd')}">
+        <input type="hidden" name="uid" value="{$Think.session.user.id} ">
+            <fieldset>
+                <table>
+                    <tbody>
+                    <tr>
+                        <th>
+                            <strong>*</strong>收货地区
+                        </th>
+                        <td id="j_ReginContriner">
+                        <select data-level-index="1" name="province" aria-invalid="false" class="valid" onchange="ajaxAddr(this)">
+                                    <option value="_NULL_">请选择</option>
+                                </select>
+                                <select data-level-index="2" name="city" aria-invalid="false" class="valid" style="display:inline-block;" onchange="ajaxAddr(this)">
+                                    <option value="_NULL_">请选择</option>
+                                </select>
+                                <select data-level-index="3" name="area" aria-invalid="false" class="valid" style="display:inline-block;" onchange="ajaxAddr(this)">
+                                    <option value="_NULL_">请选择</option>
+                                </select>
+
+                           <!--  <select data-level-index="0" name="province" class="province-select" id="province"><option value="_NULL_">请选择</option><option code="11" value="北京市">北京市</option><option code="12" value="天津市">天津市</option><option code="13" value="河北省">河北省</option><option code="14" value="山西省">山西省</option><option code="15" value="内蒙古自治区">内蒙古自治区</option><option code="21" value="辽宁省">辽宁省</option><option code="22" value="吉林省">吉林省</option><option code="23" value="黑龙江省">黑龙江省</option><option code="31" value="上海市">上海市</option><option code="32" value="江苏省">江苏省</option><option code="33" value="浙江省">浙江省</option><option code="34" value="安徽省">安徽省</option><option code="35" value="福建省">福建省</option><option code="36" value="江西省">江西省</option><option code="37" value="山东省">山东省</option><option code="41" value="河南省">河南省</option><option code="42" value="湖北省">湖北省</option><option code="43" value="湖南省">湖南省</option><option code="44" value="广东省">广东省</option><option code="45" value="广西壮族自治区">广西壮族自治区</option><option code="46" value="海南省">海南省</option><option code="50" value="重庆市">重庆市</option><option code="51" value="四川省">四川省</option><option code="52" value="贵州省">贵州省</option><option code="53" value="云南省">云南省</option><option code="54" value="西藏自治区">西藏自治区</option><option code="61" value="陕西省">陕西省</option><option code="62" value="甘肃省">甘肃省</option><option code="63" value="青海省">青海省</option><option code="64" value="宁夏回族自治区">宁夏回族自治区</option><option code="65" value="新疆维吾尔自治区">新疆维吾尔自治区</option></select>
+                            <select data-level-index="1" name="city" class="city-select" id="city" style="display: none;">
+                            </select>
+                            <select data-level-index="2" name="area" class="area-select" id="area" style="display: none;">
+                            </select> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <strong>*</strong>详细地址
+                        </th>
+                        <td>
+                            <input type="text" name="address" id="address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <strong>*</strong>收货人姓名
+                        </th>
+                        <td>
+                            <input type="text" name="receiverName" id="receiverName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <strong>*</strong>手机
+                        </th>
+                        <td class="phone">
+                            <div class="p-mobile">
+                                <input type="tel" name="mobilePhone" id="mobilePhone">
+                            </div>
+                            <!-- <div class="p-telephone">
+                                <span>或 固定电话</span>
+                                <input type="tel" name="telPhone" id="telPhone">
+                            </div> -->
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                        <th></th>
+                        <td>
+                            <input type="checkbox" id="default" name="defaultAddr" checked="checked" value="1"><label>设为默认地址</label>
+                            <input type="hidden" name="id" id="id">
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="button" value="确认" class="btn-blue confirm-btn">
+                            <input type="reset" value="取消" class="btn-cancel">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+    </dd>
+    <script>
+
+    function ajaxAddr(DOM) { 
+
+           var level = parseInt($("[name='"+$(DOM).attr('name')+"']").attr('data-level-index'))+1;
+           $(DOM).next().children().not('[value="_NULL_"]').remove();
+           $.post(
+        '{:U("Order/getAaddrData")}',
+       {
+       level:level,
+       upid:$(DOM).find('option:selected').attr('data-id')
+
+       },
+       function (data) { 
+        var option;
+        for (var i = 0; i < data.length; i++) { 
+
+            option += "<option data-id="+data[i].id+""+" "+"value="+data[i].name+">"+data[i].name+"</option>";
+
+       }
+
+       $('select[data-level-index="'+level+'"]').children().first().after(option);
+
+       }
+
+       );
+            }
+
+    // $('#use-new-address').click( function () { 
+
+            $('.address-info-new').show();
+            $.post(
+                '{:U("Order/getAaddrData")}',
+                {level:$("[name='province']").attr('data-level-index')},
+                function (data) { 
+                    var option;
+                    for (var i = 0; i < data.length; i++) { 
+
+                        option += "<option data-id="+data[i].id+""+" "+"value="+data[i].name+">"+data[i].name+"</option>";
+
+                    }
+
+                    $('select[data-level-index="1"]').children().first().after(option);
+
+                }
+
+            );
+        // });
+</script
+</block>

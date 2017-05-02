@@ -12,15 +12,8 @@
 			$m = new Model();
 			// dump($m->select());
 
-			$res = $m->query("select g.role,t.name from shop_auth_group g,shop_auth_group_access ga,shop_think_user t where g.id=ga.group_id and t.id=ga.uid");
-			// $role = $m->query("select r.title from shop_auth_group g,shop_auth_rule r where g.rules=r.id");
-					// shop_think_user   shop_auth_group_access
-			// dump($role);exit;
-			$rule = M('auth_rule');
-			$group = M('auth_group');
+			$res = $m->query("select g.role,t.name,t.id from shop_auth_group g,shop_auth_group_access ga,shop_think_user t where g.id=ga.group_id and t.id=ga.uid");
 
-			// $k = $m->join('auth_group ON auth_group.rules = auth_rule.id')->join()->select();
-			// dump($k);exit;
 
 			return $res;
 		}
@@ -59,9 +52,24 @@
 			$res = $m->query("select t.name,t.id,t.status,g.role from shop_think_user t,shop_auth_group_access ga,shop_auth_group g where t.id=ga.uid and ga.group_id=g.id"); 
 			// dump($res);exit;
 			// $m = M('think_user');
-			
+			foreach ($res as $k=>$v) { 
 
-			return $res;
+	        		switch ($v['status']) {
+
+	        			case '1':
+	        				$res[$k]['status'] = '正常';
+	        			break;
+
+	        			case '2':
+	        				$res[$k]['status'] = '禁用';
+	        			break;
+	        			default:
+	        				$res[$k]['status'] = '异常';
+	        			break;
+			
+	        		}
+	        	}
+				return $res;
 		}
 
 		//管理员删除方法
@@ -110,7 +118,7 @@
 			$t->startTrans();
 			$data = I('post.');
 			$data['pass'] = hash('ripemd160',I('post.pass'));
-			dump($data);
+			// dump($data);
 
 			//数据添加到管理员表
 			$res = $t->data($data)->add();
@@ -133,7 +141,7 @@
 
 		    	$m = M('auth_group');
 		    	$res = $m->field('id,role')->select();
-		    	dump($res);
+		    	// dump($res);
 		    	return $res;
 			
 		}
@@ -141,11 +149,11 @@
 		public function admin_edit()
 		{
 		    	$id = I('get.id');
-		    	dump($id);
+		    	// dump($id);
 		    	$data['oldpass'] = I('post.oldpass');
 		    	$data['pass'] = I('post.newpass');
 		    	$data['group_id'] = I('post.group_id');
-		    	dump($data);exit;
+		    	// dump($data);exit;
 		    	$m = M('think_user');
 
 		    	// $pass = $m->field('pass')->where('id=$id')->select();

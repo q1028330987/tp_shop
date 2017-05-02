@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	namespace Admin\Controller;
 
@@ -9,8 +9,8 @@
 		public function Login()
 		{
 			if (IS_POST) {
-				
-				
+
+
 			}
 			$this->display('admin/login');
 		}

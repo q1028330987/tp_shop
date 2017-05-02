@@ -1,0 +1,1186 @@
+[ 2016-11-28T19:35:17+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-11-28T19:35:18+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002917s ]
+
+[ 2016-11-28T19:35:49+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Article/article_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/51bddb7f306a60773c15977981b0c3cc.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/51bddb7f306a60773c15977981b0c3cc.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.334464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.334570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-11-28T19:36:23+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Article/article_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/51bddb7f306a60773c15977981b0c3cc.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/51bddb7f306a60773c15977981b0c3cc.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-11-28T19:36:44+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Article/article-add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+ERR: 非法操作:article-add
+
+[ 2016-11-28T22:10:05+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-11-28T22:10:05+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-11-28T22:19:41+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-11-28T22:19:41+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-11-28T22:20:16+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-11-28T22:20:16+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-11-28T22:20:18+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/51bddb7f306a60773c15977981b0c3cc.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/51bddb7f306a60773c15977981b0c3cc.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-11-28T22:21:05+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2016-11-28T22:21:05+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-11-28T22:21:06+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008139s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2016-11-28T22:21:20+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002852s ]
+
+[ 2016-11-28T22:39:44+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-11-28T22:40:02+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-11-28T22:40:02+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-11-28T22:40:05+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'o.uid=u.id' at line 1
+
+[ 2016-11-28T22:42:13+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013826s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-11-28T22:42:13+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-11-28T22:42:15+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0008s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'o.uid=u.id' at line 1
+
+[ 2016-11-28T22:43:31+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-11-28T22:43:31+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-11-28T22:43:35+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0014s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.phone' in 'field list'
+
+[ 2016-11-28T22:43:54+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-11-28T22:43:54+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-11-28T22:43:57+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0009s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.phone' in 'field list'
+
+[ 2016-11-28T22:44:03+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'
+
+[ 2016-11-28T22:45:02+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,a.phone,a.address,a.province,a.area,a.city FROM shop_orders o left join shop_address a ON o.aid=a.id   [ RunTime:0.0643s ]
+
+[ 2016-11-28T22:46:16+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-11-28T22:46:17+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-11-28T22:46:18+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0007s ]
+SQL: SELECT o.addtime,o.id,o.total,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0267s ]
+
+[ 2016-11-28T22:51:24+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0007s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0010s ]
+
+[ 2016-11-28T22:54:58+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-11-28T22:55:09+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 24 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 24 行.
+NOTIC: [8] Undefined variable: k /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Admin/Model/OrdersModel.class.php 第 40 行.
+
+[ 2016-11-28T22:55:29+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0003s ]
+
+[ 2016-11-28T22:56:53+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-11-28T23:03:09+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+
+[ 2016-11-28T23:03:29+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 64 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 66 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined variable: v /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-11-28T23:04:00+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-11-28T23:04:00+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-11-28T23:04:03+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0006s ]
+
+[ 2016-11-28T23:04:40+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-11-28T23:05:04+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002712s ]
+
+[ 2016-11-28T23:05:18+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-11-28T23:06:31+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-11-28T23:06:57+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+NOTIC: [8] Undefined index: name /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-11-28T23:07:35+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0007s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0003s ]
+
+[ 2016-11-28T23:08:00+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.name,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0005s ]
+
+[ 2016-11-28T23:08:11+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.name,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-11-28T23:08:30+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.name,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-11-28T23:09:24+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0004s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.name,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2016-11-28T23:10:24+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0003s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.name,a.phone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-11-28T23:13:43+08:00 ] 192.168.42.21 /gitHub/tp_shop/object/index.php/Admin/Orders/orders_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0578s ]
+SQL: SHOW COLUMNS FROM `shop_orders` [ RunTime:0.0014s ]
+SQL: SELECT o.addtime,o.id,o.total,o.status,a.name,a.recphone,a.address,a.province,a.area,a.city,u.phone FROM shop_orders o left join shop_address a ON o.aid=a.id left join shop_user u ON u.id=o.uid   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: D /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+NOTIC: [8] Undefined variable: dp /usr/local/apache2/htdocs/gitHub/tp_shop/object/Application/Runtime/Cache/Admin/1202b12a9af44eda81edca760babf1d5.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
